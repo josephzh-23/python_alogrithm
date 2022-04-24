@@ -1,0 +1,8 @@
+
+
+For post request
+1. Use request.data not request.post for post request
+
+and this wa
+
+2. And then use this not the other one

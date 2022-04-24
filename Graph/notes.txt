@@ -1,0 +1,7 @@
+
+Directed vs undirected
+
+directed -> can travel from A to B, but not reverse
+
+undirected -> can travel in both direction
+

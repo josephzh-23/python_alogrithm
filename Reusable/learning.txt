@@ -1,0 +1,6 @@
+
+
+1. For many to many relation
+- take a look at tutor_posting in app "accounts" and subject
+
+-

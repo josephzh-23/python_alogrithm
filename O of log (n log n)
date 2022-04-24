@@ -1,0 +1,16 @@
+
+O (nlogn) = O(n) * O (logn)
+
+function nLogNFunc(n){
+
+    while (n >1 ){
+
+        // O (logn) here
+        n = Math.floor (n /2);
+
+        // O (n) here
+        for (let i = 1; i <= y; i++){
+            console.log(i);
+        }
+    }
+}

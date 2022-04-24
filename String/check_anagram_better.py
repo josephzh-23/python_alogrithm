@@ -1,0 +1,51 @@
+
+
+
+"""
+To check if 2 strings are anagrams, use hashmap
+- store [ character, # of char ]
+
+T(n) = O(n) + O (n) + O(n) = O(n)
+S(n) = O (n) + O (n)
+"""
+
+def areAnagrams(s1, s2):
+    if len(s1) != len(s2):
+
+        return False
+
+    # This is for space complexity here
+    # O (n) and O(n)
+    freq1= {}
+    freq2= {}
+
+    # O(n)
+    for ch in s1:
+        if ch in freq1:
+            freq1[ch] +=1
+        else:
+            freq1[ch] =1
+
+    # O (n)
+    for ch in s2:
+        if ch in freq2:
+            freq2[ch] +=1
+        else:
+            freq2[ch] =1
+
+    # O (n)
+    # Loop over #1
+    for key in freq1:
+        if key not in freq2 or freq1[key] != freq2[key]:
+            return False
+
+    return True
+
+
+areAnagrams("joe", "eoj")
+
+
+
+
+
+

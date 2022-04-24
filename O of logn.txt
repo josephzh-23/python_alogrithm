@@ -1,0 +1,10 @@
+
+What is O(log n)
+
+when you have an input of 8, but it takes only 3 iterations to finish
+Ex:
+function logn (n){
+    while (n >1){
+        n = Math.floor(n/2)
+        }
+}
