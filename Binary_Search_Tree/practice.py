@@ -23,7 +23,7 @@ class Node:
 
 """
 For insert, need 2 pointers
- 1 parent and 1 current pointer 
+ 1 parent, and 1 cur 
  
  - current for traversing; parent for pointing
 """

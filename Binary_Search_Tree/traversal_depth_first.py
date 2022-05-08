@@ -93,7 +93,7 @@ def preOrderTraverseRec(root):
 
 
 # root, left and right, start from the top
-# no need to traverse
+# Add the right child first
 def PreorderIter(root):
     # Base CAse
     if root is None:
@@ -113,10 +113,9 @@ def PreorderIter(root):
 
         # Pop the top item from stack and print it
         node = nodeStack.pop()
-        print(node.data, end=" ")
+        print(node.val, end=" ")
 
-        # Push right and left children of the popped node
-        # to stack
+        # All the right nodes at bottom of stack
         if node.right is not None:
             nodeStack.append(node.right)
         if node.left is not None:
@@ -132,13 +131,13 @@ root.left.right = Node(5)
 root.right.left = Node(2)
 PreorderIter(root)
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.right.left = Node(5)
-root.right.right = Node(6)
-root.right.left.left = Node(7)
-root.right.left.right = Node(8)
+# root = Node(1)
+# root.left = Node(2)
+# root.right = Node(3)
+# root.left.left = Node(4)
+# root.right.left = Node(5)
+# root.right.right = Node(6)
+# root.right.left.left = Node(7)
+# root.right.left.right = Node(8)
 
-inOrderTraverseItertive(root)
+# inOrderTraverseItertive(root)

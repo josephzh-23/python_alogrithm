@@ -13,7 +13,7 @@ def binarySearchRecursive(arr, low, high, x):
             return mid
 
         # If element is smaller than mid, then it can only
-        # be present in left subarray
+        # be in left subarray
         elif arr[mid] > x:
             return binarySearchRecursive(arr, low, mid - 1, x)
 
