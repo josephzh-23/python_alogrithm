@@ -1,86 +1,73 @@
-
-# Add between the 2
-def addEdge(v, w):
-    global adjList
-    adjList[v].append(w)
-    adjList[w].append(v)
+from collections import defaultdict
 
 
-def checkPath_undirected_practice(start, end, V):
+# Using DFS recursive approach here
 
-    # If undirected, use BFS approach
-    """
-    between u and v, add u, check its adjList
-    """
-    queue = []
-    queue.append(start)
+# Using DFS appproach
 
-    visited =[False] * V
+class Graph:
 
-    while queue:
+    # Constructor
+    def __init__(self, vertices):
+        self.v = vertices
+        # default dictionary to store graph
+        self.graph = defaultdict(list)
 
-        # If 4 popped, check its neighbor, if
-        start = queue.pop(0)
-
-        for neighbor in adjList[start]:
-
-            if neighbor == end:
-                return True
-            else:
-                if not visited[neighbor]:
-                    visited[neighbor] = True
-                    queue.append(neighbor)
-                    # Add it to queue
-                    queue.append(neighbor)
-
-        return False
+    # function to add an edge to graph
+    def addEdge(self, u, v):
+        self.graph[u].append(v)
 
 
-# Do this using DFS,
-def checkPath_directed_practice(start, end):
-    # [1, 2,3 4 5]
-    # using stack
-    stack = []
+    def DFS(s, v):
 
-    stack.append(start)
-    visited = [False] * (V+1)
-    while stack:
-        node = stack.pop()
+        visited = set()
 
-        # print the, in this case 5
-        print("popped is", node)
+        # Want to perform DFS
+        s.DFSUtil(v, visited)
 
-        # check adjList
-        for neighbor in adjList[node]:
-            print("neighbor is", neighbor)
-            if not visited[neighbor]:
-                if neighbor== end:
+    # find the parent here
+    def findParent(s, parent, node):
+
+        if parent[node] == -1:
+            return node
+        if parent[node] !=-1:
+            s.findParent(parent, parent[node])
+
+    # take 2 num, check the rank ->
+    # make 1 parent of the other with parent set
+    def union(s, parent, u, v ):
+        parent[u] = v
+
+
+    #Using the native union here
+    def isCyclic(s):
+
+        parent = [-1] *(s.v)
+
+        for i in s.graph:
+            for j in s.graph[i]:
+                print("i and j are and size is ", i, j, s.v)
+                x= s.findParent(parent, i)
+                y = s.findParent(parent, j)
+
+                if x==y:
+                    print("this graph contains a cycle")
                     return True
-                else:
-                    visited[neighbor] = True
-                    stack.append(neighbor)
+                s.union(parent, x, y)
 
 
 
 
 
 
+g= Graph(10)
+g.addEdge(4, 5)
+g.addEdge(4, 7)
+g.addEdge(5, 6)
+g.addEdge(4, 6)
 
-V=5
-adjList = [[] for i in range(V+1)]
-addEdge(3, 4)
-addEdge(3, 5)
+g.isCyclic()
 
-u = 3
-v= 5
-
-
-checkPath_directed_practice(3, 5)
-
-if (checkPath_directed_practice(u, v)):
-    print("There is a path from", u, "to", v)
-else:
-    print("There is no path from", u, "to", v)
 
 
 

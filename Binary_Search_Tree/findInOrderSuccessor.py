@@ -1,6 +1,16 @@
 from Binary_Search_Tree.BSTNode import Node, search, findMin, insert
 
 '''
+What's in order successor again?
+
+        20 
+     8      22
+   4   12
+    10    14
+
+In this case in-order-successor of 8 is 10, 
+in-order-successor of 10 is 12. 
+
 This is a linkedlist problem, tough to solve 
  TC: O (h)      there r 2 cases here 
  
@@ -13,9 +23,10 @@ This is a linkedlist problem, tough to solve
     be in left subtree 
 '''
 
+# Need 3 pter: parent, cur and successor
 def findInOrderSuccessor(root, data):
 
-    # O(h) operation
+    # Return the node that we are searching for
     cur = search(root, data)
 
     if not cur:
@@ -28,6 +39,8 @@ def findInOrderSuccessor(root, data):
     # case 2: no right subtree
     else:
         successor = None
+
+        # start at the top
         parent = root
 
         # We will walk the tree until we have

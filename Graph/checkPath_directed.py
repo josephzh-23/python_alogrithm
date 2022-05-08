@@ -25,12 +25,11 @@ class Graph:
         self.V = vertices  # No. of vertices
         self.graph = defaultdict(list)  # default dictionary to store graph
 
-    # function to add an edge to graph
     def addEdge(self, u, v):
         self.graph[u].append(v)
 
     # Use BFS to check path between s and d
-    def isReachable(self, s, d):
+    def isReachable(self, start, dest):
         # Mark all the vertices as not visited
         visited = [False] * (self.V)
 
@@ -38,21 +37,21 @@ class Graph:
         queue = []
 
         # Mark the source node as visited and enqueue it
-        queue.append(s)
-        visited[s] = True
+        queue.append(start)
+        visited[start] = True
 
         while queue:
 
             # Dequeue a vertex from queue
-            n = queue.pop(0)
+            node = queue.pop(0)
 
             # If this adjacent node is the destination node,
             # then return true
-            if n == d:
+            if node == dest:
                 return True
 
             #  Else, continue to do BFS
-            for i in self.graph[n]:
+            for i in self.graph[node]:
 
                 # Check if visited
                 if visited[i] == False:
@@ -86,3 +85,5 @@ if g.isReachable(u, v):
     print("There is a path from %d to %d" % (u, v))
 else:
     print("There is no path from %d to %d" % (u, v))
+
+

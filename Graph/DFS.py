@@ -1,6 +1,11 @@
 
 
-# An iterative approach, done using stack
+# An iterative approach, done using stack and visited array (2 structures) needed
+
+"""
+    TC: O (V + E)
+    SC: O (V)
+"""
 
 class Graph:
     def __init__(self, V):  # Constructor
@@ -12,7 +17,7 @@ class Graph:
 
     # prints all not yet visited vertices reachable from s
     def DFS(self, s):  # prints all vertices in DFS manner from a given source.
-        # Initially mark all vertices as not visited
+
         visited = [False for i in range(self.V)]
 
         stack = []
@@ -20,21 +25,19 @@ class Graph:
         stack.append(s)
 
         while (len(stack)):
-            # Pop a vertex from stack and print it
-            s = stack[-1]
-            stack.pop()
 
-            # Stack may contain same vertex twice. So
-            # we need to print the popped item only
-            # if it is not visited.
+            s = stack.pop()
 
             if (not visited[s]):
                 print(s, end=' ')
+
+                # Only mark the visited here
                 visited[s] = True
 
-            # Get all adjacent vertices of the popped vertex s
+             # Get all adjacent vertices of the popped vertex s
             # If a adjacent has not been visited, then push it
             # to the stack.
+
             for neighbor in self.adj[s]:
                 if (not visited[neighbor]):
                     stack.append(neighbor)
@@ -42,12 +45,12 @@ class Graph:
 
 # Driver program to test methods of graph class
 
-g = Graph(5);  # Total 5 vertices in graph
-g.addEdge(1, 0);
-g.addEdge(0, 2);
-g.addEdge(2, 1);
-g.addEdge(0, 3);
-g.addEdge(1, 4);
+g = Graph(5)  # Total 5 vertices in graph
+g.addEdge(1, 0)
+g.addEdge(0, 2)
+g.addEdge(2, 1)
+g.addEdge(0, 3)
+g.addEdge(1, 4)
 
 print("Following is Depth First Traversal")
 g.DFS(0)

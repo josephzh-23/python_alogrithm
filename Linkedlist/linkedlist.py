@@ -4,6 +4,8 @@ class Node:
         self.next = None        #this is this by default
 
 
+# Remember the head will always have value of none when
+# first initialized
 class Linkedlist:
     def __init__(self):
         self.head = None
@@ -17,7 +19,6 @@ class Linkedlist:
         # head will become the new node
         self.head = newNode
 
-        # make it equal to head
     # Adds new node containing 'data' to the end of the linked list.
     def append(self, data):
 
@@ -49,7 +50,7 @@ class Linkedlist:
             cur = cur.next
         return total
 
-    #Actually need prev and node called newNode
+    # Need 3 pointers
     def insertAtKthPosition(self, k, data):
         newNode = Node(data)
 
@@ -97,6 +98,14 @@ class Linkedlist:
 
         return i
 
+    def print(s):
+        i = 0
+        cur = s.head
+        while cur:
+            print("the node is", cur)
+            cur = cur.next
+            i += 1
+
 
     # here using the 2 pointer approach here
     # n is the position to remove the item
@@ -124,6 +133,7 @@ class Linkedlist:
 
         # Change the slow pter to point to the node
         # after next node
+
         slow.next = slow.next.next
         return dummyNode.next
 
@@ -142,6 +152,7 @@ class Linkedlist:
             prev = cur
             cur = next
 
+        # when you get to the last node
         self.head = prev
 
     # print the linked list in traditional format
@@ -252,3 +263,8 @@ class Linkedlist:
                 cur_idx += 1
 
 
+# s = Linkedlist()
+# s.append(4)
+# s.append(5)
+# s.insertAtKthPosition(1, 3)
+# s.

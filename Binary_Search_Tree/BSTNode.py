@@ -8,6 +8,7 @@
 4
 """
 
+#
 
 
 class Node:
@@ -31,9 +32,7 @@ def insert(root, val=None):
 
         #update parent to current node
         parent = cur
-        #traverse to right
-        # if the given key is less than the current node,
-        # go to the left subtree; otherwise, go to the right subtree.
+
         if val < cur.val:
             cur = cur.left
         else:
@@ -57,6 +56,8 @@ TC: worst case: O (h), h = height of the tree
         max height = N - O (N)      N number of nodes 
         min height = log2N + 1      
 """
+
+# this returns the target node with its chidlren nodes
 def search(root, key):
     # Base Cases: root is null or key is present at root
     if root is None or root.val ==key:
@@ -83,13 +84,14 @@ def searchIterative(root, key):
             return True
     return False
 
+'''
+Given a non-empty binary
+search tree, return the node
+with minimum key value  
+found in that tree. 
 
-# Given a non-empty binary
-# search tree, return the node
-# with minimum key value
-# found in that tree. Note that the
-# entire tree does not need to be searched
-
+    which is also the leftmost node in that tree (smallest)
+'''
 def findMin(node):
     current = node
 

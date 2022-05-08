@@ -19,7 +19,6 @@ There r 3 cases to examine
 
 """
 
-
 # Helper function to find minimum value node in the subtree rooted at `curr`
 def findMin(curr):
     while curr.left:
@@ -27,9 +26,12 @@ def findMin(curr):
     return curr
 
 # Function to delete a node from a BST
+
+"""
+Need a parent pter and cur pter 
+"""
 def deleteNode(root, key):
 
-    # pointer to store the parent of the current node
     parent = None
 
     curr = root

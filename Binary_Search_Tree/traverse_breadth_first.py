@@ -1,5 +1,7 @@
 import collections
 
+from Binary_Search_Tree.BSTNode import Node
+
 """
 using queue:
     TC: O(n)

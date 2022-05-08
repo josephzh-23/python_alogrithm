@@ -38,5 +38,5 @@ graph = buildGraph(list)
 print(graph)
 
 
-# Wow look at the following
-{1: [2, 3, 5], 2: [1], 3: [4, 1], 4: [3], 5: [1]}
+# Wow look at the following result from above
+# {1: [2, 3, 5], 2: [1], 3: [4, 1], 4: [3], 5: [1]}

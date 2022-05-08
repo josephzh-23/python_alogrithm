@@ -16,7 +16,7 @@ from collections import defaultdict
 
 class Graph:
     def __init__(s, nodes=[], isDirected=False):
-        s.nodes = nodes
+        s.adjList = nodes
 
         # this is basically the same as graph below, they are interchangeable
         s.adjList = {}
@@ -34,7 +34,7 @@ class Graph:
         s.graph = defaultdict(list)
 
         # initializig the dictionary here
-        for node in s.nodes:
+        for node in s.adjList:
             print("node here is", node)
             s.adjList[node] = []
 
@@ -51,7 +51,7 @@ class Graph:
         return deg
 
     def printAdjList(s):
-        for node in s.nodes:
+        for node in s.adjList:
             print(node, "-> ", s.adjList[node])
 
 
@@ -133,14 +133,13 @@ class Graph:
                     visited[i] = True
 
     def countVertexes(s):
-        numVertexes = 0
-        if nodes:
-            for node in s.nodes:
+
+        # Starting from the node itself
+        numVertexes = 1
+        if s.adjList:
+            for node in s.adjList:
                 numVertexes += len(s.adjList[node])
             print('total # of vertexes are ',numVertexes)
-        else:
-            numVertexes = len(s.adjList)
-
         return numVertexes
 
 
