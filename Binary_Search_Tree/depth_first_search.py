@@ -9,7 +9,7 @@ depth first traversal, and they all start from the bottom leaves
   2   3
 4   5
 Depth First Traversals:
-(a) Inorder (Left, Root, Right) : 4 2 5 1 3
+(a) Inorder (Left, Root, Right) : 4 2 5 1 3         -> from the bottom here
 (b) Preorder (Root, Left, Right) : 1 2 4 5 3
 (c) Postorder (Left, Right, Root) : 4 5 2 3 1
 Breadth-First or Level Order Traversal: 1 2 3 4 5
@@ -50,12 +50,9 @@ def inOrderTraverseItertive(root):
             stack.append(curr)
             curr = curr.left
 
-        # if current node exists, push it into the stack
 
-
+        # here no more left pointers, all the rest right p
         else:
-            # otherwise, if the current node is None, pop an element from the stack,
-            # print it, and finally set the current node to its right child
             '''
                 Imagine 7
                        / \
@@ -74,22 +71,23 @@ def inOrderTraverseItertive(root):
 
 # A function to do postorder tree traversal
 # left, right, root
-def postOrderTraverse(root):
+def postOrderTraverseRec(root):
     if root:
-        postOrderTraverse(root.left)
-        postOrderTraverse(root.right)
+        postOrderTraverseRec(root.left)
+        postOrderTraverseRec(root.right)
 
         print(root.val),
 
 
 
 # root, left and right
-def preOrderTraverseRec(root):
+def preOrderRec(root):
     if root:
         print(root.val),
 
-        preOrderTraverseRec(root.left)
-        preOrderTraverseRec(root.right)
+        preOrderRec(root.left)
+        preOrderRec(root.right)
+
 
 
 # root, left and right, start from the top
@@ -129,15 +127,16 @@ root.right = Node(2)
 root.left.left = Node(3)
 root.left.right = Node(5)
 root.right.left = Node(2)
-PreorderIter(root)
+# PreorderIter(root)
 
-# root = Node(1)
-# root.left = Node(2)
-# root.right = Node(3)
-# root.left.left = Node(4)
-# root.right.left = Node(5)
-# root.right.right = Node(6)
-# root.right.left.left = Node(7)
-# root.right.left.right = Node(8)
 
-# inOrderTraverseItertive(root)
+root = Node(1)
+root.left = Node(2)
+root.right = Node(3)
+root.left.left = Node(4)
+root.right.left = Node(5)
+root.right.right = Node(6)
+root.right.left.left = Node(7)
+root.right.left.right = Node(8)
+
+inOrderTraverseItertive(root)

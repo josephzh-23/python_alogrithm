@@ -9,6 +9,10 @@ T(n) = O(n) + O (n) + O(n) = O(n)
 S(n) = O (n) + O (n)
 """
 
+"""
+ Use 2 dictionary approach 1 for frequency 1 and 1 for frequency 2 
+"""
+
 def areAnagrams(s1, s2):
     if len(s1) != len(s2):
 
@@ -36,6 +40,7 @@ def areAnagrams(s1, s2):
     # O (n)
     # Loop over #1
     for key in freq1:
+        print("the key value is ", key)
         if key not in freq2 or freq1[key] != freq2[key]:
             return False
 

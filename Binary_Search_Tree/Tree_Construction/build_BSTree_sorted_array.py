@@ -9,7 +9,7 @@
     -10 -3   5  9
 """
 from Binary_Search_Tree.BSTNode import Node
-from Binary_Search_Tree.traverse_breadth_first import printLevelOrder
+from Binary_Search_Tree.breath_first_search import printLevelOrder
 
 
 def sortedArrayToBST(arr):

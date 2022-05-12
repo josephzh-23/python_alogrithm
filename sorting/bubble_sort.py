@@ -2,7 +2,7 @@
 # best case O(n)
 # worst case O(n^2)
 
-# THis is the most basic one, you just compare and swap
+# THis is the most basic sort, you just compare and swap
 def bubbleSort (arr):
     n = len(arr)
 

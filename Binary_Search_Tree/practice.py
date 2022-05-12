@@ -159,4 +159,33 @@ node = insert(node, 40)
 
 printLevelOrder()
 
+def inOrderTraverseIterative(root):
 
+    if root is None:
+        return
+
+    # Use a stack
+    s = []
+
+    cur = root
+
+    while s or cur:
+
+        cur = cur.left
+        s.append(cur)
+    else:
+        cur = s.pop()
+        print(cur.val, end = ' ')
+        cur = cur.right
+
+
+    """
+        5
+    4       3
+    """
+def findMin(node):
+    cur =node
+    while cur.left:
+        cur = cur.left
+
+    return cur

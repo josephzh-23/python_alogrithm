@@ -19,8 +19,8 @@ This is a linkedlist problem, tough to solve
     or find min in right subtree 
     
  case 2 : no right subtree 
-    - go to nearest ancestor for which given node would
-    be in left subtree 
+    - traverse down until we reach cur
+    - check if we should go left or go right 
 '''
 
 # Need 3 pter: parent, cur and successor
@@ -40,15 +40,16 @@ def findInOrderSuccessor(root, data):
     else:
         successor = None
 
-        # start at the top
+        # start at the root position
         parent = root
 
-        # We will walk the tree until we have
-        # almost reached the current node
+        # Traverse down until we reach current
         while parent != cur:
             if cur.val < parent.val:
                 successor = parent
                 parent = parent.left
+
+                # the 4 > 3, then we go to the right
             else:
                 parent = parent.right
         return successor

@@ -17,6 +17,19 @@ class Node:
         self.right = None
         self.val = val
 
+
+# recursive approach
+def insertRec(root, key):
+    if root is None:
+        return Node(key)
+    else:
+        if root.val < key:
+            root.right = insert(root.right, key)
+        else:
+            root.left = insert(root.left, key)
+    return root
+
+
 # iterative approach
 def insert(root, val=None):
     if not root:
@@ -46,6 +59,9 @@ def insert(root, val=None):
 
     return root
 
+
+# Using binary search tree caller
+
 """
 Diff between recursive search and iterative search
     - recursive version has SC: O (logN)
@@ -62,6 +78,7 @@ def search(root, key):
     # Base Cases: root is null or key is present at root
     if root is None or root.val ==key:
         return root
+
     if root.val < key:
         return search(root.right, key)
 
