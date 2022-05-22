@@ -28,7 +28,9 @@ def generateParethesis( n: int) -> List[str]:
         if openN < n:
             stack.append("(")
             backtrack(openN +1, closedN)
-            # here popingt the open parent added
+
+            # Here we need to pop each time since what we have is a global varialbe
+
             stack.pop()
 
         if closedN < openN:

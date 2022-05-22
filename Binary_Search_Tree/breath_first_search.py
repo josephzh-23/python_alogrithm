@@ -25,16 +25,16 @@ def printLevelOrder(root):
         count = len(q)
         while count> 0:
 
-            node = q.pop(0)
-            print(node.val)
+            n = q.pop(0)
+            print(n.val)
 
 
             # Enqueue left child
-            if node.left:
-                q.append(node.left)
+            if n.left:
+                q.append(n.left)
             # Enqueue right child
-            if node.right:
-                q.append(node.right)
+            if n.right:
+                q.append(n.right)
 
             count -= 1
 

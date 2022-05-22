@@ -30,7 +30,8 @@ def insertRec(root, key):
     return root
 
 
-# iterative approach
+# iterative approach, need 2 pters:
+# parent and cur
 def insert(root, val=None):
     if not root:
         return Node(val)
@@ -87,7 +88,7 @@ def search(root, key):
 
 
 # Search in the iteraitve approach
-def searchIterative(root, key):
+def searchIter(root, key):
 
     # traverse until root reaches end
     while root:

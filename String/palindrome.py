@@ -1,4 +1,8 @@
+# backward and forwad would give the same value
+
 a_string = 'Was it a car or a cat I saw'
+
+
 def palindrome(string):
     string = string.lower().replace(' ', '')
     reversed_string = ''.join(reversed(string))

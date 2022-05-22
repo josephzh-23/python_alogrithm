@@ -40,6 +40,6 @@ def buildTreeFromArray(arr, left, right):
 
 arr = [1, 2, 3, 5, 7]
 tree = sortedArrayToBST(arr)
-printLevelOrder(tree)
+# printLevelOrder(tree)
 
 

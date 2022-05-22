@@ -24,27 +24,35 @@ This is a linkedlist problem, tough to solve
 '''
 
 # Need 3 pter: parent, cur and successor
+# use helper fxn findMin()
 def findInOrderSuccessor(root, data):
 
     # Return the node that we are searching for
+    # always make sure it exists
     cur = search(root, data)
 
     if not cur:
         return None
 
-    #case 1: node has right subtree
+    #case 1: node has right subtree, so we find
+    # the min on the right
     if cur.right:
         return findMin(cur.right)
 
     # case 2: no right subtree
+    # need 3 pters here and keep traversing down
+    # until cur is reached
     else:
         successor = None
 
         # start at the root position
         parent = root
 
-        # Traverse down until we reach current
+        # Traverse down until we reach the current element in the
+        # tree
+        # and then return the parent
         while parent != cur:
+            # 4 < 5
             if cur.val < parent.val:
                 successor = parent
                 parent = parent.left
