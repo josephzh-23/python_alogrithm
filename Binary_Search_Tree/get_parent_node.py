@@ -2,8 +2,7 @@
 
 # to get parent node of a node that's passed in
 from Binary_Search_Tree.BSTNode import Node, insert
-from Binary_Search_Tree.breath_first_search import printLevelOrder
-from Binary_Search_Tree.depth_first_search import inOrderIter
+from Binary_Search_Tree.Hard.find_mode_in_BSTree import inOrder
 
 
 def getParentNode(root, value):
@@ -31,5 +30,7 @@ node = insert(node, 40)
 node = insert(node, 60)
 node = insert(node, 70)
 
-printLevelOrder(node)
+inOrder(node)
 print(getParentNode(node, 40).val)
+
+

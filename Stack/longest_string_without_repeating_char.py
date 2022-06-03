@@ -10,6 +10,8 @@ Look at this example
      j
  max = 3
  set = [ w k e ]
+
+ Now we see w
  next iteration: since w is already here, remove it
 
   P W W K E W W
@@ -20,7 +22,6 @@ Look at this example
  this way you can add w again
 
 
-
 '''
 # Also done from coding simplfied
 def longestStringWithNoRepeatingCharacters(input):
@@ -29,11 +30,10 @@ def longestStringWithNoRepeatingCharacters(input):
         return 0
 
     #always move i forward, prime pter
-    i=0
+    i, j = 0
 
     # We will move the j pointer forward when a duplicate is found,
     # otherwise keep the same
-    j= 0
     maximum = 0
 
     # Using set is easier than dictionary
@@ -43,7 +43,7 @@ def longestStringWithNoRepeatingCharacters(input):
     while i < len(input):
         char = input[i]
 
-        # Always check for duplicate first
+        # This means that a duplicate is encountered 
         # by having this first before adding to set, make sure to mve j forward
         # with >1 duplicate found
         while char in set1:

@@ -3,40 +3,37 @@ import collections
 from Binary_Search_Tree.BSTNode import Node
 
 """
+Ex:
+    1
+  2   3
+4  5  6  7
+
+the level order would be: 1 2 3 4 5 6 7
 using queue:
     TC: O(n)
     SC: O(n)
 """
-def printLevelOrder(root):
 
+
+def printLevelOrder(root):
+    # Base Case
     if root is None:
         return
+    queue = []
 
-    # Create an empty queue
-    # for level order traversal
-    q = []
+    queue.append(root)
 
-    # Enqueue Root and initialize height, the entire thing is inserted here
-    q.append(root)
-    print('total length is ',len(q))
-    while q:
+    while (len(queue) > 0):
 
-        # node count: # of nodes at cur level
-        count = len(q)
-        while count> 0:
+        print(queue[0].val)
+        node = queue.pop(0)
 
-            n = q.pop(0)
-            print(n.val)
+        if node.left:
+            queue.append(node.left)
 
+        if node.right:
+            queue.append(node.right)
 
-            # Enqueue left child
-            if n.left:
-                q.append(n.left)
-            # Enqueue right child
-            if n.right:
-                q.append(n.right)
-
-            count -= 1
 
 # Driver Program to test above function
 root = Node(1)
@@ -46,7 +43,7 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 #
 # print("Level Order Traversal of binary tree is -")
-printLevelOrder(root)
+# printLevelOrder(root)
 # # This code is contributed by Nikhil Kumar Singh(nickzuck_007)
 #
 # # The 2nd tester

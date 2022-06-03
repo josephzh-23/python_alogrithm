@@ -3,13 +3,23 @@
 
 # Using the recursive solution is faster actually
 """
-    [-10, -5, -3, 0, 5, 8, 9]
-           0
-       -5     8
-    -10 -3   5  9
+   Input:  Array {1, 2, 3}  the middle one will be at the top
+Output: A Balanced BST
+     2
+   /  \
+  1    3
+
+Input: Array {1, 2, 3, 4}
+Output: A Balanced BST
+      3
+    /  \
+   2    4
+ /
+1
 """
 from Binary_Search_Tree.BSTNode import Node
 from Binary_Search_Tree.breath_first_search import printLevelOrder
+from Binary_Search_Tree.depth_first_search import inOrderRec
 
 
 def sortedArrayToBST(arr):
@@ -30,10 +40,7 @@ def buildTreeFromArray(arr, left, right):
 
     node = Node(arr[mid])
 
-    # Will target -5 on 2nd iter
     node.left = buildTreeFromArray(arr, left, mid-1)
-
-    # target 8 on 2nd iteration
     node.right = buildTreeFromArray(arr, mid+1, right)
 
     return node
@@ -41,5 +48,6 @@ def buildTreeFromArray(arr, left, right):
 arr = [1, 2, 3, 5, 7]
 tree = sortedArrayToBST(arr)
 # printLevelOrder(tree)
+inOrderRec(tree)
 
-
+# the midd

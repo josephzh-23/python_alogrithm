@@ -1,0 +1,90 @@
+
+
+"""
+Check the above here and then you can see that
+    8
+  6   15
+2   7
+
+If sum = 21, at each iter
+1. Have the set store the each node, and use    val = sum- node.data
+to check if this value exists in the set or not
+
+"""
+# Check if sum exists
+
+# There are 2 solutions to this
+from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.depth_first_search import inOrderRec
+
+"""
+1.  the first one using set here
+
+2. Second one using a list also a good solution
+"""
+
+
+
+
+# Using approach 2, this is similar to find Mode in a tree example
+# that we did the other day as discussed, as dicussed already
+
+"""
+Check the following out 
+
+Answer taken from coding Simplified 
+"""
+def checkIfPairExists(node, sum):
+    list = []
+    inOrder(node, list)
+    return checkIfPairExistsUtil2(sum, list)
+
+
+def inOrder(node, list):
+    if not node:
+        return
+
+    inOrder(node.left, list)
+    list.append(node.val)
+    inOrder(node.right, list)
+
+
+# 2, 4 , 5, 8, 10   in order is usually like that before
+# we have start and end pter that will then increment + decerment
+# to compensate for this
+def checkIfPairExistsUtil2(sum, list):
+    start = 0
+    end = len(list)-1
+
+    while(start <end):
+        curSum = list[start] + list[end]
+
+        if curSum == sum:
+            return True
+
+        #increase the start pter
+        elif curSum < sum:
+            start+=1
+        else:
+            end-=1
+
+        # if not found
+    return False
+
+node = Node(4)
+insert(node,5 )
+insert(node, 6)
+insert(node, 7)
+insert(node, 8)
+
+inOrderRec(node)
+
+val = checkIfPairExists(node, 3)
+print(val)
+
+
+
+
+
+
+

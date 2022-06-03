@@ -20,6 +20,10 @@ class Node:
 
 # recursive approach
 def insertRec(root, key):
+
+    # it will get to a point
+    # where the root will be none, at which point
+    # it will end everything
     if root is None:
         return Node(key)
     else:
@@ -188,4 +192,5 @@ def deleteNode(root, key) -> Node:
 
 node = Node(50)
 node = insert(node, 30)
-print("the value found", search(node,30).val)
+# print("the value found", search(node,30).val)
+

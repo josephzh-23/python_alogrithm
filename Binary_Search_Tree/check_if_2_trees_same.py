@@ -36,10 +36,12 @@ def checkIfTwoTreesSame(t1, t2):
         # one left child is empty
         elif n1.left or n2.left:
             return False
+
         if n1.right and n2.right:
             q1.append(n1.right)
             q2.append(n2.right)
 
+        # 1 right child is empty here
         elif n1.right or n2.right:
             return False
 

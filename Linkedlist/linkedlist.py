@@ -6,18 +6,22 @@ class Node:
 
 # Remember the head will always have value of none when
 # first initialized
-class Linkedlist:
+class LinkedList:
     def __init__(self):
         self.head = None
 
 
     def insertAtStart(self,data):
-        newNode = Node(data)
 
-        # make new node point to the head
-        newNode.next = self.head
-        # head will become the new node
-        self.head = newNode
+        if not self.head:
+            self.head = Node(data)
+        else:
+            newNode = Node(data)
+
+            newNode.next = self.head
+            self.head = newNode
+
+
 
     # Adds new node containing 'data' to the end of the linked list.
     def append(self, data):
@@ -50,7 +54,8 @@ class Linkedlist:
             cur = cur.next
         return total
 
-    # Need 3 pointers
+
+    # Need 2 poitners, prev and cur
     def insertAtKthPosition(self, k, data):
         newNode = Node(data)
 
@@ -62,27 +67,29 @@ class Linkedlist:
             prev = self.head
 
             i =1
+
+
             #traverse first to the right idx
             while i < k-1:
                 prev = prev.next
                 i+=1
 
             # then we can try again with this
-            cur = prev.next
-            newNode.next = cur
+            temp = prev.next
+            newNode.next = temp
             prev.next = newNode
 
 
-    def getKthNode(self,n):
+    def getKthNode(self, k):
 
         cur = self.head
-        if n > self.length() or n< 0:
+        if k > self.length() or k< 0:
             print("Sorry invalid position")
             return None
 
         i = 0
         while cur:
-            if i ==n:
+            if i ==k:
                 return cur.data
             else:
                 cur = cur.next
@@ -102,14 +109,14 @@ class Linkedlist:
         i = 0
         cur = s.head
         while cur:
-            print("the node is", cur)
+            print("the node is", cur.data)
             cur = cur.next
             i += 1
 
 
     # here using the 2 pointer approach here
     # n is the position to remove the item
-    def removeKthNodeFromEnd(self, n):
+    def removeKthNodeFromEnd(self, k):
 
         #  a dummy variable that pts to head
         dummyNode = Node(0)
@@ -121,8 +128,9 @@ class Linkedlist:
 
         i = 1
 
-        # traverse fast node until it reaches end
-        while i <= n+1:
+        # traverse fast node until it reaches the
+        # kth position
+        while i <= k+1:
             fast = fast.next
             i+=1
 
@@ -176,95 +184,33 @@ class Linkedlist:
             if cur == index: return cur.data
             curIndex += 1
 
-    # delete the node at index 'index'
-    def erase(self, index):
-        if index >= self.length() or index < 0:  # added 'index<0' post-video
-            print("ERROR: 'Erase' Index out of range!")
-            return
-        curIdx = 0
+    # Also return the element deleted
+    def deleteAtPosition(s, k):
 
-        # Start at the first node
-        curNode = self.head
-        while True:
-            lastNode = curNode
-            curNode = curNode.next
-            if curIdx == index:
-                # here we basically skip over the curNode and make the last Node ->
-                # the next of the curNode
-                lastNode.next = curNode.next
-                return
-            curIdx += 1
+        if k == 1:
+            cur = s.head
 
-        # Allows for bracket operator syntax (i.e. a[0] to return first item).
-        def __getitem__(self, index):
-            return self.get(index)
+            s.head = s.head.next
+            cur.next = None
+            return cur
+        else:
+            prev = s.head
+            i = 0
 
-        #######################################################
-        # Functions added after video tutorial
+            while i < k:
+                prev = prev.next
+                i+=1
 
-        # Inserts a new node at index 'index' containing data 'data'.
-        # Indices begin at 0. If the provided index is greater than or
-        # equal to the length of the linked list the 'data' will be appended.
-        def insert(self, index, data):
-            if index >= self.length() or index < 0:
-                return self.append(data)
-            cur_node = self.head
-            prior_node = self.head
-            cur_idx = 0
-            while True:
-                cur_node = cur_node.next
-                if cur_idx == index:
-                    new_node = Node(data)
-                    prior_node.next = new_node
-                    new_node.next = cur_node
-                    return
-                prior_node = cur_node
-                cur_idx += 1
-
-        # Inserts the node 'node' at index 'index'. Indices begin at 0.
-        # If the 'index' is greater than or equal to the length of the linked
-        # list the 'node' will be appended.
-        def insert_node(self, index, node):
-            if index < 0:
-                print("ERROR: 'Erase' Index cannot be negative!")
-                return
-            if index >= self.length():  # append the node
-                cur_node = self.head
-                while cur_node.next != None:
-                    cur_node = cur_node.next
-                cur_node.next = node
-                return
-            cur_node = self.head
-            prior_node = self.head
-            cur_idx = 0
-            while True:
-                cur_node = cur_node.next
-                if cur_idx == index:
-                    prior_node.next = node
-                    return
-                prior_node = cur_node
-                cur_idx += 1
-
-        # Sets the data at index 'index' equal to 'data'.
-        # Indices begin at 0. If the 'index' is greater than or equal
-        # to the length of the linked list a warning will be printed
-        # to the user.
-        def set(self, index, data):
-            if index >= self.length() or index < 0:
-                print("ERROR: 'Set' Index out of range!")
-                return
-            cur_node = self.head
-            cur_idx = 0
-            while True:
-                cur_node = cur_node.next
-                if cur_idx == index:
-                    cur_node.data = data
-                    return
-                cur_idx += 1
+            cur = prev.next
+            # Basically we point the previous to point to the
+            # prev.next.next    (we skip over a node)
+            prev.next = cur.next
+            cur.next = None
+            return cur
 
 
-# s = Linkedlist()
-# s.append(4)
-# s.append(5)
-# s.insertAtKthPosition(1, 3)
-# s.
+# to test things out
+list = LinkedList()
+list.insertAtKthPosition(1, 5)
+list.insertAtKthPosition(2, 6)
+list.display()

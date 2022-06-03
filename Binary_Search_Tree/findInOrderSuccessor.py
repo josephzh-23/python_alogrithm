@@ -23,44 +23,33 @@ This is a linkedlist problem, tough to solve
     - check if we should go left or go right 
 '''
 
-# Need 3 pter: parent, cur and successor
-# use helper fxn findMin()
-def findInOrderSuccessor(root, data):
 
-    # Return the node that we are searching for
-    # always make sure it exists
-    cur = search(root, data)
+def inOrderSuccessor(root, n):
 
-    if not cur:
-        return None
+    # Case 1
+    if n.right is not None:
+        return findMin(n.right)
 
-    #case 1: node has right subtree, so we find
-    # the min on the right
-    if cur.right:
-        return findMin(cur.right)
+    # Case 2
+    succ = Node(None)
 
-    # case 2: no right subtree
-    # need 3 pters here and keep traversing down
-    # until cur is reached
-    else:
-        successor = None
+    while (root):
 
-        # start at the root position
-        parent = root
+        #  3  <  4      then keep going to the right
+        if (root.data < n.data):
+            root = root.right
 
-        # Traverse down until we reach the current element in the
-        # tree
-        # and then return the parent
-        while parent != cur:
-            # 4 < 5
-            if cur.val < parent.val:
-                successor = parent
-                parent = parent.left
+        #  5 > 3 , then we keep going left until we find
+        # 3     start naming the successor up here
+        elif (root.data > n.data):
+            succ = root
+            root = root.left
 
-                # the 4 > 3, then we go to the right
-            else:
-                parent = parent.right
-        return successor
+
+        else:
+            break
+    return succ
+
 
 root = None
 root = insert(root, 20)

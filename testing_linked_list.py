@@ -1,3 +1,3 @@
-from Linkedlist.linkedlist import Linkedlist
+from Linkedlist.linkedlist import LinkedList
 
-myList = Linkedlist()
+myList = LinkedList()

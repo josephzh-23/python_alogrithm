@@ -1,40 +1,56 @@
-from Linkedlist.linkedlist import Node
+from Linkedlist.linkedlist import Node, LinkedList
+
+'''
+    l1 :   1   2  4 
+    l2:    1   3  4  5  6
+    
+    output: dummy -> 1 -> 1 -> 2-> 3-> 4
+'''
 
 
 # -> is the return annotation
-def mergeTwoLists(list1, list2)-> Node:
+def mergeTwoLists(l1, l2) -> Node:
+    dummy = Node()
+    tail = dummy
 
-    #iterative
-    if not list1:
-        return list1
-    if not list2:
-        return list2
+    while l1 and l2:
 
-    # we need to swap node1 and node2 if node1 is bigger
-    if list1.data > list2.data:
+        if l1.data < l2.data:
+            tail.next = l1
+            l1 = l1.next
+        else:
+            tail.next = l2
+            l2 = l2.next
 
-        # here we swap
-        temp = list1
-        list1 = list2
-        list2 = temp
+        # Need to advance the tail pointer
+        tail = tail.next
 
-    res = list1
-
-    while list1 and list2:
-    #here you traverse list1 until it's bigger than l2
-        while list1 and list1.data <= list2.data:
-            temp = list1
-            list1 = list1.next
-
-        # point the temp to list2
-        temp.next = list2
-
-        # swap to list2 now (since it's the smaller list)
-        temp = list1
-        list1 = list2
-        list2 = temp
-
-    return res
+    # if 1 of them is empty condition, and the other is not
+    if l1:
+        tail.next = l1
+    elif l2:
+        tail.next = l2
+    return dummy.next
 
 
+# Create 2 lists
+listA = LinkedList()
+listB = LinkedList()
 
+# Add elements to the list in sorted order
+listA.append(5)
+listA.append(10)
+listA.append(15)
+
+listB.append(2)
+listB.append(3)
+listB.append(20)
+
+# Call the merge function
+listA.head = mergeTwoLists(listA.head, listB.head)
+
+# Display merged list
+print("Merged Linked List is:")
+listA.print()
+listB.print()
+# mergeTwoLists()

@@ -9,10 +9,12 @@ depth first traversal, and they all start from the bottom leaves
   2   3
 4   5
 Depth First Traversals:
-(a) Inorder (Left, Root, Right) : 4 2 1 5 3         -> from the bottom here
+(a) Inorder (Left, Root, Right) : 4 2 5 1 3         -> from the bottom here
 (b) Preorder (Root, Left, Right) : 1 2 4 5 3
 (c) Postorder (Left, Right, Root) : 4 5 2 3 1
 Breadth-First or Level Order Traversal: 1 2 3 4 5
+
+    if you want to trverse left first, add right to stack first
 '''
 
 from collections import deque
@@ -20,49 +22,44 @@ from collections import deque
 from Binary_Search_Tree.BSTNode import Node
 
 #left, root and then right
-def inOrderRecur(root):
+def inOrderRec(root):
+
+    # the base condition if root doesn't exist it will return
+    # must have a base condition
     if root:
 
         # First recur on left child
-        inOrderRecur(root.left)
+        inOrderRec(root.left)
         print(root.val)
-        inOrderRecur(root.right)
+        inOrderRec(root.right)
 
-
-
-# Need 1 cur pter
-# keep moving down the left tree
+'''
+1) Create an empty stack S.
+2) Initialize current node as root
+3) Push the current node to S and set current = current->left until current is NULL
+4) If current is NULL and stack is not empty then 
+     a) Pop the top item from stack.
+     b) Print the popped item, set current = popped_item->right 
+     c) Go to step 3.
+5) If current is NULL and stack is empty then we are done.
+'''
+# need to get down to the left most root first
 def inOrderIter(root):
-    if root is None:
-        return
 
-    # Use a stack
-    stack = deque()
+    stack = []
 
-    # start from root node
-    curr = root
+    cur = root
 
-    while stack or curr:
+    # we need to get down to the left most node first
+    while cur or stack:
+        while cur:
+            stack.append(cur)
+            cur = cur.left
 
-        # if the current node exists, push it into the stack (defer it)
-        # and move to its left child
-        if curr:
-            stack.append(curr)
-            curr = curr.left
-
-
-        # here no more left pointers, all the rest right p
-        else:
-            '''
-                Imagine 7
-                       / \
-                          9
-            '''
-            curr = stack.pop()
-            print(curr.val, end=' ')
-            curr = curr.right
-
-
+        # then traverse the right
+        cur = stack.pop()
+        print(cur)
+        cur = cur.right
 
 
 
@@ -89,35 +86,34 @@ def preOrderRec(root):
         preOrderRec(root.right)
 
 
+'''
+Depth first traversal:
+    In order traversal, post-order and pre-order are all
+depth first traversal, and they all start from the bottom leaves
 
-# root, left and right, start from the top
-# Add the right child first
+    1
+  2   3
+4   5
+
+(b) Preorder (Root, Left, Right) : 1 2 4 5 3
+'''
+# root, left and right, this is the exact
 def PreorderIter(root):
     # Base CAse
     if root is None:
         return
 
-    # create an empty stack and push root to it
-    nodeStack = []
-    nodeStack.append(root)
+    stack = []
+    stack.append(root)
 
-    # Pop all items one by one. Do following for every popped item
-    # a) print it
-    # b) push its right child
-    # c) push its left child
-    # Note that right child is pushed first so that left
-    # is processed first */
-    while (len(nodeStack) > 0):
-
-        # Pop the top item from stack and print it
-        node = nodeStack.pop()
+    while stack:
+        node = stack.pop()
         print(node.val, end=" ")
 
-        # All the right nodes at bottom of stack
-        if node.right is not None:
-            nodeStack.append(node.right)
-        if node.left is not None:
-            nodeStack.append(node.left)
+        if node.right:
+            stack.append(node.right)
+        if node.left:
+            stack.append(node.left)
 
 
 # Driver program to test above function
@@ -127,7 +123,7 @@ root.right = Node(2)
 root.left.left = Node(3)
 root.left.right = Node(5)
 root.right.left = Node(2)
-# PreorderIter(root)
+PreorderIter(root)
 
 
 root = Node(1)

@@ -8,6 +8,7 @@ from Binary_Search_Tree.depth_first_search import inOrderIter
 prev = None
 count = 0
 max = 0
+
 def inOrder(node, list):
     global prev, count, max
 
@@ -64,11 +65,12 @@ insert(node,6 )
 insert(node,7 )
 insert(node,7 )
 
-printLevelOrder(node)
+# printLevelOrder(node)
 value = findMode(node)
 print(' the mode found is', value[0].val)
 print(' the mode found is', value[1].val)
 
+inOrderIter(node)
 
 
-
+# practice, build tree from sorted array

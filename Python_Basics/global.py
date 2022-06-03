@@ -11,5 +11,7 @@ def func():
     print("print from func:", p)      # works, readonly access, prints global one
 
 def func2():
+
+    # This allows you to modify the variable global
     global p
     p = "blubb"  # modifies the global p

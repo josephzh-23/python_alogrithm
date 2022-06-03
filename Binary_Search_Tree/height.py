@@ -69,6 +69,15 @@ myTree = BSTree();
 print("Height of tree: ", myTree.getHeight(myTree.root))
 
 
+# Will happen in O(n) in this case
+def getHeightRec(root):
+
+    # base case: empty tree has a height of 0
+    if root is None:
+        return 0
+
+    return 1 + max(getHeightRec(root.left), getHeightRec(root.right))
+
 
 # Driver program to test above function
 # Let us create binary tree shown in above diagram
@@ -78,3 +87,4 @@ root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
 print ("Height of tree is", getHeightIterative(root))
+print ("Height of tree is", getHeightRec(root))

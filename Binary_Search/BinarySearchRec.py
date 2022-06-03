@@ -3,7 +3,8 @@
 
 # Returns index of x in arr if present, else -1
 def binarySearchRecursive(arr, low, high, x):
-    # Check base case
+
+
     if high >= low:
 
         mid = (high + low) // 2
@@ -21,8 +22,8 @@ def binarySearchRecursive(arr, low, high, x):
         else:
             return binarySearchRecursive(arr, mid + 1, high, x)
 
+    # no such element here or anywhere
     else:
-        # Element is not present in the array
         return -1
 
 

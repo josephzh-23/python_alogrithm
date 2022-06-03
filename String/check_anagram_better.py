@@ -39,9 +39,9 @@ def areAnagrams(s1, s2):
 
     # O (n)
     # Loop over #1
-    for key in freq1:
-        print("the key value is ", key)
-        if key not in freq2 or freq1[key] != freq2[key]:
+    for ch in freq1:
+        print("the key value is ", ch)
+        if ch not in freq2 or freq1[ch] != freq2[ch]:
             return False
 
     return True
