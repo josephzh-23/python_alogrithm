@@ -15,35 +15,35 @@ using queue:
 """
 
 
-def printLevelOrder(root):
+def printLevelOrder(r):
     # Base Case
-    if root is None:
+    if r is None:
         return
-    queue = []
+    q = []
 
-    queue.append(root)
+    q.append(r)
 
-    while (len(queue) > 0):
+    while (len(q) > 0):
 
-        print(queue[0].val)
-        node = queue.pop(0)
+        print(q[0].val)
+        node = q.pop(0)
 
         if node.left:
-            queue.append(node.left)
+            q.append(node.left)
 
         if node.right:
-            queue.append(node.right)
+            q.append(node.right)
 
 
 # Driver Program to test above function
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+# root = Node(1)
+# root.left = Node(2)
+# root.right = Node(3)
+# root.left.left = Node(4)
+# root.left.right = Node(5)
 #
 # print("Level Order Traversal of binary tree is -")
 # printLevelOrder(root)
 # # This code is contributed by Nikhil Kumar Singh(nickzuck_007)
-#
-# # The 2nd tester
+
+# The 2nd tester

@@ -1,3 +1,7 @@
+
+
+
+# From the guy with the > 30 minutes video
 class MinHeap:
     def __init__(self, capacity):
 

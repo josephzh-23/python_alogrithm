@@ -10,7 +10,7 @@ Traverse the left side, middle and then right
 using inOrder traverse, + with a prev pointer for comparison as said 
 '''
 def isValidBSTIter(root):
-
+    # make use of recursion
     return inOrder(root)
 
 
@@ -34,9 +34,13 @@ def inOrder(cur):
     if not prev:
         prev = cur.val
 
+        # 5 > 3
+
+    # Using inorder it can't be bigger then
     elif prev >= cur.val:
         return False
-    else:
+
+    elif prev < cur.val:
         prev = cur.val
 
     # traverse the right side
@@ -44,6 +48,7 @@ def inOrder(cur):
     if not isRightBST:
         return False
 
+    # make it to here then return true
     return True
 
 

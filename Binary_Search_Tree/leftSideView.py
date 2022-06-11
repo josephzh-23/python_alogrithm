@@ -1,7 +1,7 @@
 from Binary_Search_Tree.BSTNode import Node, insert
 
 
-def rightSideView(root):
+def printLeftSide(root):
     visibleValues = []
     if not root:
         return visibleValues
@@ -23,8 +23,8 @@ def rightSideView(root):
             # print(cur)
             cur = q.pop(0)
 
-            #checking if this is the last value on the current level
-            if i == sizeOfCurLevel-1:
+            #checking if this is the first element on each level
+            if i == 0:
                 visibleValues.append(cur.val)
 
             if cur.left:
@@ -43,7 +43,7 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 
 # funny enough this only prints the left view
-list = rightSideView(root)
+list = printLeftSide(root)
 for i in list:
     print(i)
 

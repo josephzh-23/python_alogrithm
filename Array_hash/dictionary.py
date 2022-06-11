@@ -49,6 +49,15 @@ for x, y in thisdict.items():
     print(x, y)
 
 
+# for checking if sth is in sth
+def findFirstNonRepeating(arr):
+    dict = {}
+
+    for char in arr:
+        if char not in dict.keys():
+            dict[char] = 1
+        else:
+            dict[char] += 1
 
 
 

@@ -52,23 +52,21 @@ class LinkedList:
                 self.head.next is None):
             return
 
-        # Initialize slow and fast pointers
-        # to reach middle of linked list
-        slow_Ptr = self.head
-        fast_Ptr = self.head
+        slow = self.head
+        fast = self.head
 
         # Find the middle and previous of middle
         prev = None
 
         # To store previous of slow pointer
-        while (fast_Ptr is not None and
-               fast_Ptr.next is not None):
-            fast_Ptr = fast_Ptr.next.next
-            prev = slow_Ptr
-            slow_Ptr = slow_Ptr.next
+        while (fast is not None and
+               fast.next is not None):
+            fast = fast.next.next
+            prev = slow
+            slow = slow.next
 
         # Delete the middle node
-        prev.next = slow_Ptr.next
+        prev.next = slow.next
 
 
 # Driver code

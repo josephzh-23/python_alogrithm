@@ -26,6 +26,8 @@ def mergeTwoLists(l1, l2) -> Node:
         tail = tail.next
 
     # if 1 of them is empty condition, and the other is not
+    # no need to traverse l1, since tail.next will get everything in l1
+    # with tail.next = l1
     if l1:
         tail.next = l1
     elif l2:

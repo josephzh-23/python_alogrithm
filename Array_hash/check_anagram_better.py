@@ -3,7 +3,7 @@
 
 """
 To check if 2 strings are anagrams, use hashmap
-- store [ character, # of char ]
+- store [ character, frequency of char ]
 
 T(n) = O(n) + O (n) + O(n) = O(n)
 S(n) = O (n) + O (n)

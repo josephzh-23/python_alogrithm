@@ -30,7 +30,7 @@ node = insert(node, 40)
 node = insert(node, 60)
 node = insert(node, 70)
 
-inOrder(node)
+# inOrder(node)
 print(getParentNode(node, 40).val)
 
 

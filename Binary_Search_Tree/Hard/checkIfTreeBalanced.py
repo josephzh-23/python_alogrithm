@@ -31,20 +31,19 @@ def isBalanced(root):
     if root is None:
         return True
 
-    # Calculating height of left and right tree
     lHeight = height(root.left)
     rHeight = height(root.right)
+
+    if abs(lHeight - rHeight) > 1:
+        return False
 
     l = isBalanced(root.left)
     r = isBalanced(root.right)
 
-    if abs(lHeight - rHeight) <= 1:
-        return l and r
+    if not l or not r:
+        return False
 
-    # if we reach here then the tree
-    # is not balanced
-    return False
-
+    return True
 
 # Driver function to test the above function
 """
@@ -56,14 +55,6 @@ Constructed binary tree is
     4 5 6 / 7
 """
 # to store the height of tree during traversal
-
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
-root.right.left = Node(6)
-root.left.left.left = Node(7)
 
 root = Node(1)
 root.left = Node(2)

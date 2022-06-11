@@ -126,11 +126,11 @@ class LinkedList:
         fast = dummyNode
         slow = dummyNode
 
-        i = 1
+        i = 0
 
         # traverse fast node until it reaches the
         # kth position
-        while i <= k+1:
+        while i <= k:
             fast = fast.next
             i+=1
 
@@ -144,6 +144,7 @@ class LinkedList:
 
         slow.next = slow.next.next
         return dummyNode.next
+
 
     # totally works here
     def reverseSinglyLinkedList(self):
@@ -184,29 +185,25 @@ class LinkedList:
             if cur == index: return cur.data
             curIndex += 1
 
-    # Also return the element deleted
-    def deleteAtPosition(s, k):
+     # Need 3 references nodes
+    def deleteNodeAtK(s, k):
 
-        if k == 1:
-            cur = s.head
-
+        # remove the head
+        if k == 0:
             s.head = s.head.next
-            cur.next = None
-            return cur
+            return s.head
+
         else:
+            i = 1
             prev = s.head
-            i = 0
 
-            while i < k:
+            while prev and i < k:
                 prev = prev.next
-                i+=1
+                i += 1
 
-            cur = prev.next
-            # Basically we point the previous to point to the
-            # prev.next.next    (we skip over a node)
-            prev.next = cur.next
-            cur.next = None
-            return cur
+            # When you get to the node, then delete the node
+            prev.next = prev.next.next
+        return s.head
 
 
 # to test things out
@@ -214,3 +211,5 @@ list = LinkedList()
 list.insertAtKthPosition(1, 5)
 list.insertAtKthPosition(2, 6)
 list.display()
+
+print('the value deleted is', list.deleteNodeAtK(1).data)

@@ -94,10 +94,9 @@ depth first traversal, and they all start from the bottom leaves
     1
   2   3
 4   5
-
 (b) Preorder (Root, Left, Right) : 1 2 4 5 3
 '''
-# root, left and right, this is the exact
+# root, left and right, this is the exact opposite of printLevelOrder()
 def PreorderIter(root):
     # Base CAse
     if root is None:
@@ -117,12 +116,11 @@ def PreorderIter(root):
 
 
 # Driver program to test above function
-root = Node(10)
-root.left = Node(8)
-root.right = Node(2)
-root.left.left = Node(3)
+root = Node(1)
+root.left = Node(2)
+root.right = Node(3)
+root.left.left = Node(4)
 root.left.right = Node(5)
-root.right.left = Node(2)
 PreorderIter(root)
 
 

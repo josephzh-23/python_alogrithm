@@ -56,7 +56,7 @@ def printArr(arr, n):
 
 
 # Driver Code
-# Array representation of Max-Heap
+# Array_hash representation of Max-Heap
 '''
         10
        /  \

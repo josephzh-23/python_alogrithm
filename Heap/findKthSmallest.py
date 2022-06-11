@@ -8,21 +8,21 @@ from Heap.max_heap import MaxHeap
 
 # this need to be done using minHeap
 h = heapq
-def findKthLargest(nums, k):
+def findKthSmallest(nums, k):
 
 
 
 # will use a max heap here
-# need to use a min heap here
-    minHeap =[]
-    h.heapify(minHeap)
+
+    maxHeap = MaxHeap()
     for num in nums:
-        h.heappush(minHeap,num)
-        if len(minHeap) >k:
-            element = h.heappop(minHeap)
+        maxHeap.push(num)
+        print('the size is ', maxHeap.size())
+        if maxHeap.size() >k:
+            element = maxHeap.pop()
             # print(element)
 
-    return h.heappop(minHeap)
+    return maxHeap.pop()
 # also need to test this out
 arr = [1, 2, 3, 4, 5]
-print('the number is', findKthLargest(arr, 3))
+print('the number is', findKthSmallest(arr, 5))

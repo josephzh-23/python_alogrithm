@@ -24,9 +24,6 @@ def flattenBSTIntoLinedlist(root):
     while s:
         cur = s.pop()
 
-        # b/c we want the left node first, so we
-        # will add the right nodes to stack [LIFO]
-
         if cur.right:
             s.append(cur.right)
 
@@ -38,14 +35,12 @@ def flattenBSTIntoLinedlist(root):
             this sets 1 to point at 2, because it was pushed in
         last
                1 
-                2 
-                  3
-                    4  
+                 2 
+                   3
+                     4  
         '''
         if s:
             cur.right = s[-1]
-
-        # no left children will be here
         cur.left = None
 
 node = Node(4)

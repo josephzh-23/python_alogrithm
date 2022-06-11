@@ -9,20 +9,15 @@ def binarySearchRecursive(arr, low, high, x):
 
         mid = (high + low) // 2
 
-        # If element is present at the middle itself
         if arr[mid] == x:
             return mid
 
-        # If element is smaller than mid, then it can only
-        # be in left subarray
         elif arr[mid] > x:
             return binarySearchRecursive(arr, low, mid - 1, x)
 
-        # Else the element can only be present in right subarray
         else:
             return binarySearchRecursive(arr, mid + 1, high, x)
 
-    # no such element here or anywhere
     else:
         return -1
 

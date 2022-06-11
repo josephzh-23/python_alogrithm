@@ -6,6 +6,7 @@ MAX_CHAR = 256;
 
 # string only has unique characters here
 
+# TC: O(n)
 def uniqueCharacters(string):
     n = len(string)
 
