@@ -29,9 +29,6 @@ class Queue:
 
         # A rear already exists
         else:
-            # the last element become this
-            # you don't necessarily need this one below
-            # self.rear.next = node
             self.rear = node
 
     # Method to remove an item from the front
@@ -58,5 +55,5 @@ if __name__ == '__main__':
     # q.EnQueue(40)
     # q.EnQueue(50)
     # q.DeQueue()
-    print("Queue Front " + str(q.front.data))
-    print("Queue Rear " + str(q.rear.data))
+    print("Queue_practice Front " + str(q.front.data))
+    print("Queue_practice Rear " + str(q.rear.data))

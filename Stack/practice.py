@@ -31,3 +31,11 @@ insert(node, 6)
 insert(node, 7)
 insert(node, 8)
 flattenTree(node)
+
+
+def validParenthesis(str):
+
+    map = {"(": ")", "[": "]", "{": "}"}
+
+    for c in str:
+        #check if

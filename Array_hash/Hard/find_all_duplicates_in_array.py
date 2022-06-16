@@ -31,15 +31,16 @@ def findAllDuplicatesInArray(nums):
     # check arr first create an array
     res = []
 
-    for i in range(len(nums)):
+    for n in nums:
 
         # This is the index we were referring to
-        index = abs(nums[i]) - 1
+        n= abs(n)
 
-        # if a duplicate found, since its value at that index < 0
-        if nums[index] < 0:
-            res.append(index + 1)
-        nums[index] = -nums[index]
+        # the first time it's seen
+        if nums[n-1] > 0:
+            nums[n-1] *= -1
+        else:
+            res.append(n)
 
     return res
 

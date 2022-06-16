@@ -1,5 +1,0 @@
-
-
-# O (logn)
-
-#better answer 

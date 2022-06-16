@@ -25,7 +25,7 @@ print("the key value is", dict[key])
 
 dict.update({"color": "red"}) # change the existing item here
 
-val = dict.get("count") +1
+val = dict.get("count", 0) +1
 print("the value is ", val)
 
 
@@ -47,21 +47,4 @@ for x in thisdict.keys():
 
 for x, y in thisdict.items():
     print(x, y)
-
-
-# for checking if sth is in sth
-def findFirstNonRepeating(arr):
-    dict = {}
-
-    for char in arr:
-        if char not in dict.keys():
-            dict[char] = 1
-        else:
-            dict[char] += 1
-
-
-
-
-
-
 

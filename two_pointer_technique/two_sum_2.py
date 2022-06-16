@@ -1,5 +1,6 @@
 
 '''
+The input array would be sorted here
 Input: numbers = [1, 3, 4, 5, 7, 11], target = 9
 Output: [4, 5]
 Explanation: The sum of 4 and 5 is 9. Therefore, index1 = 3, index2 = 4. We return [1, 2].

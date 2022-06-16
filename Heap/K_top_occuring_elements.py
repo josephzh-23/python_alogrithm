@@ -3,7 +3,7 @@
 Strategy here
     use a hashmap [ frequency, element]
     Use  Then use a priority queue to store the element-frequency pair (Max-Heap).
-     This gives the element which has maximum frequency at the root of the Priority Queue
+     This gives the element which has maximum frequency at the root of the Priority Queue_practice
 '''
 
 
@@ -29,15 +29,10 @@ def topKOccuringElements(arr, k):
             freq[num] +=1
 
     for key, val in freq.items():
-        if len(ans) < k:
-            print('the pushed value is ', val, key)
-            heapq.heappush(ans, [val, key])
-
-        # This will pop the smallest value based on the value
-        # which is the frequency sth occurs in
-        else:
-            heapq.heappushpop(ans, [val, key])
-
+        heapq.heappush(ans, [val, key])
+        print('the pushed value is ', val, key)
+        if len(ans) > k:
+            heapq.heappop(ans)
 
     # this is basically list comprehension here
     return [key for value, key in ans]

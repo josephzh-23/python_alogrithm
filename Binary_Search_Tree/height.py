@@ -35,8 +35,8 @@ def getHeightIterative(root):
 
     while (True):
 
-        # nodeCount(queue size) indicates number of nodes
-        # at current level
+        # nodeCount(queue size) if no more node then return here
+
         nodeCount = len(q)
         if nodeCount == 0:
             return height
@@ -70,7 +70,7 @@ print("Height of tree: ", myTree.getHeight(myTree.root))
 
 
 # Will happen in O(n) in this case
-def getHeightRec(root):
+def geHeightRec(root):
 
     # base case: empty tree has a height of 0
     if root is None:

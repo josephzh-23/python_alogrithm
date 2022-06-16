@@ -26,3 +26,5 @@ def findKthSmallest(nums, k):
 # also need to test this out
 arr = [1, 2, 3, 4, 5]
 print('the number is', findKthSmallest(arr, 5))
+
+# top frequent elements occuring in k

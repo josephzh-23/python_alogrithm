@@ -3,8 +3,6 @@ import heapq
 
 # TC: O (n log k) + O (N) for traversing
 # log (k) for heapify
-from Heap.heap_recursive import MinHeap
-from Heap.max_heap import MaxHeap
 
 # this need to be done using minHeap
 h = heapq
@@ -20,7 +18,7 @@ def findKthLargest(nums, k):
         h.heappush(minHeap,num)
         if len(minHeap) >k:
             element = h.heappop(minHeap)
-            # print(element)
+            print(element)
 
     return h.heappop(minHeap)
 # also need to test this out

@@ -1,23 +1,11 @@
 import heapq
 
 h = heapq
-def findKthLargest(arr, k):
+def findKthLargest(arr):
 
-    minHeap =[]
-    h.heapify(minHeap)
-
+    ans = []
+    h.heapify(ans)
+    # 1 2 3 4 5, add number to the list here
     for num in arr:
-
-        # the smallest will go in first
-        h.heappush(num)
-
-        # 1 2 3 4
-        if len(minHeap) > k:
-            h.heappop(minHeap)
-
-    # 1 2  3 4
-    return h.heappop(minHeap)
-
-
-
-
+        #
+        h.heappush(ans, num)

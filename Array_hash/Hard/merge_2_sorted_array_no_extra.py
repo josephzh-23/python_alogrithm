@@ -8,7 +8,7 @@ n - the size of nums2
 
 
 # class Solution:
-def merge( nums1, m, nums2, n) -> None:
+def merge2SortedArray(nums1, m, nums2, n) -> None:
 
     # last index nums1, last will keep getting decremented for sure
     last = m + n - 1
@@ -39,4 +39,4 @@ arr2 = [1, 2, 3]
 m = len(arr1)
 n = len(arr2)
 # s = Solution()
-merge(arr1, m, arr2, n)
+merge2SortedArray(arr1, m, arr2, n)

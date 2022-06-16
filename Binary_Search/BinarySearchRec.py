@@ -5,7 +5,7 @@
 def binarySearchRecursive(arr, low, high, x):
 
 
-    if high >= low:
+    if low <= high:
 
         mid = (high + low) // 2
 

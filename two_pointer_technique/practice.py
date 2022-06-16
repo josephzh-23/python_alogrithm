@@ -1,12 +1,29 @@
 
-prices = [7, 1, 5, 3, 6, 4]
 
-def buyAndSellStock(arr):
+# find that index here
+def binSearch(arr, l, r, tar):
 
-    max = 0
-    # Buy first before you sell
+    mid = (r+l)//2
 
-    l, r= 0, len(arr) -1
+    if l <= r:
+        if arr[mid] > tar:
+            return binSearch(arr, l, mid-1, tar)
+        if arr[mid] < tar:
+            return binSearch(arr, mid+1, r, tar)
+        else:
+            return mid
 
-    # store the max here
-    max = max(max, arr[r] - arr[l])
+    else:
+        return -1
+
+
+arr = [2, 3, 4, 10, 40]
+x = 10
+
+# Function call
+result = binSearch(arr, 0, len(arr) - 1, x)
+
+if result != -1:
+    print("Element is present at index", str(result))
+else:
+    print("Element is not present in array")

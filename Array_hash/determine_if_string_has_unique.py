@@ -29,9 +29,6 @@ def uniqueCharacters(string):
             return False
 
         chars[index] = True
-
-    ''' No duplicates encountered,
-        return True '''
     return True
 
 

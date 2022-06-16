@@ -13,7 +13,8 @@ def reverseString(s):
         s[left] = s[right]
         s[right] = temp
 
-
+        left +=1
+        right -=1
 
 
 
