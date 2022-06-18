@@ -1,8 +1,8 @@
 
 
-# Note there could be > 1 modes, and also as we are traversing
+# Use a inorder traversal
 from Binary_Search_Tree.BSTNode import Node, insert
-from Binary_Search_Tree.breath_first_search import printLevelOrder
+from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 from Binary_Search_Tree.depth_first_search import inOrderIter
 
 prev = None
@@ -35,20 +35,10 @@ def inOrder(node, list):
 
     # 1st time, come here prev == null so assign above 
     prev = node
+    print('the value of prev is ',prev.val)
     inOrder(node.right, list)
 
 def findMode(root):
-    '''
-       - Do an in order traversal
-           match cur node with prev node
-           1. if it matches, then increase the count
-           2. if count == max,  then add node to a list
-           3. if count > max, the clear our list,
-               then add the new count node to the list
-      '''
-
-    # note that after the in order traverse function the
-    # list will contain the modes based on the step above
     list = []
     inOrder(root, list)
 
@@ -67,10 +57,10 @@ insert(node,7 )
 
 # printLevelOrder(node)
 value = findMode(node)
-print(' the mode found is', value[0].val)
-print(' the mode found is', value[1].val)
+# print(' the mode found is', value[0].val)
+# print(' the mode found is', value[1].val)
 
-inOrderIter(node)
+# inOrderIter(node)
 
 
 # practice, build tree from sorted array

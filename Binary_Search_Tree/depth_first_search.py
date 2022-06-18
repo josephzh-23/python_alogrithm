@@ -76,7 +76,6 @@ def postOrderRec(root):
         print(root.val),
 
 
-
 # root, left and right
 def preOrderRec(root):
     if root:
@@ -110,6 +109,7 @@ def PreorderIter(root):
         print(node.val, end=" ")
 
         if node.right:
+            # print('right val', node.right.val, end=" ")
             stack.append(node.right)
         if node.left:
             stack.append(node.left)

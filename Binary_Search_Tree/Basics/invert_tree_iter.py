@@ -1,5 +1,5 @@
 from Binary_Search_Tree.BSTNode import Node
-from Binary_Search_Tree.breath_first_search import printLevelOrder
+from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 
 
 def mirror(root):
@@ -38,4 +38,4 @@ root.right.right = Node(7)
 """ Print inorder traversal of the input tree """
 mirror(root)
 print("Inorder traversal of the constructed tree is")
-printLevelOrder(root)
+printLevelOrderIter(root)

@@ -37,7 +37,7 @@ Answer taken from coding Simplified
 def checkIfPairExists(node, sum):
     list = []
     inOrder(node, list)
-    return checkIfPairExistsUtil2(sum, list)
+    return checkIfPairExistsUtil(sum, list)
 
 
 def inOrder(node, list):
@@ -52,7 +52,7 @@ def inOrder(node, list):
 # 2, 4 , 5, 8, 10   in order is usually like that before
 # we have start and end pter that will then increment + decerment
 # to compensate for this
-def checkIfPairExistsUtil2(sum, list):
+def checkIfPairExistsUtil(sum, list):
     start = 0
     end = len(list)-1
 

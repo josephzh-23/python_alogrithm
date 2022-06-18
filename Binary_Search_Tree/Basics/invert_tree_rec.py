@@ -1,6 +1,7 @@
 from Binary_Search_Tree.BSTNode import Node
-from Binary_Search_Tree.breath_first_search import printLevelOrder
+from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 
+# This is using DFS, under here this is using preOrder here
 
 def invertTreeRec(r):
 
@@ -35,4 +36,4 @@ root.right.left = Node(6)
 root.right.right = Node(9)
 invertTreeRec(root)
 
-printLevelOrder(root)
+printLevelOrderIter(root)

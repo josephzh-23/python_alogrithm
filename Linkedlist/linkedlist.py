@@ -212,4 +212,4 @@ list.insertAtKthPosition(1, 5)
 list.insertAtKthPosition(2, 6)
 list.display()
 
-print('the value deleted is', list.deleteNodeAtK(1).data)
+# print('the value deleted is', list.deleteNodeAtK(1).data)
