@@ -13,29 +13,17 @@ depth of tree = level from the root
 """
 def getHeightIterative(root):
 
-    """
-    traverse level by level, whenever move down a level
-    incremeent height by 1
 
-        Check the # of nodes at each level, stop traversing when
-    # of nodes at next level 0
-
-            3. Dequeue all nodes of current level and Enqueue
-        all nodes of next level
-    """
     if root is None:
         return 0
 
-    # Create a empty queue for level order traversal
     q = []
 
-    # Enqueue Root and Initialize Height
     q.append(root)
     height = 0
 
     while (True):
 
-        # nodeCount(queue size) if no more node then return here
 
         nodeCount = len(q)
         if nodeCount == 0:
@@ -69,18 +57,15 @@ myTree = BSTree();
 print("Height of tree: ", myTree.getHeight(myTree.root))
 
 
-# Will happen in O(n) in this case
-def geHeightRec(root):
-
-    # base case: empty tree has a height of 0
+def getHeightRec(root):
     if root is None:
         return 0
 
+    # This will keep calling until it gets to root is None and then start
+    # to pop off that stck
     return 1 + max(getHeightRec(root.left), getHeightRec(root.right))
 
 
-# Driver program to test above function
-# Let us create binary tree shown in above diagram
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)

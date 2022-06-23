@@ -6,21 +6,20 @@ from Binary_Search_Tree.Hard.find_mode_in_BSTree import inOrder
 
 
 def getParentNode(root, value):
-    key = value
     cur= root
 
     parent = None
     while cur:
-        if cur.val< key:
+        if cur.val< value:
             parent = cur
             cur = cur.right
 
-        elif cur.val > key:
+        elif cur.val > value:
             parent = cur
             cur = cur.left
 
         # found
-        elif cur.val == key:
+        elif cur.val == value:
             return parent
 
 

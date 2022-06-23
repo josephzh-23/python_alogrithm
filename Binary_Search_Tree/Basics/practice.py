@@ -1,7 +1,11 @@
-def invertTree(root):
 
 
-    invertTree(root.left)
-    # swap the left and right
-    if root.left and root.right:
-        root.left, root.right = root.right, root.left
+def isSameTree(p, q):
+
+    if not p and not q:
+        return True
+
+    elif not p or not q or p.val!=q.val:
+        return False
+
+    return isSameTree(p.left, q.left) and isSameTree(p.right, q.right)

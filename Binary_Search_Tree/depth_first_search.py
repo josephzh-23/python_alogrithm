@@ -33,17 +33,12 @@ def inOrderRec(root):
         print(root.val)
         inOrderRec(root.right)
 
+
+
 '''
-1) Create an empty stack S.
-2) Initialize current node as root
-3) Push the current node to S and set current = current->left until current is NULL
-4) If current is NULL and stack is not empty then 
-     a) Pop the top item from stack.
-     b) Print the popped item, set current = popped_item->right 
-     c) Go to step 3.
-5) If current is NULL and stack is empty then we are done.
+In order means: left, root and right (from smallest to biggest) the 
+same as sorting 
 '''
-# need to get down to the left most root first
 def inOrderIter(root):
 
     stack = []
@@ -65,7 +60,7 @@ def inOrderIter(root):
 
 
 
-
+# the root comes in last
 # A function to do postorder tree traversal
 # left, right, root
 def postOrderRec(root):
@@ -86,10 +81,8 @@ def preOrderRec(root):
 
 
 '''
-Depth first traversal:
-    In order traversal, post-order and pre-order are all
-depth first traversal, and they all start from the bottom leaves
 
+This means root comes before all its children is what it means 
     1
   2   3
 4   5

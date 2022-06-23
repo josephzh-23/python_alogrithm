@@ -3,17 +3,21 @@ from Binary_Search_Tree.BSTNode import Node
 
 
 
+# Return true if s is a subtree of t
 # TC: O ( s * t) here
-def isSubtree(self, s: Node, t: Node) -> bool:
+def isSubtree(self, t: Node, s: Node) -> bool:
 
-    # remember t is the subtree, so if it's empty it will return true
-    if not t: return True
-    if not s: return False
+    # remember s is the subtree, so if it's empty it will return true
+    if not s: return True
+    if not t: return False
 
-    if self.sameTree(s, t):
+    if self.sameTree(t, s):
         return True
-    return (self.isSubtree(s.left, t) or
-            self.isSubtree(s.right, t))
+
+    # IF the tree with root as current node doesn't match
+    # then try left and right subtree one by one
+    return (self.isSubtree(t.left, s) or
+            self.isSubtree(t.right, s))
 
 
 def sameTree(self, s, t):

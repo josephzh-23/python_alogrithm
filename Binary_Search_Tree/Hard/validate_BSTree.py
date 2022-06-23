@@ -3,6 +3,44 @@ import math
 from Binary_Search_Tree.BSTNode import Node
 
 
+
+# Using the recurisve approach
+"""
+    Video by Kevin Naughton
+"""
+
+def isValidBSTRec(root):
+    # these 2 values are none at the start but then will change
+    #
+    return validate(root, None, None)
+
+
+def validateRec(root):
+
+    return validate(root, float("-inf"), float("inf"))
+    # Validate the left and the right
+    # each iteration
+
+def validate(node, left, right):
+    if not node:
+        return True
+
+    if not (right > node.val > left):
+        return False
+
+    return validate(node.left, left, node.val) and \
+           validate(node.right, node.val, right)
+
+# ensure left and right exists
+
+#testing this
+# root = Node(4)
+# root.left = Node(3)
+# root.right = Node(5)
+# print(isValidBSTRec(root))
+
+
+
 # this is the solution contributed by Eric Programming
 
 '''
@@ -61,39 +99,4 @@ root.right.right = Node(5)
 print(isValidBSTIter(root))
 
 
-
-# Using the recurisve approach
-"""
-    Video by Kevin Naughton
-"""
-
-def isValidBSTRec(root):
-    # these 2 values are none at the start but then will change
-    #
-    return validate(root, None, None)
-
-
-def validateRec(root):
-
-    return validate(root, float("-inf"), float("inf"))
-    # Validate the left and the right
-    # each iteration
-
-def validate(node, left, right):
-    if not node:
-        return True
-
-    if not (right > node.val > left):
-        return False
-
-    return validate(node.left, left, node.val) and \
-           validate(node.right, node.val, right)
-
-# ensure left and right exists
-
-#testing this
-# root = Node(4)
-# root.left = Node(3)
-# root.right = Node(5)
-# print(isValidBSTRec(root))
 print(validateRec(root))

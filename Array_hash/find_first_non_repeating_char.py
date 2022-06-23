@@ -18,14 +18,15 @@ def findFirstNonRepeatingChar(str):
         else:
             map[char] = -1
 
-        # find the
     min = sys.maxsize
 
+    # for
     for key in map.keys():
+        print(key)
         # meaning it's not a duplicate
-        if map[key] > -1 and map[key] < min:
+        if -1 < map[key] < min:
 
-            # store the index of the array that's passed
+            # store the index of the array passed
             min = map[key]
 
     if min == sys.maxsize:

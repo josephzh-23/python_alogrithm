@@ -2,8 +2,6 @@
 
 # Use a inorder traversal
 from Binary_Search_Tree.BSTNode import Node, insert
-from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
-from Binary_Search_Tree.depth_first_search import inOrderIter
 
 prev = None
 count = 0

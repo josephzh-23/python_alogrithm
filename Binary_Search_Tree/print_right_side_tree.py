@@ -15,12 +15,11 @@ def rightSideView(root):
         # this is the size of the current level we are looking at
         sizeOfCurLevel = len(q)
         i=0
-        print(' number of current level', sizeOfCurLevel)
         for i in range(sizeOfCurLevel):
 
             # we want to look at the last thing on the current level
             # check to see if this is the last thing on our value,
-            # print(cur)
+            print(cur)
             cur = q.pop(0)
 
             #checking if this is the last value on the current level
