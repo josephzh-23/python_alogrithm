@@ -1,11 +1,18 @@
 import heapq
 
 h = heapq
-def findKthLargest(arr):
 
-    ans = []
-    h.heapify(ans)
-    # 1 2 3 4 5, add number to the list here
+
+def topKOccuringElem(arr):
+
+    res = []
+    dict = {}
+
     for num in arr:
-        #
-        h.heappush(ans, num)
+
+        if num not in dict:
+
+            # {num, freq}
+            dict[num] = 1
+        else:
+            dict[num] +=1

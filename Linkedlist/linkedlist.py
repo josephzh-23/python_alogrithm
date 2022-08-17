@@ -11,6 +11,7 @@ class LinkedList:
         self.head = None
 
 
+    # init a newNode and then make new node the head
     def insertAtStart(self,data):
 
         if not self.head:

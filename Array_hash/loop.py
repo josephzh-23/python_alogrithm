@@ -7,3 +7,6 @@ this will print up to 5, but not including 6 as said
 '''
 for n in range(6):
   print(n)
+
+for n in range(1, 6):
+  print(n)

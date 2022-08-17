@@ -1,28 +1,10 @@
-import sys
 
+def ifPermutation(s1, s2):
 
-def findFirstNonRepeat(str):
-    map = {}
+    n1 = len(s1)
+    n2 = len(s2)
 
-    for i in range(len(str)):
+    if n1 != n2:
+        return False
 
-        char = str[i]
-
-        # a => 1
-        # b => 2
-        if char not in map:
-            map[char] = i
-        else:
-            map[char] = -1
-
-        min = sys.maxsize
-        for key in map.keys():
-
-            if key != -1 and map[key] < min:
-                min = map[key]
-
-
-        if min == sys.maxsize:
-            return -1
-        else:
-            return min
+# loop thru sth in python

@@ -2,7 +2,7 @@ from Binary_Search_Tree.BSTNode import Node, search, findMin, insert
 
 '''
 What's in order successor again?
-
+node with the smallest key greater than the key of the input node. 
         20 
      8      22
    4   12
@@ -24,13 +24,15 @@ This is a linkedlist problem, tough to solve
 '''
 
 
-def inOrderSuccessor(root, n):
+def findInOrderSuccessor(root, n):
 
-    # Case 1
+    # Case 1:
+    # Found right children -> return left mode node of right subtree
     if n.right is not None:
         return findMin(n.right)
 
     # Case 2
+    # in the left node case
     succ = Node(None)
 
     while (root):

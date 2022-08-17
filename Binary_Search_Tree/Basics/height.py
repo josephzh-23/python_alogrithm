@@ -66,6 +66,10 @@ def getHeightRec(root):
     return 1 + max(getHeightRec(root.left), getHeightRec(root.right))
 
 
+#And then using thedata here is actually a little bit better than using the
+# other approach here And therefore not always better asdf
+# and therefore not always
+
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)

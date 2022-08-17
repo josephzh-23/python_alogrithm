@@ -9,11 +9,7 @@ from Heap.max_heap import MaxHeap
 # this need to be done using minHeap
 h = heapq
 def findKthSmallest(nums, k):
-
-
-
 # will use a max heap here
-
     maxHeap = MaxHeap()
     for num in nums:
         maxHeap.push(num)

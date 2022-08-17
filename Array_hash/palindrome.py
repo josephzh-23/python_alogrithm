@@ -1,7 +1,13 @@
 # backward and forwad would give the same value
 
-a_string = 'Was it a car or a cat I saw'
 
+'''
+A palindrome is a word that reads the same
+forward and also backward
+
+kayak
+madam
+'''
 
 def palindrome(string):
     string = string.lower().replace(' ', '')
