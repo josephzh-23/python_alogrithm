@@ -14,6 +14,8 @@ A visualization
 '''
 
 # much more scalable solution
+from Binary_Search_Tree.BSTNode import Node
+
 prev= head = None
 
 def bstToDoublyLinkedList(node):

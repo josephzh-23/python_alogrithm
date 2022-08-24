@@ -1,41 +1,13 @@
+from collections import deque
+
 from Binary_Search_Tree.BSTNode import insert, Node
 from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 
 
-def flattenTree(root):
+class MyStack:
 
-    # Base CAse
-    if root is None:
-        return
+    def __init__(s):
+        s.q = deque()
 
-    # create an empty stack and push root to it
-    stack = []
-    stack.append(root)
-
-    while stack:
-        cur = stack.pop()
-
-        if cur.right is not None:
-            stack.append(cur.right)
-        if cur.left is not None:
-            stack.append(cur.left)
-
-        if stack:
-            cur.right = stack[-1]
-        cur.left = None
-
-
-node = Node(4)
-insert(node,5 )
-insert(node, 6)
-insert(node, 7)
-insert(node, 8)
-flattenTree(node)
-
-
-def validParenthesis(str):
-
-    map = {"(": ")", "[": "]", "{": "}"}
-
-    for c in str:
-        #check if
+    def push(s, x):
+        s.q.append(x)

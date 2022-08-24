@@ -6,10 +6,14 @@ import heapq
 from Heap.heap_recursive import MinHeap
 from Heap.max_heap import MaxHeap
 
+# Find smallest -> use max heap
+# Find biggest -> use min heap
+
 # this need to be done using minHeap
 h = heapq
 def findKthSmallest(nums, k):
-# will use a max heap here
+# push everything in first and then start popping
+
     maxHeap = MaxHeap()
     for num in nums:
         maxHeap.push(num)

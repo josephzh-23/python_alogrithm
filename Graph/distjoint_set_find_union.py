@@ -7,7 +7,7 @@ This is the approach 1
     approach 2: use O log (n) using Union by Rank or Height,
     have a look at that you can
 
-    - Hard to explain check notes
+    - Medium to explain check notes
     Used in step 2 of kruskal's algo, to detect if a cycle exists
     See expalanation on union-find on GeedForGeeks
 

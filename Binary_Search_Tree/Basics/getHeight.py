@@ -1,3 +1,5 @@
+from collections import deque
+
 from Binary_Search_Tree.BSTNode import Node
 from Binary_Search_Tree.BSTree import BSTree
 
@@ -11,45 +13,42 @@ depth of tree = level from the root
 
 
 """
-def getHeightIterative(root):
 
 
+def height(root):
+    # empty tree has a height of 0
     if root is None:
         return 0
 
-    q = []
+    # create an empty queue and enqueue the root node
+    queue = []
+    queue.append(root)
 
-    q.append(root)
     height = 0
 
-    while (True):
+    # loop till queue is empty
+    while queue:
 
+        # calculate the total number of nodes at the current level
+        numOfNodesCurLevel = len(queue)
 
-        nodeCount = len(q)
-        if nodeCount == 0:
-            return height
+        # process each node of the current level and enqueue their
+        # non-empty left and right child
+        while numOfNodesCurLevel > 0:
+            front = queue.pop()
 
-        height += 1
+            if front.left:
+                queue.append(front.left)
 
-        # Dequeue all nodes of current level and Enqueue
-        # all nodes of next level
-        while (nodeCount > 0):
-            node = q[0]
-            print('the node is', node.val)
+            if front.right:
+                queue.append(front.right)
 
-            # here we dequeue each root node and check if
-            # it has any sub children
-            q.pop(0)
-            if node.left is not None:
-                q.append(node.left)
-            if node.right is not None:
-                q.append(node.right)
+            numOfNodesCurLevel = numOfNodesCurLevel - 1
 
-            nodeCount -= 1
+        # increment height by 1 for each level
+        height = height + 1
 
-
-
-
+    return height
 
 # testing the basic fxn
 myTree = BSTree();
@@ -57,6 +56,7 @@ myTree = BSTree();
 print("Height of tree: ", myTree.getHeight(myTree.root))
 
 
+# TC: O (n) the # of nodes in the tree
 def getHeightRec(root):
     if root is None:
         return 0

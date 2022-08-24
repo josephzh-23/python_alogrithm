@@ -10,28 +10,26 @@
 
 #
 
-
+# this is how to implement a bstNode
 class Node:
-    def __init__(self, val= None):
-        self.left = None
-        self.right = None
-        self.val = val
+    def __init__(s, val= None):
+        s.left = None
+        s.right = None
+        s.val = val
 
 
 # recursive approach
-def insertRec(root, key):
+def insertRec(r, key):
 
-    # it will get to a point
-    # where the root will be none, at which point
-    # it will end everything
-    if root is None:
+
+    if r is None:
         return Node(key)
     else:
-        if root.val < key:
-            root.right = insert(root.right, key)
+        if r.val < key:
+            r.right = insert(r.right, key)
         else:
-            root.left = insert(root.left, key)
-    return root
+            r.left = insert(r.left, key)
+    return r
 
 
 # iterative approach, need 2 pters:
@@ -46,9 +44,14 @@ def insert(root, val=None):
     # pointer to store the parent of the current node
     parent = None
 
+    '''
+    step 1: is to traverse until either the left and 
+    right is empty 
+    '''
     while cur:
 
         #update parent to current node
+        # and then compare left and right
         parent = cur
 
         if val < cur.val:
@@ -56,7 +59,7 @@ def insert(root, val=None):
         else:
             cur = cur.right
 
-        # construct a node and assign it to the appropriate parent pointer
+    # construct a node and assign it to the appropriate parent pointer
     if val < parent.val:
         parent.left = Node(val)
     else:

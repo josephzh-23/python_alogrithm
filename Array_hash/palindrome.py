@@ -16,6 +16,7 @@ def palindrome(string):
 print(palindrome(a_string))
 
 
+# Approach 2: using 2 poitner approach
 
 
 #then this is done here as we saw

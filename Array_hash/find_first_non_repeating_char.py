@@ -4,6 +4,7 @@
 import sys
 
 
+# What's the time complexity of this?
 def findFirstNonRepeatingChar(str):
 
     map = {}

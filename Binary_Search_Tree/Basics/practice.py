@@ -1,24 +1,22 @@
+def inOrder(r, list):
 
-def sameTree(r1, r2):
+    global prev, count, max
+    inOrder(r.left, list)
 
-   #base condition
-    if not r1 and not r2:
-       return True
+    if prev:
+        if prev.val == r.val:
+            count+=1
+        else:
+            count = 1
 
-    if not r1 or not r2 or r1.val != r2.val:
-        return False
+    if count > max:
+        list.clear()
+        list.append(r.val)
+        max = count
 
-    return sameTree(r1, r2)
+    if count == max:
+        list.append(r.val)
 
-
-def getHeight(r):
-
-    if not r:
-        return 0
-    else:
-        1 + getHeight(r.left)
-
-
-def lowestCommonAncestor(r):
-
-    
+    prev = r
+    print('the value of prev is ', prev.val)
+    inOrder(r.right, list)

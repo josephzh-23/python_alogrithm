@@ -2,9 +2,10 @@
 
 # to get parent node of a node that's passed in
 from Binary_Search_Tree.BSTNode import Node, insert
-from Binary_Search_Tree.Hard.find_mode_in_BSTree import inOrder
+from Binary_Search_Tree.Medium.find_mode_in_BSTree import inOrder
 
 
+# need a par to hold parent node reference
 def getParentNode(root, value):
     cur= root
 

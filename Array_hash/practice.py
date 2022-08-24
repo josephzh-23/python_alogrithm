@@ -1,10 +1,13 @@
 
-def ifPermutation(s1, s2):
+# Use a set probably better
+def findFirstNonRepeatingChar(s1):
 
-    n1 = len(s1)
-    n2 = len(s2)
+    sets = set()
 
-    if n1 != n2:
-        return False
+    for i in range(s1):
+        if s1[i] not in sets:
+            sets.add(s1[i])
+            # we return the position that's found here
 
-# loop thru sth in python
+        else:
+            return i

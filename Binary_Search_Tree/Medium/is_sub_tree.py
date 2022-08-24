@@ -1,11 +1,20 @@
 from Binary_Search_Tree.BSTNode import Node
 
 
+'''
+Traverse the tree T in preorder fashion. 
+For every visited node in the traversal, 
+see if the sub node is the same as the tree given 
+
+use sameTree(s, t) approach
+
+'''
+
 
 
 # Return true if s is a subtree of t
 # TC: O ( s * t) here
-def isSubtree(self, t: Node, s: Node) -> bool:
+def isSubtree(self, t, s) -> bool:
 
     # remember s is the subtree, so if it's empty it will return true
     if not s: return True
@@ -29,6 +38,7 @@ def sameTree(self, s, t):
         return (sameTree(s.left, t.left) and
                 sameTree(s.right, t.right))
     return False
+
 
 
 

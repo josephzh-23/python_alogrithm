@@ -1,6 +1,8 @@
 
 
+
 # TC: O (nlogn) here only half of nodes traversed
+# TC O (h) where h = the height of the tree
 def lowestCommonAncestor(r, p, q):
 
     # both of them are on the left side

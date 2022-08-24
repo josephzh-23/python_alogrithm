@@ -21,7 +21,7 @@ def inOrder(node, list):
             count = 1
 
     # here have to clear the list because then a
-    # new mode (single) has been found
+    # new mode (single) has been found that exceeeds the previous max
     if count> max:
         list.clear()
         list.append(node)
@@ -59,6 +59,6 @@ value = findMode(node)
 # print(' the mode found is', value[1].val)
 
 # inOrderIter(node)
-
+#
 
 # practice, build tree from sorted array

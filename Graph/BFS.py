@@ -1,5 +1,9 @@
 
 
+# Visit all A's neighbor,
+# then B's neighbor, and then C's neighbor and so on level by level
+
+
 # BFS is in the graph_adj_list.py file
 graph = {
   'A' : ['B','C'],

@@ -2,7 +2,7 @@ from Binary_Search_Tree.BSTNode import Node
 from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 
 
-def mirror(root):
+def invertBSTree(root):
     if (root == None):
         return
 
@@ -13,6 +13,9 @@ def mirror(root):
         cur = q[0]
         q.pop(0)
 
+        # swap here then
+        # could also call
+        # swapChildren(r)
         cur.left, cur.right = cur.right, cur.left
 
         if (cur.left):
@@ -36,6 +39,6 @@ root.right.left = Node(6)
 root.right.right = Node(7)
 
 """ Print inorder traversal of the input tree """
-mirror(root)
+invertBSTree(root)
 print("Inorder traversal of the constructed tree is")
 printLevelOrderIter(root)

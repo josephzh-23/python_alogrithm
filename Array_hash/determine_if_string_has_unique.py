@@ -6,6 +6,11 @@ MAX_CHAR = 256;
 
 # string only has unique characters here
 
+'''
+1. Make a array of false boolean 
+2. Time it by 256 
+
+'''
 # TC: O(n)
 def uniqueCharacters(array):
     n = len(array)

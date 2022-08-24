@@ -22,9 +22,10 @@ Look at this example
  this way you can add w again
 
 
+TC: O (n) would be a linear time here
 '''
 # Also done from coding simplfied
-def longestStringWithNoRepeatingCharacters(input):
+def longestSubstringWithNoRepeatingCharacters(input):
 
     if not input or len(input)==0:
         return 0
@@ -43,9 +44,11 @@ def longestStringWithNoRepeatingCharacters(input):
     while i < len(input):
         char = input[i]
 
-        # This means that a duplicate is encountered 
+        # This means that the character is already in our set
         # by having this first before adding to set, make sure to mve j forward
         # with >1 duplicate found
+
+        # this is the same as set.contains(c)
         while char in set1:
             set1.remove(input[j])
             j+=1
@@ -53,7 +56,7 @@ def longestStringWithNoRepeatingCharacters(input):
         # And then add to set
         set1.add(char)
 
-        # Compare max with maximum sliding window
+        # Compute the length of our window
         maximum =max(maximum, i-j+1)
         i+=1
     return maximum
@@ -61,5 +64,5 @@ def longestStringWithNoRepeatingCharacters(input):
 
 
 
-longestStrignNum = longestStringWithNoRepeatingCharacters("jfsdooooooosephfrt")
+longestStrignNum = longestSubstringWithNoRepeatingCharacters("jfsdooooooosephfrt")
 print(longestStrignNum)

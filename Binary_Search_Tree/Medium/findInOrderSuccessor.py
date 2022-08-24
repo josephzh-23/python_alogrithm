@@ -24,29 +24,29 @@ This is a linkedlist problem, tough to solve
 '''
 
 
-def findInOrderSuccessor(root, n):
+def findInOrderSuccessor(r, n):
 
     # Case 1:
-    # Found right children -> return left mode node of right subtree
+    # The node has right tree -> return left most node of right children
     if n.right is not None:
         return findMin(n.right)
 
     # Case 2
-    # in the left node case
+    # Root has no right children
     succ = Node(None)
 
-    while (root):
+    while (r):
 
+        # Ex: if 3 is what you are looking for
         #  3  <  4      then keep going to the right
-        if (root.data < n.data):
-            root = root.right
+        if (r.data < n.data):
+            r = r.right
 
         #  5 > 3 , then we keep going left until we find
         # 3     start naming the successor up here
-        elif (root.data > n.data):
-            succ = root
-            root = root.left
-
+        elif (r.data > n.data):
+            succ = r
+            r = r.left
 
         else:
             break

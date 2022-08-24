@@ -119,23 +119,24 @@ class LinkedList:
     # n is the position to remove the item
     def removeKthNodeFromEnd(self, k):
 
-        #  a dummy variable that pts to head
-        dummyNode = Node(0)
-        dummyNode.next = self.head
-
-        # make slow and fast node
-        fast = dummyNode
-        slow = dummyNode
+        # make slow and fast both point at the head
+        fast = self.head
+        slow = self.head
 
         i = 0
 
-        # traverse fast node until it reaches the
-        # kth position
+        '''     The  scenario where k = 1
+         1 , 2 , 3, 4
+         s  f
+            s    f
+        traverse fast node until it reaches the
+        kth position
+        '''
         while i <= k:
             fast = fast.next
             i+=1
 
-        # also traverse both slow and fast
+        # Step 2: now move both pointers forward
         while fast:
             slow = slow.next
             fast = fast.next
@@ -144,7 +145,7 @@ class LinkedList:
         # after next node
 
         slow.next = slow.next.next
-        return dummyNode.next
+        return slow.next
 
 
     # totally works here
@@ -186,7 +187,8 @@ class LinkedList:
             if cur == index: return cur.data
             curIndex += 1
 
-     # Need 3 references nodes
+     # Need prev
+    # prev point to the deletedNode.next
     def deleteNodeAtK(s, k):
 
         # remove the head

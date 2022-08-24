@@ -22,23 +22,24 @@ def height(root):
         return 0
     return max(height(root.left), height(root.right)) + 1
 
-# helper function to check if binary
-# tree is height balanced
-def isBalanced(root):
+# What's time complexity for this?
+# O (n^2) in case of full tree
+
+# O(n) space for call stack using recursion
+def isBalanced(r):
 
 
-    # When tree empty return true
-    if root is None:
+    if r is None:
         return True
 
-    lHeight = height(root.left)
-    rHeight = height(root.right)
+    lHeight = height(r.left)
+    rHeight = height(r.right)
 
     if abs(lHeight - rHeight) > 1:
         return False
 
-    l = isBalanced(root.left)
-    r = isBalanced(root.right)
+    l = isBalanced(r.left)
+    r = isBalanced(r.right)
 
     if not l or not r:
         return False
