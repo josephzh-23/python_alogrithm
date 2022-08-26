@@ -28,7 +28,7 @@ So we know the structure of BST is as following.
 #TC: O (n^2)
 
 # Recursive function to build a BST from a preorder sequence.
-def buildBSTreeFromPreorder(preorder, start, end):
+def buildBSTreeFromPreorder(array, start, end):
 
 
     # base case
@@ -38,20 +38,20 @@ def buildBSTreeFromPreorder(preorder, start, end):
     # Construct the root node of the subtree formed by keys of the
     # preorder sequence in range `[start, end]`
 
-    node = Node(preorder[start])
+    node = Node(array[start])
 
     # search for the 1st element > the root node's value
     i = start
     while i <= end:
-        if preorder[i] > node.key:
+        if array[i] > node.key:
             break
         i = i + 1
 
     # recursively construct the left subtree
-    node.left = buildBSTreeFromPreorder(preorder, start + 1, i - 1)
+    node.left = buildBSTreeFromPreorder(array, start + 1, i - 1)
 
     # recursively construct the right subtree
-    node.right = buildBSTreeFromPreorder(preorder, i, end)
+    node.right = buildBSTreeFromPreorder(array, i, end)
 
     # return current node
     return node

@@ -3,6 +3,12 @@ from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
 
 # This is using DFS, under here this is using preOrder here
 
+'''
+TC: O(n) 
+SC: O(h)   : extra space for the call stack
+
+'''
+# do not forget to return the root here
 def invertTreeRec(r):
 
     #recursively call this to practice

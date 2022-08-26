@@ -6,6 +6,7 @@ from Binary_Search_Tree.Medium.find_mode_in_BSTree import inOrder
 
 
 # need a par to hold parent node reference
+# TC: O(n)
 def getParentNode(root, value):
     cur= root
 

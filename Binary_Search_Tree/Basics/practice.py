@@ -1,22 +1,36 @@
-def inOrder(r, list):
+from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.breadth_first_search_iter import printLevelOrderIter
 
-    global prev, count, max
-    inOrder(r.left, list)
+prev = Node(0)
 
-    if prev:
-        if prev.val == r.val:
-            count+=1
-        else:
-            count = 1
 
-    if count > max:
-        list.clear()
-        list.append(r.val)
-        max = count
+def invertTree(r):
 
-    if count == max:
-        list.append(r.val)
+    if r is None:
+        return None
+    
+    # need to swithc between left and right
 
-    prev = r
-    print('the value of prev is ', prev.val)
-    inOrder(r.right, list)
+    temp = r.left
+    r.left = r.right
+    r.right = temp
+
+    invertTree(r.left)
+    invertTree(r.right)
+    return r
+
+root = Node(1)
+root.left = Node(2)
+root.right = Node(3)
+root.left.left = Node(4)
+root.left.right = Node(5)
+root.right.left = Node(6)
+root.right.right = Node(7)
+
+printLevelOrderIter(root)
+invertTree(root)
+printLevelOrderIter(root)
+
+def getLowestCommonAncestor(r, p, q):
+
+    # p and q
