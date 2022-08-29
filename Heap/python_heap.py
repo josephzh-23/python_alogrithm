@@ -1,6 +1,7 @@
 
 '''
-Use heap when you need max and min and stuff like that
+
+Heapq is a min heap, the minimum at the top
 '''
 import heapq
 

@@ -36,6 +36,9 @@ Answer taken from coding Simplified
 """
 def checkIfPairExists(node, sum):
     list = []
+
+    # we will use the inorder traversal to fill this list
+    # with all the values as said (left, center, right)
     inOrder(node, list)
     return checkIfPairExistsUtil(sum, list)
 
