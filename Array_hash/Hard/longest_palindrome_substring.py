@@ -10,6 +10,11 @@ def longestPalindrome(s):
     # for each letter
     for i in range(len(s)):
 
+
+        '''
+        Note there are 2 cases here
+        
+        '''
         # odd length
         l, r = i, i
 

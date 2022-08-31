@@ -24,45 +24,31 @@ Look at this example
 
 TC: O (n) would be a linear time here
 '''
-# Also done from coding simplfied
-def longestSubstringWithNoRepeatingCharacters(input):
+# Get the java code from Michael munios
+def longestSubstringWithNoRepeatingCharacters(arr):
 
-    if not input or len(input)==0:
+    if not arr or len(arr)==0:
         return 0
 
     #always move i forward, prime pter
-    i, j = 0
+    i, j = 0, 0
 
     # We will move the j pointer forward when a duplicate is found,
     # otherwise keep the same
-    maximum = 0
+    maxim = 0
 
-    # Using set is easier than dictionary
-    set1 = set()
+    #need to rework this using Niccki white's solutino is better
+    dict = set()
 
-
-    while i < len(input):
-        char = input[i]
-
-        # This means that the character is already in our set
-        # by having this first before adding to set, make sure to mve j forward
-        # with >1 duplicate found
-
-        # this is the same as set.contains(c)
-        while char in set1:
-            set1.remove(input[j])
+    while i< len(arr):
+        c = arr[i]
+        while c in dict:
+            dict.remove(c)
             j+=1
-
-        # And then add to set
-        set1.add(char)
-
-        # Compute the length of our window
-        maximum =max(maximum, i-j+1)
+        dict.add(c)
+        maxim = max(maxim, i-j+1)
         i+=1
-    return maximum
+    return maxim
 
-
-
-
-longestStrignNum = longestSubstringWithNoRepeatingCharacters("jfsdooooooosephfrt")
+longestStrignNum = longestSubstringWithNoRepeatingCharacters("abcabcbb")
 print(longestStrignNum)

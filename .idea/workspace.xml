@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_alogrithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Dynamic_Programming/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Dynamic_Programming/climbStairs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/K_top_occuring_elements.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/find_all_duplicates_in_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/find_all_duplicates_in_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/check_anagram_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/python_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/python_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_alogrithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_alogrithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.longest_palindrome">
+  <component name="RunManager" selected="Python.longest_substring_without_repeating_char">
     <configuration name="Group_Anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longest_palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="longest_palindrome_substring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +96,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\josep\OneDrive\Desktop\Python_algorithm\Array_hash\Hard\longest_palindrome_substring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="longest_substring_without_repeating_char" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_alogrithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_alogrithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,27 +160,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/Hard/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="top_k_most_frequent_elem_using_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash/Hard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,10 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.longest_palindrome" />
+        <item itemvalue="Python.longest_substring_without_repeating_char" />
+        <item itemvalue="Python.practice (1)" />
+        <item itemvalue="Python.longest_palindrome_substring" />
         <item itemvalue="Python.Group_Anagram" />
         <item itemvalue="Python.practice" />
-        <item itemvalue="Python.top_k_most_frequent_elem_using_queue" />
       </list>
     </recent_temporary>
   </component>
