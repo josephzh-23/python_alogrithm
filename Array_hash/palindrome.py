@@ -11,6 +11,7 @@ madam
 
 def palindrome(string):
     string = string.lower().replace(' ', '')
+
     reversed_string = ''.join(reversed(string))
     return string == reversed_string
 print(palindrome(a_string))

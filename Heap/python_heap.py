@@ -21,7 +21,8 @@ heapq.heappush(li, 4)
 print("The modified heap after push is : ", end="")
 print(list(li))
 
-# print("The popped and smallest element is : ", end="")
-# print(heapq.heappop(li))
-
-# heappushpop
+'''
+ removes and returns the smallest element (i.e., the root node) 
+ from a min heap after an item is pushed into the heap.
+'''
+heapq.heappushpop(li, 4)

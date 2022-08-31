@@ -1,30 +1,22 @@
-import heapq
-import sys
 
 
-def findFirstNonRepeatingChar(arr):
 
-    min = sys.maxsize
-    s = {}
-    for num in arr:
-        if num not in s:
-            s[num] = 1
+def checkForDuplicateInArray(arr):
 
+    #how to check for duplicates
+    dup = set()
+    freq = {}
+
+    for c in arr:
+        if c not in freq:
+            freq[c] = 1
         else:
-            s[num] = -1
+            freq[c] +=1
+            dup.add(c)
 
-q= heapq
-def topKMostFrequentElement(arr):
-    # <char, freq>
-    map = {}
-    minHeap = []
-    q.heapify(minHeap)
-    for char in arr:
-        if char not in map:
-            map[char] = 1
-        else:
-            map[char] +=1
+    return dup
 
+arr = [1, 2, 3, 4, 4, 5]
+res = checkForDuplicateInArray(arr)
 
-    # loop thru map
-    for key, value in map:
+print(res)

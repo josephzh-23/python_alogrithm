@@ -12,19 +12,31 @@ def topKFrequent(nums, k):
             freq[num] = 1
         else:
             freq[num] += 1
-
-    for key, val in freq.items():
+    '''
+    key here is the number, and value is the number of occurences 
+        python heqp will rearrange and make sure that 
+        the one with the least occurence be at the top 
+    '''
+    for number, occurence in freq.items():
         if len(ans) < k:
-            h.heappush(ans, [val, key])
-        else:
-            h.heappushpop(ans, [val, key])
+            # print(occurence)
+            h.heappush(ans, [occurence, number])
 
-    # this only returns the key
+
+        else:
+            # print(occurence, number)
+            # this not only adds but also removes
+            itemRemoved = h.heappushpop(ans, [occurence, number])
+            print("item removed is ", itemRemoved)
+    # this only returns the key for the key
+    # return [key for value, key in ans]
+
     return [key for value, key in ans]
 
 
 num = [1, 2, 3, 4, 4, 4, 5]
 res = topKFrequent(num, 1)
+print(res)
 # for key, val in res.items():
 #     print('answer is', val)
 
