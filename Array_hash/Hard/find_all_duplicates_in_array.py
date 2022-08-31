@@ -50,3 +50,4 @@ arr = [1, 2, 3, 4,5,7, 4, 4, 7]
 arr = findAllDuplicatesInArray(arr)
 for c in arr:
     print(c)
+
