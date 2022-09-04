@@ -1,4 +1,4 @@
-from Array_hash.findMode import List
+from String_Array.findMode import List
 
 
 def threeSum(self, nums: List[int]) -> List[List[int]]:

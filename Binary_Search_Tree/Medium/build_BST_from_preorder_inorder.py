@@ -1,6 +1,6 @@
 from typing import Optional
 
-from Array_hash.findMode import List
+from String_Array.findMode import List
 from Binary_Search_Tree.BSTNode import Node
 
 ''' 

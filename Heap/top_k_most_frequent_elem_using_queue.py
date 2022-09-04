@@ -4,6 +4,7 @@ import heapq
 h = heapq
 def topKFrequent(nums, k):
 
+    # we will be pushign into this ans = []
     ans = []
     freq = dict()
 

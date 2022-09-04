@@ -23,4 +23,6 @@ def longestSubstringWithNoRepeatingCharacters(input):
 
 arr = "abcdeeeef"
 res = longestSubstringWithNoRepeatingCharacters(arr)
-print(res)
+# print(res)
+
+print(ord("1")- ord("0"))

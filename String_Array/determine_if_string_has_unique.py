@@ -1,6 +1,7 @@
 # Python program to illustrate
 # string with unique characters
 # using data structure
+
 MAX_CHAR = 256;
 
 

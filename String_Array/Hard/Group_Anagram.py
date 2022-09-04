@@ -17,7 +17,7 @@ the better approach
 import collections
 from email.policy import default
 
-from Array_hash.findMode import List
+from String_Array.findMode import List
 
 
 def groupAnagrams(strs):
