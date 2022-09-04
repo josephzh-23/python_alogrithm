@@ -1,4 +1,4 @@
-from Array_hash.findMode import List
+from String_Array.findMode import List
 
 
 # using this approach took O (n)

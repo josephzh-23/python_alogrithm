@@ -3,13 +3,13 @@
 
 # Using the recursive solution is faster actually
 """
-   Input:  Array_hash {1, 2, 3}  the middle one will be at the top
+   Input:  String_Array {1, 2, 3}  the middle one will be at the top
 Output: A Balanced BST
      2
    /  \
   1    3
 
-Input: Array_hash {1, 2, 3, 4}
+Input: String_Array {1, 2, 3, 4}
 Output: A Balanced BST
       3
     /  \

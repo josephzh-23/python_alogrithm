@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linkedlist/insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/urlifyString.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/2_pointer/longest_repeating_character_replacement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_pointer/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/mostFrequent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/2d_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/2d_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/encode_and_decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/encode_and_decode_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/find_all_duplicates_in_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/find_all_duplicates_in_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_Consecutive_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/longest_Consecutive_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_palindrome_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_2_sorted_array_no_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_2_sorted_array_no_extra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_k_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_k_sorted_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/top_k_most_frequent_elem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/top_k_most_frequent_elem_using_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_using_one_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_using_one_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/containsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/containsDuplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique_no_addtional.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique_no_addtional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/findMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/findMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_first_non_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_first_non_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_longest_substring_with_k_distinct.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_longest_substring_with_k_distinct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_mode_personal.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_mode_personal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/generate_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/generate_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/maximum_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/maximum_subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/mostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Implement_atoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome_permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/product_array_except_self.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/product_array_except_self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/valid_sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/valid_sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/K_top_occuring_elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/String_Rotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/array_partition_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/array_partition_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/buy_and_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/buy_and_sell_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/delete_middle_in_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/delete_middle_in_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/reverseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/reverseString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/three_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/three_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/two_sum_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/two_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/validate_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/validate_palindrome.py" afterDir="false" />
+>>>>>>> 7d0c6f0970ac679b419c2f6598e8f143ca7bc1f0
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +85,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/heapq.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,8 +104,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.practice (1)">
     <configuration name="Group_Anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Heap" />
+      <recent name="$PROJECT_DIR$/sliding_window" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.practice (2)">
+    <configuration name="Implement_atoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 7d0c6f0970ac679b419c2f6598e8f143ca7bc1f0
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,74 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash/Hard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="longest_palindrome_substring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash/Hard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\josep\OneDrive\Desktop\Python_algorithm\Array_hash\Hard\longest_palindrome_substring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="longest_substring_without_repeating_char" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/Implement_atoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,11 +145,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sliding_window" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sliding_window/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_alogrithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_pointer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_pointer/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_alogrithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heap/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array_hash/Hard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array/Hard" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array_hash/Hard/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/Hard/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,87 +221,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="python_alogrithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.practice (1)" />
         <item itemvalue="Python.longest_substring_without_repeating_char" />
         <item itemvalue="Python.longest_palindrome_substring" />
         <item itemvalue="Python.Group_Anagram" />
+=======
+        <item itemvalue="Python.practice (2)" />
+        <item itemvalue="Python.practice (1)" />
+        <item itemvalue="Python.practice (3)" />
+        <item itemvalue="Python.Implement_atoi" />
+>>>>>>> 7d0c6f0970ac679b419c2f6598e8f143ca7bc1f0
         <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
@@ -254,7 +241,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bcde13ab-1491-4f32-9aa4-9bd312e61b86" name="Changes" comment="" />
+      <changelist id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="" />
       <created>1661792720770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

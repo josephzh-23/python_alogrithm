@@ -3,16 +3,26 @@ import heapq
 h = heapq
 
 
-def topKOccuringElem(arr):
 
-    res = []
-    dict = {}
+'''
 
+1, 2, 3, 4, 
+1 will be at the front 
+
+'''
+def findKthSmallest(arr, k):
+
+    ans = []
+    i = 0
     for num in arr:
-
-        if num not in dict:
-
-            # {num, freq}
-            dict[num] = 1
+        if len(ans) > k:
+            h.heappush(ans, num)
         else:
-            dict[num] +=1
+            val = h.heappop(ans)
+            print(val)
+
+    return h.heappop(ans)
+
+arr = [1, 2, 3, 4, 5]
+print(findKthLargest(arr, 2))
+
