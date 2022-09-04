@@ -1,4 +1,3 @@
-
 def replaceSpaces(str):
 
     n = len(str)
@@ -40,7 +39,6 @@ if __name__ == '__main__':
     s = "Mr John Smith "
     s = replaceSpaces(s)
     print(s)
-
 
 
 

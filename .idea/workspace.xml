@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_alogrithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_alogrithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedlist/insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/urlifyString.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.longest_substring_without_repeating_char">
+  <component name="RunManager" selected="Python.practice (1)">
     <configuration name="Group_Anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,8 +243,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.longest_substring_without_repeating_char" />
         <item itemvalue="Python.practice (1)" />
+        <item itemvalue="Python.longest_substring_without_repeating_char" />
         <item itemvalue="Python.longest_palindrome_substring" />
         <item itemvalue="Python.Group_Anagram" />
         <item itemvalue="Python.practice" />
