@@ -52,3 +52,4 @@ def longestSubstringWithNoRepeatingCharacters(arr):
 
 longestStrignNum = longestSubstringWithNoRepeatingCharacters("abcabcbb")
 print(longestStrignNum)
+
