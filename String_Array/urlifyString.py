@@ -1,4 +1,3 @@
-
 def replaceSpaces(str):
 
     n = len(str)
@@ -43,12 +42,3 @@ if __name__ == '__main__':
 
 
 
-
-<<<<<<< HEAD:Array_hash/practice.py
-=======
-arr = "abcdeeeef"
-res = longestSubstringWithNoRepeatingCharacters(arr)
-# print(res)
-
-print(ord("1")- ord("0"))
->>>>>>> 7d0c6f0970ac679b419c2f6598e8f143ca7bc1f0:String_Array/practice.py

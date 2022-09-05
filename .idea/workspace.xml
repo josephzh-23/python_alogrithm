@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/2_pointer/longest_repeating_character_replacement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_pointer/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/mostFrequent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/2d_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/2d_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/encode_and_decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/encode_and_decode_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/find_all_duplicates_in_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/find_all_duplicates_in_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_Consecutive_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/longest_Consecutive_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_palindrome_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_2_sorted_array_no_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_2_sorted_array_no_extra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_k_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_k_sorted_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/top_k_most_frequent_elem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/top_k_most_frequent_elem_using_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/trapWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_using_one_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_using_one_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/containsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/containsDuplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique_no_addtional.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique_no_addtional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/findMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/findMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_first_non_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_first_non_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_longest_substring_with_k_distinct.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_longest_substring_with_k_distinct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/find_mode_personal.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_mode_personal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/generate_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/generate_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/maximum_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/maximum_subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/mostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Implement_atoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome_permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/product_array_except_self.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/product_array_except_self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_hash/valid_sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/valid_sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/K_top_occuring_elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedlist/insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/urlifyString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/String_Rotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/array_partition_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/array_partition_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/buy_and_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/buy_and_sell_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/delete_middle_in_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/delete_middle_in_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/reverseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/reverseString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/three_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/three_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/two_sum_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/two_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointer_technique/validate_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/validate_palindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,15 +213,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.practice (2)" />
-        <item itemvalue="Python.practice (1)" />
-        <item itemvalue="Python.practice (3)" />
-        <item itemvalue="Python.Implement_atoi" />
-        <item itemvalue="Python.practice" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
