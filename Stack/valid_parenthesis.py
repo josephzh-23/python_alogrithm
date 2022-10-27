@@ -13,17 +13,16 @@ def isValidParenthesis(s: str) -> bool:
     # check if c is in the key
     for c in s:
 
-        # When we get closing paren, we pop
-        # what's already in theres
+        # When we get closing paren, it's also in the map
         if c in map:
-            # if we get open
+            # this checks for for the matching bracket at the end
             if stack and stack[-1] == map[c]:
-                # print(stack[-1])
+                print(c)
                 stack.pop()
 
         # when we get an open bracket
         else:
-            print(c)
+            # print(c)
             stack.append(c)
 
     # only return true if stack empty

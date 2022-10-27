@@ -47,7 +47,7 @@ class Graph:
     def addEdge(self, u, v, w):
         self.graph.append([u, v, w])
 
-    # A utility function to find absolute parent of a node
+    # A utility function to find absolute parent, basically the root of a node
     # (uses path compression technique)
     def find(self, parent, i):
 
@@ -112,8 +112,7 @@ class Graph:
             x = self.find(parent, u)
             y = self.find(parent, v)
 
-            # If including this edge doesn't
-            #  cause cycle, include it in result
+            # x != y means they are not connected, and there is no cycle
             #  and increment the indexof result
             # for next edge
 

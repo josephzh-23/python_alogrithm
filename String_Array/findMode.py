@@ -10,5 +10,5 @@ def findMode(List):
     return (itm)
 
 
-List = [2, 1, 2, 2, 1, 3]
-print(findMode(List))
+cist = [2, 1, 2, 2, 1, 3]
+print(findMode(cist))

@@ -1,11 +1,18 @@
 from String_Array.findMode import List
 
 
+
+
+
+
 def threeSum(self, nums: List[int]) -> List[List[int]]:
     res = []
     nums.sort()
 
+    # for iterarigng the index and value
     for i, a in enumerate(nums):
+
+        # that means this is the same value as before [-3 -3,
         if i > 0 and a == nums[i - 1]:
             continue
 

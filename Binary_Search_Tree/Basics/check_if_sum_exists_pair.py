@@ -15,7 +15,7 @@ to check if this value exists in the set or not
 
 # There are 2 solutions to this
 from Binary_Search_Tree.BSTNode import Node, insert
-from Binary_Search_Tree.depth_first_search import inOrderRec
+from Binary_Search_Tree.dfS import inOrderRec
 
 """
 1.  the first one using set here

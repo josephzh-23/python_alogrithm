@@ -1,54 +1,19 @@
-
-def replaceSpaces(str):
-
-    n = len(str)
-    string = str.strip()
-
-    # find # of spaces here?
-    spaceCount = str.count(' ')
-
-    # find new length
-    newLength = n + spaceCount *2
-
-    # this will be the index to fill from
-    index = newLength -1
-
-    string = list(string)
-    # Fill string array with sth so not empty so fill it with dummy 0
-    for f in range(n - 2, newLength - 2):
-        string.append('0')
-        print(string)
-
-        # Fill rest of the string from end
-    for j in range(n - 1, 0, -1):
-
-        # inserts %20 in place of space
-        if string[j] == ' ':
-            string[index] = '0'
-            string[index - 1] = '2'
-            string[index - 2] = '%'
-            index = index - 3
-        else:
-            string[index] = string[j]
-            index -= 1
-
-    return ''.join(string)
+from typing import List
 
 
-# Driver Code
-if __name__ == '__main__':
-    s = "Mr John Smith "
-    s = replaceSpaces(s)
-    print(s)
+class Solution:
+    def countConnectedComp(s, n, edges:List[List[int]])->int:
 
+        # at the begining, each node is a parent of itself
+        par = [i for i in range(n)]
+        rank = [1] *n
 
+        def find(n1):
 
-
-<<<<<<< HEAD:Array_hash/practice.py
-=======
-arr = "abcdeeeef"
-res = longestSubstringWithNoRepeatingCharacters(arr)
-# print(res)
-
-print(ord("1")- ord("0"))
->>>>>>> 7d0c6f0970ac679b419c2f6598e8f143ca7bc1f0:String_Array/practice.py
+            res = n1
+            # not the parent of itself
+            while res != par[n1]:
+                # not connected
+                par[res] = par[par[res]]
+                res = par[res]
+            return res

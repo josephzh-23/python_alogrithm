@@ -2,7 +2,7 @@
 # Modifications needed for the older Python 2 are found in comments.
 
 # Returns index of x in arr if present, else -1
-def binarySearchRecursive(arr, low, high, x):
+def binarySearchRec(arr, low, high, x):
 
 
     if low <= high:
@@ -13,10 +13,10 @@ def binarySearchRecursive(arr, low, high, x):
             return mid
 
         elif arr[mid] > x:
-            return binarySearchRecursive(arr, low, mid - 1, x)
+            return binarySearchRec(arr, low, mid - 1, x)
 
         else:
-            return binarySearchRecursive(arr, mid + 1, high, x)
+            return binarySearchRec(arr, mid + 1, high, x)
 
     else:
         return -1
@@ -27,7 +27,7 @@ arr = [2, 3, 4, 10, 40]
 x = 10
 
 # Function call
-result = binarySearchRecursive(arr, 0, len(arr) - 1, x)
+result = binarySearchRec(arr, 0, len(arr) - 1, x)
 
 if result != -1:
     print("Element is present at index", str(result))

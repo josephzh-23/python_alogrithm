@@ -7,7 +7,7 @@ Given an integer array nums of 2n integers, group these integers into n pairs
   for all i is maximized. Return the maximized sum.
 '''
 # This problem is called String_Array Partition 1
-def arrayPairSum( nums):
+def arrayPairSum(nums):
 
     nums.sort()
     i=0

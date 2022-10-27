@@ -1,7 +1,22 @@
-
+'''
+TC: O(n)    -> only loop thru once
+'''
 
 '''
 Video by Michael Muniko's
+
+
+[-3 -2 -1]
+ a   b  c
+    will shift this once 
+    2 pointers, i and j, only move j forward when dup is found 
+	Use a set, as you do the for loop, 	add to the dict set, increment I 
+
+        while c in dict:
+            dict.remove(c)
+            j+=1
+    Update the max with this, 
+
 
 Look at this example
 
@@ -42,6 +57,8 @@ def longestSubstringWithNoRepeatingCharacters(arr):
 
     while i< len(arr):
         c = arr[i]
+
+        # when a duplicate is found
         while c in dict:
             dict.remove(c)
             j+=1
@@ -52,4 +69,6 @@ def longestSubstringWithNoRepeatingCharacters(arr):
 
 longestStrignNum = longestSubstringWithNoRepeatingCharacters("abcabcbb")
 print(longestStrignNum)
+
+# this is what's returned at the end though as said
 

@@ -26,3 +26,25 @@ def findKthSmallest(arr, k):
 arr = [1, 2, 3, 4, 5]
 print(findKthLargest(arr, 2))
 
+
+# will come back to this
+
+
+def topKMostFreq(nums, n, k):
+    ans = []
+    freq = dict()
+
+    for num in nums:
+        if num not in freq:
+            freq[num] = 1
+        else:
+            freq[num] += 1
+
+
+
+    for num, occurence in dict.items():
+        if len(ans) < k:
+            h.heappush(ans, [num, occurence])
+
+        else:
+            h.heappop(ans)

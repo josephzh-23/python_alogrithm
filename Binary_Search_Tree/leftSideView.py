@@ -16,6 +16,7 @@ def printLeftSide(root):
         sizeOfCurLevel = len(q)
         i=0
         print(' number of current level', sizeOfCurLevel)
+
         for i in range(sizeOfCurLevel):
 
             # we want to look at the last thing on the current level

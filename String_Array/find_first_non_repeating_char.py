@@ -4,7 +4,11 @@
 import sys
 
 
-# What's the time complexity of this?
+'''
+    May seem easy but kind of hard
+'''
+# Why do we need -1? Because there could be a case
+# where all characters are unique
 def findFirstNonRepeatingChar(str):
 
     map = {}
@@ -14,7 +18,9 @@ def findFirstNonRepeatingChar(str):
         # a => 1
         # b => 2
         if char not in map:
+
             map[char] = i
+
         # duplicate already found
         else:
             map[char] = -1
@@ -24,10 +30,10 @@ def findFirstNonRepeatingChar(str):
     # for
     for key in map.keys():
         print(key)
-        # meaning it's not a duplicate
+        # meaning it's unique (not -1)
         if -1 < map[key] < min:
 
-            # store the index of the array passed
+            # store the index of the value passed
             min = map[key]
 
     if min == sys.maxsize:

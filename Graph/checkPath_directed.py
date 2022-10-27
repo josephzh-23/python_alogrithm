@@ -23,6 +23,8 @@ class Graph:
 
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
+
+        # this is the same as the adjList that we mentioned before
         self.graph = defaultdict(list)  # default dictionary to store graph
 
     def addEdge(self, u, v):
@@ -30,6 +32,7 @@ class Graph:
 
     # Use BFS to check path between s and d
     def isReachable(self, start, dest):
+
         # Mark all the vertices as not visited
         visited = [False] * (self.V)
 

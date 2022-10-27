@@ -1,5 +1,8 @@
 
 
+
+
+
 # Visit all A's neighbor,
 # then B's neighbor, and then C's neighbor and so on level by level
 
@@ -19,9 +22,9 @@ queue = []     #Initialize a queue
 
 
 # TC: O (V + E):
-def bfs(visited, graph, node):
-  visited.append(node)
-  queue.append(node)
+def bfs(visited, graph, startingNode):
+  visited.append(startingNode)
+  queue.append(startingNode)
 
   while queue:
     s = queue.pop(0)

@@ -2,74 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_pointer/longest_repeating_character_replacement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_pointer/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Array/mostFrequent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_Array/trapWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Optimizing_box_weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/count_group_better.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/inputDictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/item_with_container.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/minSwap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/min_swap2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/mostFrequent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/movie_duration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/remove_duplicate_no_extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/sort_junction_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/assign_list_to_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/continue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/dict_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/enumerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/matrix_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/matrix_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/ordinance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/priorityQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/banana_Eating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/getHeightRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/cloneGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/courseSchedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/courseSchedule2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/dijkstra_better.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/find_min_span_tree_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/kruskal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/max_area_of_island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/number_connected_components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/remove_obstacle_k_stops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/reusable/DFS_recurs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/reusable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/reusable/bfs_Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/reusable/dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/top_6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/top_6/cheapest_flight_with_kstops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/top_6/network_delay_time_better.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/top_6/number_of_islands_dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/topologicalSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/union_find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/generateParenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram_normal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/Hard/group_anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/top_6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/top_6/check_anagram_using_one_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Array/top_6/reorder_data_logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_pointer/array_partition_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/array_partition_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/2d_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/2d_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/Group_Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/encode_and_decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/encode_and_decode_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/find_all_duplicates_in_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/find_all_duplicates_in_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_Consecutive_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/longest_Consecutive_sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/longest_palindrome_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_palindrome_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_2_sorted_array_no_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_2_sorted_array_no_extra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/merge_k_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/merge_k_sorted_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/top_k_most_frequent_elem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/top_k_most_frequent_elem_using_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/top_k_most_frequent_elem_using_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/Hard/trapWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/trapWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/check_anagram_using_one_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/check_anagram_using_one_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/containsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/containsDuplicate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/determine_if_string_has_unique_no_addtional.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique_no_addtional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/findMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/findMode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/find_first_non_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_first_non_repeating_char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/find_longest_substring_with_k_distinct.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_longest_substring_with_k_distinct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/find_mode_personal.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_mode_personal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/generate_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/generate_parenthesis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/longest_substring_without_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/longest_substring_without_repeating_char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/maximum_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/maximum_subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/mostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Implement_atoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/palindrome_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/palindrome_permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/product_array_except_self.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/product_array_except_self.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_hash/valid_sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/valid_sudoku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_pointer/three_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/three_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_pointer/validate_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/validate_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/2d_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/BinarySearchRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/BinarySearchRec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/search_in_2d_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/search_2d_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/search_rotated_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/search_rotated_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/build_BSTree_from_preOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/build_BSTree_from_preOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_sum_exists_pair.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_sum_exists_pair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/getHeight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/get_height_iter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/invert_tree_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/invert_tree_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/K_top_occuring_elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/check_if_two_tree_same_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/check_if_two_tree_same_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/breadth_first_search_iter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/BFS_iter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/breath_first_search_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/BFS_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/depth_first_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/dfS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/leftSideView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/leftSideView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/BFS_recurs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/BFS_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/DFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/DFS_recurs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/checkPath_directed.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/checkPath_directed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/connected_components.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/detect_cycle_directed_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/distjoint_set_find_union.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/find_largetst_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/find_min_span_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/find_min_span_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heap/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedlist/insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array_hash/urlifyString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/String_Rotation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/practice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/array_partition_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/array_partition_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/buy_and_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/buy_and_sell_stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/delete_middle_in_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/delete_middle_in_linkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/practice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/reverseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/reverseString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/three_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/three_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/two_sum_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/two_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointer_technique/validate_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/validate_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/valid_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/valid_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/Group_Anagram_advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/Hard/longest_Consecutive_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/Hard/longest_Consecutive_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/check_anagram_using_one_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/top_6/determine_if_string_has_unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/determine_if_string_has_unique_no_addtional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/findMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/findMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/find_first_non_repeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/find_first_non_repeating_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/generate_parenthesis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/mostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Grid_track.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_10_coding_questions/generateParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_Array/generateParenthesis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,16 +151,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.20030464" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Heap" />
-      <recent name="$PROJECT_DIR$/sliding_window" />
+      <recent name="$PROJECT_DIR$/String_Array/top_6" />
+      <recent name="$PROJECT_DIR$/Graph/top_6" />
+      <recent name="$PROJECT_DIR$/Graph/reusable" />
+      <recent name="$PROJECT_DIR$/Amazon" />
+      <recent name="$PROJECT_DIR$/Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice (2)">
-    <configuration name="Implement_atoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.reorder_data_logs">
+    <configuration name="determine_if_string_has_unique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array/top_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/Implement_atoi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/top_6/determine_if_string_has_unique.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="max_area_of_island" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sliding_window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sliding_window/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/max_area_of_island.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reorder_data_logs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +214,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_pointer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Amazon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_pointer/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/top_6/reorder_data_logs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sort_junction_box" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Amazon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heap/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Amazon/sort_junction_box.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="split" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +256,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array/Hard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/Hard/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics/split.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,6 +269,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.reorder_data_logs" />
+        <item itemvalue="Python.determine_if_string_has_unique" />
+        <item itemvalue="Python.sort_junction_box" />
+        <item itemvalue="Python.split" />
+        <item itemvalue="Python.max_area_of_island" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -235,5 +300,161 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Binary_Search/search_rotated_array.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Binary_Search/search_rotated_array.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String_Array/Hard/Group_Anagram_normal.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String_Array/Hard/Group_Anagram_normal.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String_Array/Hard/Group_Anagram_normal.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/min_swap2.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/min_swap2.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/find_min_span_tree_list.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/find_min_span_tree_list.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/cheapest_flight_with_kstops.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/inputDictionary.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/inputDictionary.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/inputDictionary.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/reusable/bfs_Matrix.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graph/top_6/shortest_path_to_get_food.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String_Array/top_6/reorder_data_logs.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String_Array/top_6/reorder_data_logs.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="grid[row][col]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

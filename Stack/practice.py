@@ -1,13 +1,16 @@
 from collections import deque
-
-from Binary_Search_Tree.BSTNode import insert, Node
-from Binary_Search_Tree.breath_first_search_rec import printLevelOrderIter
+from typing import List
 
 
-class MyStack:
+def searchMatrix( matrix: List[List[int]], tar: int) -> bool:
+    ROWS, COLS = len(matrix), len(matrix[0])
 
-    def __init__(s):
-        s.q = deque()
+    # row and the matrix
 
-    def push(s, x):
-        s.q.append(x)
+    top, bot = 0, ROWS-1
+
+    while top <= bot:
+        mid = (top +bot)//2
+
+        if tar > matrix[mid][-1]:
+            top = mid +1

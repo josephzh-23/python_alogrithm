@@ -1,5 +1,5 @@
 from Binary_Search_Tree.BSTNode import Node
-from Binary_Search_Tree.depth_first_search import inOrderRec, preOrderRec, postOrderRec
+from Binary_Search_Tree.dfS import inOrderRec, preOrderRec, postOrderRec
 
 root = Node(1)
 root.left = Node(2)

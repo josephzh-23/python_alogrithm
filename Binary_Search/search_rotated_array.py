@@ -1,43 +1,55 @@
-
-
-# if we know target > mid
-# do we go left or go right?
-'''
- 4  5   6   7   0   1   2
- L          mid            R
-    if target =5, 5 < 7, and it's > 4, then search on left of mid
-otherwise search on right of mid. This seems like the normal flow of things
-
-'''
 from typing import List
 
+'''
+We will use the solution from tech dose
+There r 2 cases, stricly increasing and strictly decreaseing
 
-class Solution:
-    def search(self, nums: List[int], target: int) -> int:
-        l, r = 0, len(nums) - 1
+   Steps
+   3 cases: 
+        
+       1. Compare the target with last value on that row    matrix[row][-1]
+       2. Compare first value on row        matrix[row][0]
+       
+       Then inside that row 
+       3. 
 
-        while l <= r:
-            mid = (l + r) // 2
-            if target == nums[mid]:
-                return mid
 
-            # Focus on left sorted portion
-            if nums[l] <= nums[mid]:
+'''
+def searchRotated(nums, tar):
+    n = len(nums)
+    l, r = 0, n-1
+    mid = 0
 
-                # 4  5   6   7   0   1   2
-                # search in right portion
-                if target > nums[mid] or target < nums[l]:
-                    l = mid + 1
-                # search in left portion
-                else:
-                    r = mid - 1
+    # as with most left and right pointers
+    while l <r:
+        mid = (l+r)//2
+        if nums[mid] == tar:
+            return mid
 
-            # right sorted portion
+        # increaseing trends on the left  3 4 5 1  2
+        #                                   l m    r
+        elif nums[mid] > nums[l]:
+
+            #this means on the left
+            if nums[l]< tar< nums[mid]:
+                r = mid-1
             else:
-                # then search on the left
-                if target < nums[mid] or target > nums[r]:
-                    r = mid - 1
-                # then search on the right
-                else:
-                    l = mid + 1
-        return -1
+                l = mid + 1
+                # the other case where the left side is not uniformly increaing
+                '''
+                  4  5   6  7  8  0   1  2
+                               l  m      r
+                '''
+        else:
+            if nums[mid] < tar < nums[r]:
+                l = mid +1
+            else:
+                r = mid -1
+
+    return -1
+
+nums = [3 ,4, 5, 0, 1, 2]
+print(searchRotated(nums, 4))
+
+
+
