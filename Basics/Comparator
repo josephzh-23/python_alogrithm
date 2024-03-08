@@ -1,0 +1,14 @@
+package Util
+
+/*
+"b".compareTo("a")     // returns 1 in code
+"a".compareTo("b")     returns -1
+"a".compareTo("a")      returns 0
+
+Comparator:
+(a, b) =>{
+return 1       if b should be before a  -> means reverting order here
+return -1       if a should be before b ->
+return 0        order stay same
+}
+ */

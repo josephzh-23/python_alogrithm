@@ -1,0 +1,43 @@
+from collections import defaultdict
+
+
+
+def majorityElement(nums):
+
+    count = defaultdict(int)
+    for num in nums:
+        count[num] +=1
+
+        if(len(count) <=2):
+            continue
+
+        #create a new dict
+        newCount = defaultdict(int)
+
+        '''
+        This make sure for the count we only keep 2 items in the map
+        at all times here
+        '''
+        for (num,c ) in count.items():
+
+            if c> 1:
+                newCount[num] = c-1
+        count = newCount
+
+    res = []
+    for (num, c) in count.items():
+        # rounds down the integer here
+        if c > len(nums) // 3:
+            res.append(num)
+    return res
+
+
+nums = [3,2, 3]
+ans = majorityElement(nums)
+print(ans)
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+package Array.Basic
+
+/*
+Use 2 pointers move through at different speed, find a loop in a linkedlist here, u
+1 moving faster than the ohter one
+
+The Fast pointer may reach the end (NULL) this shows that
+there is no loop in the linked list.
+The Fast pointer again catches the slow pointer
+at some time therefore a loop exists in the linked list.
+ */
+
+
+# This is the python code here
+
+def cycle(list):
+    slow = list.head
+    fast = list.head
+    met = False
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+
+        if slow == fast:
+            met = True
+            break
+
+        if not met:
+            return None
+        else:
+            slow = list.head
+            while slow!= fast:
+                fast = slow.next
+                fast = fast.next
+        return slow
+
+
+
+
+
+
+
