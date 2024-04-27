@@ -24,7 +24,7 @@ def checkCycle(numCourse: int, preReq: List[List[int]]):
             if neigh in onPath or dfsCycle(neigh, onPath, visited):
                 return True
 
-        onPath.remove(node)
+        onPath.pop(node)
         print(onPath)
         return False
     print(numCourse)

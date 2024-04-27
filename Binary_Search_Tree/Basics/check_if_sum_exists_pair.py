@@ -14,7 +14,7 @@ to check if this value exists in the set or not
 # Check if sum exists
 
 # There are 2 solutions to this
-from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.BSTNode import TreeNode, insert
 from Binary_Search_Tree.dfS import inOrderRec
 
 """
@@ -74,7 +74,7 @@ def checkIfPairExistsUtil(sum, list):
         # if not found
     return False
 
-node = Node(4)
+node = TreeNode(4)
 insert(node,5 )
 insert(node, 6)
 insert(node, 7)

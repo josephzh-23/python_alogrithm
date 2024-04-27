@@ -5,7 +5,7 @@ Check if 2 trees are the same
 
 Can use BFS to traverse both trees
 '''
-from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.BSTNode import TreeNode, insert
 
 
 def checkIfTwoTreesSame(t1, t2):
@@ -47,11 +47,11 @@ def checkIfTwoTreesSame(t1, t2):
 
     return True
 
-t1 = Node(4)
+t1 = TreeNode(4)
 insert(t1,5 )
 insert(t1, 6)
 
-t2 = Node(4)
+t2 = TreeNode(4)
 insert(t2,5 )
 insert(t2, 6)
 

@@ -13,7 +13,7 @@ This will run in O(n) for TC
 """
 
 # function to find height of binary tree
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 def height(root):
@@ -57,13 +57,13 @@ Constructed binary tree is
 """
 # to store the height of tree during traversal
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
-root.right.left = Node(6)
-root.left.left.left = Node(7)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+root.right.left = TreeNode(6)
+root.left.left.left = TreeNode(7)
 
 if isBalanced(root):
     print('Tree is balanced')

@@ -11,8 +11,8 @@
 #
 
 # this is how to implement a bstNode
-class Node:
-    def __init__(s, val= None):
+class TreeNode:
+    def __init__(s, val= None, left = None, right = None):
         s.left = None
         s.right = None
         s.val = val
@@ -23,7 +23,7 @@ def insertRec(r, key):
 
 
     if r is None:
-        return Node(key)
+        return TreeNode(key)
     else:
         if r.val < key:
             r.right = insert(r.right, key)
@@ -31,12 +31,11 @@ def insertRec(r, key):
             r.left = insert(r.left, key)
     return r
 
-
 # iterative approach, need 2 pters:
 # parent and cur
 def insert(root, val=None):
     if not root:
-        return Node(val)
+        return TreeNode(val)
 
     #traverse thru the current value
     cur = root
@@ -61,9 +60,9 @@ def insert(root, val=None):
 
     # construct a node and assign it to the appropriate parent pointer
     if val < parent.val:
-        parent.left = Node(val)
+        parent.left = TreeNode(val)
     else:
-        parent.right = Node(val)
+        parent.right = TreeNode(val)
 
     return root
 
@@ -143,7 +142,7 @@ def findMin(node):
 # Given a binary search tree and a key, this function
 # delete the key and returns the new root
 
-def deleteNode(root, key) -> Node:
+def deleteNode(root, key) -> TreeNode:
     # Base Case
     if root is None:
         return root
@@ -193,7 +192,7 @@ def deleteNode(root, key) -> Node:
 
     return root
 
-node = Node(50)
+node = TreeNode(50)
 node = insert(node, 30)
 # print("the value found", search(node,30).val)
 

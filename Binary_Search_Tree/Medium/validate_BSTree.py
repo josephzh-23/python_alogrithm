@@ -1,6 +1,6 @@
 import math
 
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 
@@ -49,7 +49,7 @@ def validate(node, left, right):
 #  GeeksForGeeks solution
 # Function to check if a binary tree
 # this is using in order traversal basically
-def checkTreeIsBST(root: Node) -> bool:
+def checkTreeIsBST(root: TreeNode) -> bool:
 
     Stack = []
 
@@ -79,11 +79,11 @@ def checkTreeIsBST(root: Node) -> bool:
 
 
 # This approach is good
-root = Node(4)
-root.left = Node(3)
-root.right = Node(6)
-root.right.left = Node(5)
-root.right.right = Node(7)
+root = TreeNode(4)
+root.left = TreeNode(3)
+root.right = TreeNode(6)
+root.right.left = TreeNode(5)
+root.right.right = TreeNode(7)
 # print(isValidBSTIter(root))
 
 

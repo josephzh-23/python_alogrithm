@@ -38,7 +38,7 @@ class Manager(Employee):
 
     def remove_emp(self, emp):
         if emp in self.employees:
-            self.employees.remove(emp)
+            self.employees.pop(emp)
 
     def print_emps(self):
         for emp in self.employees:

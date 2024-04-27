@@ -1,22 +1,37 @@
+'''
+
+Basically in this specific example, we need to see that the smallest kth element
+is basically k -1 since it's already a binary search tree up here
+'''
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
-def findKthSmallestInTree(r, k):
+def findKthSmallestElement(root, k):
+    # the other clean way to do this here
+    # is through the above way where we have
 
-    stack = []
-    cur = r
+    array = []
+    def inOrder(node):
+        if not node:
+            return
 
-    # need to get all the left children first
-    while cur or stack:
-        while cur:
+        inOrder(node.left)
+        array.append(node.val)
+        inOrder(node.right)
+    inOrder(root)
 
-            stack.append(cur)
-            cur = cur.left
+    return array[k -1 ] #as said previously here
 
-        cur = stack.pop()
+    # and those are really good indicators here
 
-        # because we are starting from the bottom this is why
-        # like working above
-        k-= 1
-        if k==0:
-            return cur.val
-        cur = cur.right
+s = TreeNode(3)
+s.left = TreeNode(1)
+s.right = TreeNode(4)
+s.left.right = TreeNode(2)
+print(findKthSmallestElement(s, 1))
+
+
+
+
+
+

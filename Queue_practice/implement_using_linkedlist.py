@@ -1,4 +1,4 @@
-from Binary_Tree.binaryTree import Node
+from Binary_Search_Tree.binaryTree import Node
 
 
 class Queue:

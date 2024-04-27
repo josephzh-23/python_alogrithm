@@ -1,6 +1,6 @@
 
 # This is the leet code accepted answer
-# Reverse a singly linkedlist, need 3 pters
+# Reverse a singly linkedlist, need 3 pointer here
 def reverseSinglyLinkedList(head):
 
     if not head:

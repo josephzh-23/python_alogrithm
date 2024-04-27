@@ -1,4 +1,4 @@
-from Binary_Search_Tree.BSTNode import Node, search, findMin, insert
+from Binary_Search_Tree.BSTNode import TreeNode, search, findMin, insert
 
 '''
 What's in order successor again?
@@ -33,7 +33,7 @@ def findInOrderSuccessor(r, n):
 
     # Case 2
     # Root has no right children
-    succ = Node(None)
+    succ = TreeNode(None)
 
     while (r):
 

@@ -16,23 +16,22 @@ from String_Array.findMode import List
     O (n)
     O (n) for both TC and SC 
 '''
+# level order traversal as said pretty simple here
+def levelOrder(self, root) -> List[List[int]]:
+    res = []
+    q = []
+    if root:
+        q.append(root)
 
-class Solution:
-    def levelOrder(self, root) -> List[List[int]]:
-        res = []
-        q = []
-        if root:
-            q.append(root)
+    while q:
+        nodesPerLevel = []
 
-        while q:
-            nodesPerLevel = []
-
-            for i in range(len(q)):
-                node = q.popleft()
-                nodesPerLevel.append(node.val)
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
-            res.append(nodesPerLevel)
-        return res
+        for i in range(len(q)):
+            node = q.popleft()
+            nodesPerLevel.append(node.val)
+            if node.left:
+                q.append(node.left)
+            if node.right:
+                q.append(node.right)
+        res.append(nodesPerLevel)
+    return res

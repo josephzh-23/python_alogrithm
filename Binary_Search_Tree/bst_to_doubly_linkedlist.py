@@ -14,7 +14,7 @@ A visualization
 '''
 
 # much more scalable solution
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 prev= head = None
 

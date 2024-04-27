@@ -22,7 +22,7 @@ Consider followign:
 # The function Compute the "height" of a tree. Height is the
 # number of nodes along the longest path from the root node
 # down to the farthest leaf node.
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 def height(node):
@@ -98,11 +98,11 @@ def diameter(root):
 
 # Driver code
 if __name__ == '__main__':
-    root = Node(1)
-    root.left = Node(2)
-    root.right = Node(3)
-    root.left.left = Node(4)
-    root.left.right = Node(5)
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
 
     print("Diameter is", diameter(root))
 

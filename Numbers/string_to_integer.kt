@@ -27,5 +27,8 @@ fun calculate(s: String):Int{
             answer = 10 * answer + (ch.code - '0'.code)
         }
     }
+
+    # and then using this we can have a much better chance of doing this problem here
+    # and then we can have some more stuff here
     return answer
 }

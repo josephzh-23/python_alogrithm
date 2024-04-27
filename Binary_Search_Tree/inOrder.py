@@ -1,5 +1,5 @@
 #left, root and then right
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 
@@ -39,11 +39,11 @@ def inOrderIter(root):
 
 
 # Driver program to test above function
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
 # PreorderIter(root)
 
 # inOrderIter(root)

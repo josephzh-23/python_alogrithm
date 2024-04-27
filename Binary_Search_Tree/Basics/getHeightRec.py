@@ -1,6 +1,6 @@
 from collections import deque
 
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 from Binary_Search_Tree.BSTree import BSTree
 
 """
@@ -30,9 +30,9 @@ def getHeightRec(root):
 # other approach here And therefore not always better asdf
 # and therefore not always
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
 print ("Height of tree is", getHeightRec(root))

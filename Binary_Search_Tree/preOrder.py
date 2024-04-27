@@ -2,11 +2,9 @@
 
 # preOrder
 #  Preorder (Root, Left, Right) : 1 2 4 5 3
-from Binary_Search_Tree.BSTNode import Node
-
+from Binary_Search_Tree.BSTNode import TreeNode
 
 def preOrderRec(r):
-
     if r:
         print(r.val)
         preOrderRec(r.left)
@@ -43,9 +41,9 @@ def PreorderIter(root):
 
 
 # Driver program to test above function
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
 # PreorderIter(root)

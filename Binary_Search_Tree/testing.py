@@ -1,12 +1,12 @@
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 from Binary_Search_Tree.dfS import inOrderRec, preOrderRec, postOrderRec
 
-root = Node(1)
-root.left = Node(2)
-root.right= Node(3)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right= TreeNode(3)
 
-root.left.left = Node(4)
-root.left.right = Node(5)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
 
 inOrderRec(root)
 

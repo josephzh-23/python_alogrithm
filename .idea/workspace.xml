@@ -5,942 +5,257 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/Basic/duplicate_zero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Basic/floyd_detection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Basic/remove_duplicates_from_sorted_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Basic/remove_duplicates_from_sorted_array_ii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Basic/remove_element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Basic/stack_increase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Contiguous_array/contiguous_array_of_zero_one.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Contiguous_array/min_number_operations_to_make_array_continuous.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Hard/largerst_rectangle_histogram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Hard/largest_rectangle_histogram_stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Intersection_of_two_arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Interval/interval_list_intersection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Interval/meeting_planner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Min_max/max_number_of_events_attended.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Min_max/min_round_complete_rounds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Pair/find_pair_with_sum_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Product/Solution18.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Product/contiguous_subarray_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Two_array/Intersection_of_two_arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Two_array/gas_station.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Two_array/intersection_of_two_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Two_array/intersection_of_two_array_ii_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Two_array/intersection_of_two_array_ii_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/containsDuplicate_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/continguous_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/decode_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/distinct_elements_per_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/find_most_freq_in_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/find_most_freq_in_array_sort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/k_closest_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/largest_triple_product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/majority_element_ii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/maximum_product_of_three_numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/min_stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/minimum_size_subarray_sum_sliding.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/next_permutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/pair_sums.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/random.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/random_pick_with_weight.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/rotateArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/rotateArray_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/rotateImage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/search_in_rotated_aray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/sellBuyStock_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/sellBuyStock_bforce.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/contiguous_subarray_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/maximum_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/min_size_subarray_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/subarray_average_greater_then_other.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/subarray_sum_divisible_by_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/subarray_sum_equals_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/subarray/ways_to_split_array_into_three_subarrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/time_needed_to_inform_all_employees.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/trapping_rain_water.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_dimension/minimum_path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_dimension/rotate_image.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/container_most_water_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/container_most_water_good.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/container_with_most_water.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/first_occurence_of_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/interval_list_intersection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/is_subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/reverse_words_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/reverse_words_in_string_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_pointer/trapping_rain_water.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/two_sum_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_manipulation/min_number_of_operations_to_reduce_x_to_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_manipulation/remove_duplicates_from_sorted_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_manipulation/remove_duplicates_from_sorted_array_ii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_manipulation/remove_element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/backtracking_formula.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/backtracking_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/binary_tree_path_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/check_if_string_sum_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/combinationSum_1_eric_programming.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/combinationSum_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/combination_sum_neetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/different_ways_to_add_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/generate_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/letter_combination_phone_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/partition_equal_subset_sum_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/partition_equal_subset_sum_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/path_sum_2_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/path_sum_2_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/path_sum_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/permutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/printNumber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/restore_ip_address.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/restore_ip_addresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/subset.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/subset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/tree_diameter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/uniquePath3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/uniquePath_1_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/valid_square.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/wordSearch_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/word_search.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/word_search_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/2d_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/2d_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Comparator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Maxheap_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/PrintMatrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/alphabet_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array_array_object.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array_arraylist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array_dictionary_alphabet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/array_with_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/arraylist_arraylist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/compare.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/compareTo_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/compare_letter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/computeIfAbsent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/convert_dictionary_into_list_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/cool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/customHeap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/dict.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/dictionary_with_int.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/dictionary_with_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/dictionary_with_pair.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/directions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/division.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/doubly_linked_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/elvis_oprator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/forLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/frequency_of_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/generateSwap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/graph_adj_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/heap_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/heap_lambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/helper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/indices.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/iterator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/lambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/largest_triple_product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/length.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/list_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/map_with_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/max_heap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/maxheap_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/minheap_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/minheap_int.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/minheap_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/mod_operator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/null_operator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/ordinance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/printDictionary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/printList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/print_reverse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/priorityQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/priorityqueue_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/queue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/reverse_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/same_word.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/scope_fxn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/size.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/sort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/sort_by_length.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/sortedBy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/string_builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/testing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/1_billion_users.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/binary_search_loop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/binary_search_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/contains_duplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_ceiling.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_duplicate_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_first_last_index.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_k_closest_elements.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_min_in_rotated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/find_peak_element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/guess_number_higher_lower.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/koko_eat_banana.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/kokos_eating_banana.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/search_2d_matrix_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/search_in_rotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/search_in_rotated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/time_key_value_store.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/findMostCommonChar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/find_distance_between_2_arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/mocks.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/num_ways_form_target_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/reOrderLogFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/reorder_data_logs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Challenges/reorganize_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/longest_common_subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/longest_common_substring_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/longest_common_substring_dp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/minPathSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/subset_sum_equal_target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2d_programming/target_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/climb_stairs_with_red.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/climbing_stairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/climbing_stairs_with_k_steps.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/coin_change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/coin_change.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/coin_change_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/fibDP.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/fibonacci_recursive.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/knapsack_best_solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/knapsack_cool.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/knapsack_native_recur.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/longest_palindromic_substring_dp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/maximum_earning_from_taxi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/maximum_product_subarray_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/maximum_sum_subarray_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/minPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/nth_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/practice22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/range_sum_query.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/rob_house.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/rob_house_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/subset_equals_sum_target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/target_sum_advanced.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/uniquePath_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/magical_candy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/matching_pair.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/ReadDocumentWord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/ReadWordDocumentInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/bookmark" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/bookmarksAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/cancel_coroutine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/flow_launch_in.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/handle_child_exception.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/map_async.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/parallel_async.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/readFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/search_query.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/sequential_async.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/superVisorJob.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/supervisorscope.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final/try_catch_async.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Advanced/jump_game_v.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/amazon_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/bfs_adjlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/bfs_edges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/bfs_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/dfs_adjList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/dfs_edges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/dfs_iterative.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/dfs_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/dfs_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/flood_fill.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/maze_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/maze_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/maze_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/tria2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Basics/wall_and_gates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Cycle_detection/isCycleGraph_directed_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Cycle_detection/isCycle_Graph_undirected_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Dijkstra's_algo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Distance/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/all_path_from_source_target_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/all_paths_from_source_target_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/check_if_path_exists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/cycle_detection_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/graph_valid_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/key_and_rooms.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/most_stones_removed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/num_of_islands_original.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/number_of_operations_to_make_network_connected.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/path_compression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/redo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/redundant_connection_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Edges_question/union_find.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Graph_tree/min_height_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Graph_tree/minimum_height_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Hard/amazon_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Hard/find_all_suitable_houses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Hard/minimum_permutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Hard/reconstruct_itenary_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/island_perimeter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/making_large_islands.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/max_area_of_island_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/max_area_of_island_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/num_of_islands_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/num_of_islands_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/num_of_islands_dfs2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/num_of_islands_original.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/number_of_connected_components_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/number_of_distinct_islands2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/number_of_distinct_islands_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/number_of_distinct_islands_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/number_of_distinct_islands_directions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Island_problems/pacific_atlantic.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/Go_bfs_place.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/Go_full_board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/Go_full_board_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/island_perimeter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/max_area_of_island.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/num_of_islands_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Islands/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Kruskal/min_cost_connect_all_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Real_world/nested_list_weight_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Real_world/num_nodes_with_same_label_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Real_world/num_nodes_with_same_labels.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Real_world/time_needed_to_inform_all_employees.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/Number_of_connected_components_union_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/acccountsMerge_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/accounts_merge_union_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/find_all_people_with_secret.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/number_of_operations_to_make.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/number_of_operations_to_make_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Union_set/redundantConnection_union_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/bfs_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/build_order_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/busRoutes_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/checkCycle_undirected.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/cool_problems/connect_cities_with_minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/cool_problems/wallGate_dfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/course_schedule2_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/course_schedule_2_inDegree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_string/acccountsMerge.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_string/sentence_similarity_ii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_string/word_break.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_string/word_ladder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/add_sum_grid.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/dfs_with_go_board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/dfs_with_go_count.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/isCaptured.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/jump_game_v.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dfs_with_return/uniquePath3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/Network_time_delay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/Network_time_delay_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/bus_routes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/cheapest_flight_k_stops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/convert_double_to_int.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/find_city_with_smallest_neighbors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/kruskal_algo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/maze_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/min_cost_connect_all_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/network_time_delay_dijkstra.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/path_with_max_probability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/path_with_max_probability.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/path_with_min_effort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/dijkstra/shortest_in_binary_path.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/directedGraph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/find_all_possible_recipes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/find_if_path_exists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/find_max_in_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/find_max_in_grid.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/find_weakly_connected_components.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/floood_fill.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/is_graph_bipartite_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/island_perimeter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/longest_increasing_path_no_memoization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/longest_increasing_path_with_memoization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/matrix_01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/maze_3/maze_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/maze_3/maze_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/maze_3/maze_3_tweaked.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/maze_3/use_a_pointer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/multi_source_bfs/01_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/multi_source_bfs/rottingOranges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/nested_list_weight_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/no_edge.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/number_of_islands2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/number_of_operations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/out_of_bound.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/restore_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/restore_array_java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/restore_ip_address.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/search_2d_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/search_2d_matrix_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/search_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/set_matrix_zero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/set_matrix_zero_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/shortest_path_food.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/shortest_path_obstacle_elimination.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/size_of_smallest_island.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/sol.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/source_practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/surrounded_regions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/Course_Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/Graph2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/__sample_data.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/adjacencyList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/adjacencyMatrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/build_order.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/build_order2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/build_order_data.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/build_order_self.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/checkIfPathExists_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/checkIfPathExists_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/countNumPaths.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/course_schedule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/graph_valid_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/isOutofbounds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/max_area_of_island.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/min_knight_move.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/redundantConnection_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/search_2d_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/top_6/union_find.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/cheapest_flight.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/cheapest_flight_k_stops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/is_graph_bipartite_union_find.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/is_graph_birpartite_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/remove_obstacle_with_k_stops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/traversal_with_steps/shortest_path_get_food.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/trydd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/undirectedGraph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/wall_gate_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/while_building.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/word_ladder_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/Robot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/SudokuSolver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/basic_calculation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/basic_calculator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/basic_calculator_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/basic_calculator_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/busRoutes_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/find_median_data_stream.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/largest_color_in_a_directed_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/largest_color_value.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/longest_string_chain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/max_swap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/nthQueen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/number_of_order_backlog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/number_of_orders_in_backlog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/number_of_ways_slicing_pizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/path_sum_2_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/path_sum_2_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/path_sum_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/path_sum_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/possible_bipartition_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/possible_bipartition_union_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/practice2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/range_sum_query.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/range_sum_set_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/reaching_points_best.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/reaching_points_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/reaching_points_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/robot_room_clean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/tiktok_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/uniquePath3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/verify_alien_dictionary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/word_ladder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hard/word_ladder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/duplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/meeting_room.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/meeting_room2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/meeting_rooms3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/minMeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intersection_of_two_arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interval/interval_list_intersection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interval/meeting_planner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/33.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/LFU_cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/Linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/ListNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/append.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/delete_all_duplicates_unsorted.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/delete_at_position.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/delete_duplicates_in_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/delete_duplicates_sorted.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/doubly_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/find_middle_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/find_the_duplicate_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/flatten_binary_tree_to_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/linkedlist_cycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/lru_cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/merge_2_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/merge_k_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/print_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/reorder_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/reverse_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/swap_node_in_pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedlist/template.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix/minimum_path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix/rotate_image.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix/traverse_back_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix/traverse_back_of_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Basics/keep_dividing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Basics/use_carry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Basics/using_xor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/add_binary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/binary_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/plus_one.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/single_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/single_number_optimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/Hard/Expression_add_operators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/add_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/additive_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/digit_subtraction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/divider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/get_remainder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/integer_to_english_words.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/integer_to_romans.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/keep_dividing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/multiply_strings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/power.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/single_number_optimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/string_to_integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/tester.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numbers/the_numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pairs/k_closest_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pairs/minimize_max.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parenthesis/different_ways_to_add_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parenthesis/minimum_remove_make_valid_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parenthesis/remove_outer_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parenthesis/valid_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Partition/number_of_good_ways_to_split_good_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/wall_gates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/maxSumSubarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/prefix_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/prefix_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/prefix_sum_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/range_sum_query_immutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/range_sum_query_mutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix_Sum/ways_to_split_array_into_three_subarrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/2d_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/2d_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/basic_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/custom_sort_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/list_of_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/map_with_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sort_by_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/basic_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/custom_sort_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/sorting/sort_by_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/Trie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/calculateRemainingSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/calculate_power_of_variable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/checkPalindromeNumber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/combination.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/extension_function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/findIndex.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/find_max_in_arr.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/for_loop_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/getLastDigit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/implement_2_stacks_in_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/implement_trie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/letterCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/no_argument_arraylist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/rat_in_a_maze.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/Recursion_with_integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/find_weakly_connected_components.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/recursion_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/recursion_list_simple.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/recursion_with_boolean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/recursion_with_return/return_arrayList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/reverseNumber_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/reverseString copy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/reverseString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/reverse_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/subset_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/subset_equals_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/subset_sum_equal_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/take_or_skip.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/target_sum_bf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/traverse_grid.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/uniquePath.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/wordSearch_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/1_billion_users.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/binary_search_loop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/binary_search_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/find_ceiling.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/find_min_in_rotated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/search_2d_matrix_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/search_in_rotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/search_in_rotated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/trial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/Basic/contiguous_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/Basic/find_all_subarrays_of_size_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/Basic/shortest_subarray_greater_than_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/best_time_stock_iii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/buy_sell_stock_ii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/buy_sell_stock_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/contiguous_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/degree_of_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/find_anagram_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/find_min_subarray_greater_than_target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/find_sum_of_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_consecutive_sequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_string_with_at_most_k_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_string_with_atleast_k_repeating_recur_dict.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_string_with_repeating_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_substring_with_at_most_2_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_substring_without_repeating.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/longest_substring_without_repeating_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/maximum_consec_ones.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/minimum_window_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/sliding_window_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/sliding_window_max_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/sliding_window_max_dlinkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/sliding_window_minimum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_window/subarray_average_greater_then_other.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Split/number_of_good_ways_to_split_good_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Split/number_of_ways_to_split_an_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Split/partition_equal_subset_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Split/partition_to_k_equal_sum_subsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Split/split_array_largest_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/Simplify_path.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/next_greater_element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/remove_all_duplicate_in_arr.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/remove_all_duplicates_adjacent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/stack_with_increment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks_Queue/string_builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Basic/change_string_letter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Basic/contains_Duplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Basic/count_characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Basic/single_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Basic/single_number_optimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/DistinctElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Easy/isomorphic_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/find_missing_positive_integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/first_missing_positive_integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/longest_happy_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/minimum_number_of_operations_array_continuous.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/minimum_window_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/regular_expression_matching.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/substring_with_concatenation_of_all_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Hard/text_justification.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Match/match_wildcard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Match/sign.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Match/word_pattern.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Match/word_pattern_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Top_K_most_frequent_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Top_k_most_freq_word.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Top_k_most_frequent_number2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/_33.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/amazon_1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/anagram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/decode_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/decode_ways.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/decode_ways_with_memoization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/distinct_elements_per_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/find_all_anagrams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/group_shifted_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/isPalindrome.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/length_of_last_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/longest_common_prefix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/longest_consecutive_sequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/longest_happy_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/maximum_consec_ones.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/minimum_window_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/most_common_word.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/new.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/permutation_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/reverse_words_in_string_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/sellBuyStock_better.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/sliding_window_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/sliding_window_max_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/sliding_window_max_dlinkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/sliding_window_minimum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/split_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/string_compression_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/degree_of_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/isSubsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/length_of_longest_repeating_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/longest_repeating_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/longest_string_with_at_most_k_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/longest_string_with_atleast_k_repeating_recur_dict.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/longest_substring_with_at_most_2_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/longest_substring_without_repeating.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/permutation_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/practice2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/repeated_substring_pattern.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/repeated_substring_pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/shortest_common_subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/substring/substring_with_concatenation_of_all_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/trial2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/urlfy_character.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/change_string_letter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/delete_operations_for_2_strings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/deletion_distance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/edit_distance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/edit_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/min_Deletion_advanced.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/min_deletion_same_frequency.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/rearrange_words_own_version.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/rearrange_words_sort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/removeDuplicateInString_set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/removeDuplicateInString_sorting.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/removeDuplicate_indexOf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/removeSpace.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/remove_k_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/remove_punctuation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/remove_string_with_at_least_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/returnNewStringNoDuplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/reverse_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/rotainonalCipher.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/split_paragraph_into_words.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/string_swapping.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String_manipulation/swap_character.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/TimeStamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/time_key_value_store.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/build_tree_from_preorder_and_inorder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/build_tree_from_preorder_and_inorder_easy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/build_tree_from_sorted_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/convert_sorted_array_to_bstree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/convert_sorted_list_to_bstree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Array/serialize_and_desrialize_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/TreeNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/find_largest_subtree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/inorder_iter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/inorder_recur.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/inorder_traversal_stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/level_order_iter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/max_depth_of_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/passingYearBook.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/preoder_traversal_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/preorder_iterative.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/preorder_traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/tree_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Basic/tree_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/Sum_root_leaf_numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/find_max_in_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/num_nodes_with_same_labels.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum_2_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum_2_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/path_sum_iter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/range_sum_bst.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/sum_root_leaf_numbers_stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Count/unique_bst_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Hard/inorder_successor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Hard/max_path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Hard/number_of_good_pair_nodes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Hard/path_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Hard/time_needed_to_reach_all_employees.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Subtree/find_largest_subtree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/anti_clockwise_traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/build_tree_from_preorder_and_inorder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/build_tree_from_preorder_and_inorder_easy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/build_tree_from_sorted_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/count_good_nodes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/find_kth_smallest_in_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/find_modes_in_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/lowest_common_ancestor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/populate_next_node.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/populate_next_node_O(1).kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Top6/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/add_row_to_a_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/basics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/binary_tree_vertical_order_traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/bottom_view_of_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/bst_tree_iterator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/conversion/convert_sorted_array_to_bstree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/conversion/convert_sorted_list_to_bstree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/data.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/findMax.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/findMax_in_tree_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/find_all_leaf_nodes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/flatten_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/getHeight.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/height_tree_dfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/inorder_iter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/inorder_recur.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/insert.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/isLeafNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/isSameTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/isSubTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/isvalidbst_recur.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/max_depth_of_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/max_depth_of_tree_bfs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/max_depth_of_tree_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/merge_two_trees.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/path_sum_2_backtracking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/path_sum_2_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/path_sum_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/populate_next_pointer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/populate_next_pointer_O(1).kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/postOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/practice/find_max_in_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/printPath.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/right_side-view.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/search_key_in_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/zig_zag_trav.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/zig_zag_traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trial/longest_valid_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trial/sum_of_two_integers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/Design_a_map_key.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/implement_trie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/replace_words.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/split.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two_array/Intersection_of_two_arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two_array/gas_station.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/Sliding_window/find_anagram_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/Sliding_window/find_min_subarray_greater_than_target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/Sliding_window/find_sum_of_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/find_duplicate_with_no_additional_structure.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/find_first_occur_of_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/move_num_in_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/move_num_in_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/sort_colors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/swap_node_in_pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/three_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/two_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_cool/two_sum_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gas_station.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k_closest_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_palindromic_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/best_time_stock_iii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/buy_sell_stock_ii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/buy_sell_stock_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/contiguous_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/degree_of_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/find_anagram_in_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/find_min_subarray_greater_than_target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/find_min_subarray_greater_than_target.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/find_sum_of_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_consecutive_sequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_string_with_at_most_k_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_string_with_atleast_k_repeating_recur_dict.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_string_with_repeating_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_substring_with_at_most_2_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_substring_without_repeating.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/longest_substring_without_repeating_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/max_number_of_events_attended.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/maximimum_swap_efficient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/maximum_average_subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/maximum_average_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/maximum_consec_ones.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/min_num_of_operations_to_make_array_continuous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/min_round_complete_rounds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/minimum_window_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/sliding_window_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/sliding_window_max_brute_force.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/sliding_window_max_dlinkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/sliding_window_minimum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/min_max/subarray_average_greater_then_other.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minimize_max.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/longest_palindromic_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindrome_linkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindrome_linkedlist_constant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindrome_partition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindrome_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindromic_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/palindromic_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome/remove_palindromic_subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome_linkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome_linkedlist_constant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome_partition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindromic_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindromic_substring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remove_palindromic_subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/bin_search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/custom_Sort_string" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/duplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/meeting_room.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/meeting_room2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/meeting_rooms3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/minMeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/search_2d_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/search_2d_matrix_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/sort_list_list.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/top_k_element/top_k_elem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/add_list_to_arrayList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/all_possible_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/alphabet_looping.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/array_dictionary_alphabet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/array_order.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/change_character_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/cheatSheet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/checkIfBoundary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/check_if_odd_even.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/convert_chararray_to_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/convert_num_to_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/convert_string_to_digit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/delete_char_recursion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/dictinoary_multi_keys.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/dictionary_parenthesis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/get_count_dictionary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/intersect.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/longest_string_chain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/maxheap_minheap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/maxheap_with_dictionary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/possible_to_traverse_all_points.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/prevent_array_out_of_bound.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/putIfAbsent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/put_num_in_dict.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/remove_duplicate_from_arr.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/sort_word_by_length_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/store_digit_in_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/swap_char.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/swap_number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/testData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/travel_diagnoal_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/traverse_cell_cross.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/traverse_first_row.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/traverse_graph_boundary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/traverse_matrix_tricks.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/two_consecutive_loops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tricks/two_pointer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/partition_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/max_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/minHeap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/minheap_with_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/sort_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/minimized_maximum_of_products_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/merge_two_binary_tree_iter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/merge_two_binary_trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/findMostCommonChar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/find_distance_between_2_arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/mocks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/num_ways_form_target_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/reOrderLogFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/reorder_data_logs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/Coding_challenges/reorganize_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/construct_binary_search_tree_from_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/findMin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/find_duplicate_subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search_Tree/lowest_common_ancestor_of_a_binary_tree_iii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_programming_string/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interval/meeting_room_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/design_twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/doubly_linkedlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/linkedlist_cycle_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/lru_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/partition_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/reverse_nodes_in_k_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linkedlist/test_file_for_heap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/diagnoal_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/and_operator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/negative_number_in_bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/number_of_1_bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/reverse_bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/shift_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/sum_of_two_integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/sum_of_two_integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/Bit_manipuation/xor_operator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/add_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/add_two_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/power(x,n).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/string_to_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/sum_of_two_integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numbers/ugly_number_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/koko_banana.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/meeting_room2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/meeting_room_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/minimized_maximum_of_products_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/power(x,n).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/top_k_most_frequent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/top_k_most_frequent_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix_Sum/range_query_sum_2d_mutable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding_window/Basic/fixed_sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Palindrome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Palindrome/palindrome_partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/are_string_arrays_equal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/check_if_two_strings_are_equivalent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/interleave_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/interleave_string_improved_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/palindrome_partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Basic_sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Basic_sort/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Basic_sort/bucket_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Heap/Native_maxheap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Heap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/car_pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/car_pooling_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/counting_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/last_stone_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/least_number_of_unique_integers_after_k_removals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/maximum_population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/min_cost_to_connect_sticks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/min_max/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/min_max/find_min_subarray_greater_than_target.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/container_most_water_brute_force.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/container_most_water_brute_force.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/container_most_water_good.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/container_most_water_good.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/container_with_most_water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/container_with_most_water.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/first_occurence_of_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/first_occurence_of_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/interval_list_intersection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/interval_list_intersection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/is_subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/is_subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/reverse_words_in_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/reverse_words_in_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/reverse_words_in_string_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/reverse_words_in_string_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/two_pointer/trapping_rain_water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/trapping_rain_water.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/2d_matrix.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/2d_set.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Comparator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Maxheap_number.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/PrintMatrix.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/alphabet_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array_array_object.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array_arraylist.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array_dictionary_alphabet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/array_with_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/arraylist_arraylist.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/compare.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/compareTo_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/compare_letter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/computeIfAbsent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/convert_dictionary_into_list_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/cool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/customHeap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/dict.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/dictionary_with_int.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/dictionary_with_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/dictionary_with_pair.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/directions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/division.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/doubly_linked_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/elvis_oprator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/forLoop.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/frequency_of_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/generateSwap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/graph_adj_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/heap_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/heap_lambda.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/helper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/indices.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/iterator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/lambda.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/max_heap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/maxheap_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/minheap_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/minheap_int.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/minheap_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/mod_operator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/null_operator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/ordinance.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/printDictionary.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/printList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/print_reverse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/priorityQueue.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/priorityqueue_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/queue.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/reverse_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/same_word.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/scope_fxn.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/set.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/size.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/sort.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/BFS_iter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/BFS_iter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/BSTNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/BSTNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/build_BSTree_from_inOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/build_BSTree_from_inOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/build_BSTree_from_preOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/build_BSTree_from_preOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/build_linkedlist_for_each_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Build_trees/build_linkedlist_for_each_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_same_tree_iterative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_same_tree_iterative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_sum_exists_pair.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/check_if_sum_exists_pair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/getHeightRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/getHeightRec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/get_parent_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/get_parent_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Basics/invert_tree_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Basics/invert_tree_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Binary_Tree_Level_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Flatten_BST_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/Flatten_BST_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BST_from_preorder_inorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_BSTree_sorted_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_tree_from_preOrder_array_bad_approach.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/build_tree_from_preOrder_array_bad_approach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/checkIfTreeBalanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/checkIfTreeBalanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/check_if_two_tree_same_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/check_if_two_tree_same_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/findInOrderSuccessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/findInOrderSuccessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/findKthSmallestInTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/findKthSmallestInTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/find_mode_in_BSTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/find_mode_in_BSTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/getDiameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/getDiameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/is_sub_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/is_sub_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/Medium/validate_BSTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/Medium/validate_BSTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/bst_to_doubly_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/bst_to_doubly_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/dfS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/dfS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/inOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/inOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/leftSideView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/leftSideView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/postOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/postOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/preOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/preOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/print_right_side_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/print_right_side_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search_Tree/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Tree/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_pointer/dot_product_of_two_vectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Tree/binaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/binaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Tree/findHeight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search_Tree/findHeight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Tree/findMin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/car_pooling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/findMostCommonChar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/find_distance_between_2_arrays.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/mocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/num_ways_form_target_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/reOrderLogFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/reorder_data_logs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenges/reorganize_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/detect_cycle_undirected_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Formula/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/duplicate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/findKthLargest.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/findKthLargest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/findKthSmallest.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/findKthSmallest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/heap_recursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/heap_recursive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/heappushpop.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/heappushpop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/max_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/max_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/meeting_room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/meeting_room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/meeting_room2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/meeting_rooms3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/meeting_rooms3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/minMeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/minMeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/min_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/min_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/python_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/python_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/top_k_most_frequent_elem_using_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/Heap/top_k_most_frequent_elem_using_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedlist/reverseLinkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedlist/reverseLinkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedlist/swap_node_in_pairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedlist/swap_node_in_pairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numbers/add_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numbers/string_to_integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Numbers/string_to_integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_practice/implement_using_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue_practice/implement_using_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reusable/OOP/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reusable/OOP/inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Hard/substring_with_concatenation_of_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/Hard/substring_with_concatenation_of_all_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/most_common_word.kt" beforeDir="false" afterPath="$PROJECT_DIR$/String/most_common_word.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/substring/permutation_in_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/String/substring/permutation_in_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/Palindrome/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_Array/palindrome_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/Palindrome/palindrome_permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/best_time_stock_iii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/best_time_stock_iii.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/buy_sell_stock_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/buy_sell_stock_ii.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/buy_sell_stock_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/buy_sell_stock_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/contiguous_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/contiguous_array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/degree_of_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/degree_of_array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/find_anagram_in_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/find_anagram_in_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/find_min_subarray_greater_than_target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/find_min_subarray_greater_than_target.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/find_min_subarray_greater_than_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/moving_average_from_data_stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/find_sum_of_subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/find_sum_of_subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_consecutive_sequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_consecutive_sequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_string_with_at_most_k_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_string_with_at_most_k_char.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_string_with_atleast_k_repeating_recur_dict.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_string_with_atleast_k_repeating_recur_dict.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_string_with_repeating_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_string_with_repeating_char.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_substring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_substring_with_at_most_2_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_substring_with_at_most_2_char.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_substring_without_repeating.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_substring_without_repeating.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/longest_substring_without_repeating_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/longest_substring_without_repeating_char.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/max_number_of_events_attended.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/max_number_of_events_attended.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/maximimum_swap_efficient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/maximum_average_subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/maximum_average_subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/maximum_average_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/maximum_average_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/maximum_consec_ones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/maximum_consec_ones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/min_num_of_operations_to_make_array_continuous.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/min_num_of_operations_to_make_array_continuous.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/min_round_complete_rounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/min_round_complete_rounds.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/minimum_window_substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/minimum_window_substring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/sliding_window_leetcode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/sliding_window_leetcode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/sliding_window_max_brute_force.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/sliding_window_max_brute_force.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/sliding_window_max_dlinkedlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/sliding_window_max_dlinkedlist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/sliding_window_minimum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/sliding_window_minimum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min_max/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/min_max/subarray_average_greater_then_other.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindrome_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/palindrome_linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/bubble_sort.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -966,7 +281,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/heapq.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2022.2/python_stubs/1203946706/_heapq.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2022.2/python_stubs/1203946706/builtins.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -978,27 +294,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/qzhou/PycharmProjects/python_alogrithm",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/josephzhou/Desktop/python_alogrithm/Playground&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Playground" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/String/substring" />
-      <recent name="$PROJECT_DIR$/Array/Two_array" />
-      <recent name="$PROJECT_DIR$/String_Array/top_6" />
-      <recent name="$PROJECT_DIR$/Graph/top_6" />
-      <recent name="$PROJECT_DIR$/Graph/reusable" />
+      <recent name="$PROJECT_DIR$/sorting" />
+      <recent name="$PROJECT_DIR$/sorting/Basic_sort" />
+      <recent name="$PROJECT_DIR$/Binary_Search_Tree/Build_trees" />
+      <recent name="$PROJECT_DIR$/Binary_Search_Tree" />
+      <recent name="$PROJECT_DIR$/2_pointer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.repeated_substring_pattern">
-    <configuration name="determine_if_string_has_unique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.last_stone_weight">
+    <configuration name="Heap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1006,11 +323,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Array/top_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting/Heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/top_6/determine_if_string_has_unique.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/Heap/Heap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1019,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="intersection_of_two_array_ii_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Native_maxheap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1027,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting/Heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Two_array/intersection_of_two_array_ii_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/Heap/Native_maxheap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1040,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="length_of_last_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="last_stone_weight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1048,11 +365,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/length_of_last_word.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/last_stone_weight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1061,7 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reorder_data_logs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="remove_k_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1069,11 +386,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Amazon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_manipulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Array/top_6/reorder_data_logs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_manipulation/remove_k_digits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1082,7 +399,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="repeated_substring_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="shift_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1090,11 +407,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String/substring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numbers/Bit_manipuation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/substring/repeated_substring_pattern.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numbers/Bit_manipuation/shift_operator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1105,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.repeated_substring_pattern" />
-        <item itemvalue="Python.length_of_last_word" />
-        <item itemvalue="Python.intersection_of_two_array_ii_map" />
-        <item itemvalue="Python.reorder_data_logs" />
-        <item itemvalue="Python.determine_if_string_has_unique" />
+        <item itemvalue="Python.last_stone_weight" />
+        <item itemvalue="Python.Native_maxheap" />
+        <item itemvalue="Python.Heap" />
+        <item itemvalue="Python.remove_k_digits" />
+        <item itemvalue="Python.shift_operator" />
       </list>
     </recent_temporary>
   </component>
@@ -1283,12 +600,27 @@
           <line>32</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playground/meeting_room2.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playground/meeting_room2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playground/top_k_most_frequent.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Binary_Search_Tree/find_duplicate_subtree.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="grid[row][col]" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

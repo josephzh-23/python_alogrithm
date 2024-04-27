@@ -1,0 +1,15 @@
+
+What does the truth table look like?
+
+Return 1 if both of bits are 1. Otherwise, return 0.
+
+A   B       A & B
+0   0       0
+1   0       0
+0   1       0
+1   1       1
+
+# that's the above here
+
+
+

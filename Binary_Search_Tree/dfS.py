@@ -19,7 +19,7 @@ Breadth-First or Level Order Traversal: 1 2 3 4 5
 
 from collections import deque
 
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 preOrder = [10, 4, 2, 8, 5, 9, 15, 12, 20]
 

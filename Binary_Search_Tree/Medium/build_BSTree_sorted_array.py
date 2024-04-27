@@ -17,7 +17,7 @@ Output: A Balanced BST
  /
 1
 """
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 from Binary_Search_Tree.BFS_rec import printLevelOrderIter
 from Binary_Search_Tree.dfS import inOrderRec
 
@@ -35,10 +35,11 @@ def buildTreeFromArray(arr, left, right):
 
     if(left > right):
         return None
+    # get the binary middle point each time and then do a division here or there
 
     mid = left + (right -left) //2
 
-    node = Node(arr[mid])
+    node = TreeNode(arr[mid])
 
     node.left = buildTreeFromArray(arr, left, mid-1)
     node.right = buildTreeFromArray(arr, mid+1, right)

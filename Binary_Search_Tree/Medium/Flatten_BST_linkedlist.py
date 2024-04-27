@@ -1,7 +1,7 @@
 
 
 # validate binary search tree here
-from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.BSTNode import TreeNode, insert
 
 '''
     1       1
@@ -43,7 +43,7 @@ def flattenBSTIntoLinedlist(root):
             cur.right = s[-1]
         cur.left = None
 
-node = Node(4)
+node = TreeNode(4)
 insert(node,5 )
 insert(node, 6)
 insert(node, 7)

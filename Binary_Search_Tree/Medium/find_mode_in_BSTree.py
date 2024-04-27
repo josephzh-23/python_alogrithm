@@ -1,7 +1,7 @@
 
 
 # Use a inorder traversal
-from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.BSTNode import TreeNode, insert
 
 prev = None
 count = 0
@@ -45,7 +45,7 @@ def findMode(root):
         res.append(mode)
 
     return res
-node = Node(5)
+node = TreeNode(5)
 insert(node,3 )
 insert(node,4)
 insert(node,5 )

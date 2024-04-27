@@ -3,7 +3,7 @@
 '''
 https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
 '''
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 '''
 
@@ -38,7 +38,7 @@ def buildBSTreeFromPreorder(array, start, end):
     # Construct the root node of the subtree formed by keys of the
     # preorder sequence in range `[start, end]`
 
-    node = Node(array[start])
+    node = TreeNode(array[start])
 
     # search for the 1st element > the root node's value
     i = start

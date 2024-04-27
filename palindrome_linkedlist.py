@@ -1,10 +1,10 @@
-class Node:
-    def __init__(self, data):
+class ListNode:
+    def __init__(self, data, next = None):
         self.data = data
-        self.next = None
+        self.next = next
 
 
-def palindromeLinkedList(head: Node):
+def palindromeLinkedList(head: ListNode):
     nums = []
     while head:
         # allow traversal here
@@ -21,9 +21,9 @@ def isPalindromicArray(arr):
         l += 1
         r -= 1
     return True
-l1 = Node(1)
-l1.next = Node(2)
-l1.next.next = Node(2)
-l1.next.next.next = Node(1)
+l1 = ListNode(1)
+l1.next = ListNode(2)
+l1.next.next = ListNode(2)
+l1.next.next.next = ListNode(1)
 
 print(palindromeLinkedList(l1))

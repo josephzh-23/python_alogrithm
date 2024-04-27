@@ -1,7 +1,7 @@
 from typing import Optional
 
 from String_Array.findMode import List
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 ''' 
 Example here: 
@@ -20,12 +20,12 @@ We get 3 from preorder array and then find it in inOrder array
 
 
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[Node]:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder or not inorder:
             return None
 
         # always the 1st elem in
-        root = Node(preorder[0])
+        root = TreeNode(preorder[0])
 
         # find the preorder root in the inorder array
         mid = inorder.index(preorder[0])

@@ -1,4 +1,4 @@
-from Binary_Search_Tree.BSTNode import Node, insert
+from Binary_Search_Tree.BSTNode import TreeNode, insert
 
 
 def printLeftSide(root):
@@ -37,11 +37,11 @@ def printLeftSide(root):
     return visibleValues
 
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
 
 # funny enough this only prints the left view
 list = printLeftSide(root)

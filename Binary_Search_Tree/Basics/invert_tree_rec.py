@@ -1,4 +1,4 @@
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 from Binary_Search_Tree.BFS_rec import printLevelOrderIter
 
 # This is using DFS, under here this is using preOrder here
@@ -33,13 +33,13 @@ def swapChildren(r):
 
 
 
-root = Node(4)
-root.left = Node(2)
-root.right = Node(7)
-root.left.left = Node(1)
-root.left.right = Node(3)
-root.right.left = Node(6)
-root.right.right = Node(9)
+root = TreeNode(4)
+root.left = TreeNode(2)
+root.right = TreeNode(7)
+root.left.left = TreeNode(1)
+root.left.right = TreeNode(3)
+root.right.left = TreeNode(6)
+root.right.right = TreeNode(9)
 invertTreeRec(root)
 
 printLevelOrderIter(root)

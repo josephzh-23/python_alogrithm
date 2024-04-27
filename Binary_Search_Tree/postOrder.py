@@ -3,7 +3,7 @@
 # the root comes in last
 # A function to do postorder tree traversal
 # left, right, root
-from Binary_Search_Tree.BSTNode import Node
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 def postOrderRec(root):
@@ -16,11 +16,11 @@ def postOrderRec(root):
 
 # inOrderIter(root)
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.right.left = Node(5)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.right.left = TreeNode(5)
 # root.right.right = Node(6)
 # root.right.left.left = Node(7)
 # root.right.left.right = Node(8)
@@ -62,11 +62,11 @@ def postOrderIterative(root):
 
 
 # Driver program to test above function
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
-root.right.left = Node(6)
-root.right.right = Node(7)
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+root.right.left = TreeNode(6)
+root.right.right = TreeNode(7)
 postOrderIterative(root)

@@ -1,4 +1,12 @@
 """
+A concatenated substring in s is a substring that contains all the strings of any permutation of words concatenated.
+
+For example, if words = ["ab","cd","ef"], then "abcdef", "abefcd", "cdabef", "cdefab", "efabcd", and "efcdab"
+are all concatenated strings. "acdbef" not a concacted substring b/c it's not the concatenation of any permutation of words
+before
+
+Return the starting indices of each word
+
 
 The youtube video for this change here
 https://www.youtube.com/watch?v=Bbu4Qjzf7A0&t=917s
@@ -41,7 +49,7 @@ def ans(string, words):
             print("word is", word)
 
             # have not found the word
-            if( word not in freqMap):
+            if(word not in freqMap):
                 break
             seenWords[word] = seenWords.get(word, 0) + 1
 
