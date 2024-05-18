@@ -17,6 +17,7 @@ def findCheapestPrice( n: int, flights: List[List[int]], src: int, dst: int, k: 
     for source, des, weight in flights:
         graph[source][des] = weight
 
+    # leetcode problem here
     print(graph)
 
     while pq:

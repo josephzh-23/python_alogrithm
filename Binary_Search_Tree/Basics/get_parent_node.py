@@ -2,7 +2,6 @@
 
 # to get parent node of a node that's passed in
 from Binary_Search_Tree.BSTNode import TreeNode, insert
-from Binary_Search_Tree.Medium.find_mode_in_BSTree import inOrder
 
 
 # need a par to hold parent node reference

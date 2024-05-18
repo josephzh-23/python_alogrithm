@@ -1,8 +1,8 @@
 class Node:
-    def __init__(self, key):
+    def __init__(self, key, left = None, right = None):
         self.data = key
-        self.left = None
-        self.right = None
+        self.left = left
+        self.right = right
 
 def LevelOrder(root):
     h = height(root)

@@ -11,14 +11,20 @@ def shortestPath(s, grid, k) ->int:
     cols = len(grid[0])
 
     target = (rows-1, cols-1)
+
+    if k >= (rows -1) + (cols -1):
+        return rows + cols -2
     '''
     Checking for the same position (if visited)won't be enough
     also need to check for # of obstacles removed
-
+        
+        
     0 -> 0          0   0
                     |   |
                     1 - 0
-
+    When we are going in the above: going from 0 to 0 and 0-> 1-> 0-> 0
+    is very different indeed
+    
 The reason why we need the state as above 
     on left: 0 obstacles removed
     on right: 1 obstacle removed    but both end up at position (1, 0)
@@ -32,7 +38,7 @@ The reason why we need the state as above
     q = collections.deque([(0,(0, 0, k) )])
 
     seen = set([(0, 0, k)])
-    directions = [(1, 0), ]
+    directions = [(1, 0), (-1, 0), (0, -1), (0, 1)]
     while q:
         steps, (row, col, removalLeft) = q.popleft()
 
@@ -40,7 +46,6 @@ The reason why we need the state as above
             return steps
 
         for rowInc, colInc in directions:
-
             newRow = row + rowInc
             newCol = col + colInc
 

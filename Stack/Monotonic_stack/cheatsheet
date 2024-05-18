@@ -1,0 +1,13 @@
+'''
+Used for solving monotonic stack problem
+
+
+4 type of stacks here
+[1, 4, 5, 8, 9] strickly increasing
+ every element of the stack is strictly greater than the previous element.
+
+[1, 4, 5, 5, 8, 9]  non-decreasign here
+ every element of the stack is greater than or equal to the previous element
+
+And then also stritly decreasing and non-decreasign here 
+'''
