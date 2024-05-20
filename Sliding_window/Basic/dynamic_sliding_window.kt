@@ -4,6 +4,12 @@ import java.lang.Integer.min
 
 /*
 
+
+The question: shortest subarray greater than number here
+
+- then here is what we have then
+
+
 This is the dynamic sliding window here
 Say you ahve x= 7
 and the array [1, 2, 3, 4, 5, 6] and then

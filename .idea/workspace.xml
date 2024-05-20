@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37d033d-5ab3-4063-a8ee-a7e6f95c65b2" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Array/remove_element.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Array/two_sum_input_array_sorted.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Basics/Counter.py" afterDir="false" />
@@ -279,6 +280,18 @@
       <change beforePath="$PROJECT_DIR$/sorting/min_max/sliding_window_max_dlinkedlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/min_max/sliding_window_max_dlinkedlist.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/min_max/sliding_window_minimum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/min_max/sliding_window_minimum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/min_max/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/min_max/subarray_average_greater_then_other.kt" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Binary_Search/Parent_pointer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/Kth_problem/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/Kth_problem/cheatsheet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/Trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/number_of_distinct_substring_in_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/parent_pointer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground/parent_pointer/insert_using_parent_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/substring/number_of_string_that_appears_as_substrings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,8 +353,13 @@
       <recent name="$PROJECT_DIR$/Binary_Search_Tree/Find" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.palindromic_permutation">
     <configuration name="largest_rectangle_in_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.number_of_string_that_appears_as_substrings">
+    <configuration name="Heap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,19 +422,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="minimum_swap_to_make_string_balanced" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="number_of_distinct_substring_in_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< Updated upstream
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/Parenthesis/minimum_swap_to_make_string_balanced.py" />
+=======
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Playground" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Playground/number_of_distinct_substring_in_string.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,7 +457,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="palindromic_permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="number_of_string_that_appears_as_substrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="python_alogrithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,11 +469,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/palindrome" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindrome/palindromic_permutation.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String/substring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/substring/number_of_string_that_appears_as_substrings.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,11 +492,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Python.palindromic_permutation" />
         <item itemvalue="Python.max_consecutive_ones" />
         <item itemvalue="Python.minimum_swap_to_make_string_balanced" />
         <item itemvalue="Python.maximal_rectangle" />
         <item itemvalue="Python.largest_rectangle_in_histogram" />
+=======
+        <item itemvalue="Python.number_of_string_that_appears_as_substrings" />
+        <item itemvalue="Python.number_of_distinct_substring_in_string" />
+        <item itemvalue="Python.last_stone_weight" />
+        <item itemvalue="Python.Native_maxheap" />
+        <item itemvalue="Python.Heap" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
