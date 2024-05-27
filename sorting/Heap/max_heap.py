@@ -26,8 +26,8 @@ class OwnMaxHeap:
         self.floatUp(len(self.heap) - 1)
 
     def peek(self):
-        if self.heap[1]:
-            return self.heap[1]
+        if self.heap[0]:
+            return self.heap[0]
         else:
             return False
 

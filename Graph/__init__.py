@@ -1,4 +1,0 @@
-
-
-# Using kruskal's algorithm
-
