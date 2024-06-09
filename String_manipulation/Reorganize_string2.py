@@ -1,5 +1,15 @@
+from collections import Counter
+
+from Basics.minheap_with_list import h
+from sorting.Heap.max_heap import MaxHeap
 
 '''
+
+What's the question reorganize string here?
+
+Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+
+This is important here because no 2 words are the same
 TC: O(nlogn)
 
 Use a max heap-> b/c most frequent item here
@@ -22,30 +32,18 @@ so use a previous to keep track of pointer
 
 
 '''
-import heapq
-from collections import Counter
-
-
-h = heapq
-
-'''
-The example used here is 
-{ a: 3, b: 2, c: 1}
-'''
 def reorganizeString(s: str) ->str:
 
     # this will create a map with char: count
     # aaabbc
     # dict = {a: 3, b: 2, c: 1}
     count = Counter(s)
-    mheap = []
+    mheap = MaxHeap()
 
     # use this instead of list comprehension
-    # for char, count in count.items():
-    #     mheap.append([-count, char])
-    mheap = [[-count, char] for char, count in count.items()]
-    h.heapify(mheap)   # O(n)
 
+    for char, count in count.items():
+        mheap.push([count, char])
     # store previous character we use so no reuse
 
     prev = None
@@ -60,25 +58,26 @@ def reorganizeString(s: str) ->str:
         # except prev
 
         # count = the count -1 and then put it back in
-        count, char = h.heappop(mheap)
+        count, char = mheap.pop()
         res += char
 
         # instead of - because the whole thing is negative
-        count += 1
+        count -=1
 
         # already sth exists
         # this is after the count has already been descreased
         if prev:
             # [2, a]
-            h.heappush(mheap, prev)
+            # h.heappush(mheap, prev)
+            mheap.push(prev)
             prev = None
 
-            # if it's already 0, then we don't add anything here
+        # like we have already seen this now so don't add it here
+        # if it's already 0, then we don't add anything here
 
         if count != 0:
             prev = [count, char]
-    print(res)
     return res
 
-str = "aab"
-reorganizeString(str)
+s = "aab"
+reorganizeString(s)
