@@ -2,7 +2,7 @@
 
 Meeting room 2 problem here
 '''
-from sorting.Heap import MinHeap
+from Heap import MinHeap
 
 '''
 Sort the given meetings by their start time.

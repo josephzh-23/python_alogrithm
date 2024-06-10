@@ -11,9 +11,7 @@ At each turn choose the heavist stone here (heavist) that should tell you a lot 
 
 Can also be done using counting sort here 
 '''
-import heapq
 
-from sorting.Heap.max_heap import OwnMaxHeap
 from sorting.minheap_template import MaxHeap
 
 

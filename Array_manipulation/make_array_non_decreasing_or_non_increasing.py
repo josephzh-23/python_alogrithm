@@ -13,7 +13,7 @@ here there we have the code given above
 '''
 from typing import List
 
-from sorting.Heap.max_heap import OwnMaxHeap
+from Heap import OwnMaxHeap
 
 ''''''
 def convertArray( nums: List[int]) -> int:

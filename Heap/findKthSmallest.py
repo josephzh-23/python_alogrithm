@@ -3,7 +3,7 @@ import heapq
 
 # TC: O (n log k) + O (N) for traversing
 # log (k) for heapify
-from sorting.Heap.max_heap import OwnMaxHeap
+from Heap.max_heap import OwnMaxHeap
 
 # Find smallest -> use max heap
 # Find biggest -> use min heap

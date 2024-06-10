@@ -27,7 +27,7 @@ def monotonicIncreasing(nums):
     # Construct the result array from the stack
     while stack:
         result.insert(0, stack.pop())
-    print('the result here is ', result)
+    print('the result here is ', result)f
     return result
 
 

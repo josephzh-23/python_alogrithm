@@ -5,6 +5,8 @@ from typing import List
 
 """
 Question, if n = 3, how many parenthesis combination can you generate?
+well combined parenthesis can we generate
+
 
 ['((()))', '(()())', '(())()', '()(())', '()()()']
 """
