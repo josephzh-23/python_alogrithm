@@ -7,7 +7,7 @@ We will code the solutino first and then think about what it means here
 '''
 from collections import Counter, deque
 
-from sorting.Heap.max_heap import MinHeap
+from Heap import MinHeap
 '''
 Remember this is a hard problem ehre 
 '''

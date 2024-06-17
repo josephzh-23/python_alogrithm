@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 fun main() {
     val trial= 7/2

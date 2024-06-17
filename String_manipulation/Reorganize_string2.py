@@ -1,7 +1,6 @@
 from collections import Counter
 
-from Basics.minheap_with_list import h
-from sorting.Heap.max_heap import MaxHeap
+from Heap import MaxHeap
 
 '''
 

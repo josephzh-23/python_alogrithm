@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 // Begin with mid elem,
 // Java implementation of recursive Binary Search

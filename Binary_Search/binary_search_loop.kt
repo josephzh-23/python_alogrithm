@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 fun binarySearch(arr: IntArray, target: Int, l: Int, r: Int): Int {
     var start = l

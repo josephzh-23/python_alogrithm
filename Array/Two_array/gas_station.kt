@@ -1,14 +1,18 @@
-package Array.Two_array
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        total_gain = 0
+        curr_gain = 0
+        answer = 0
 
-/*
-diff = [-2, -2, -2, 3, 3]
+        for i in range(len(gas)):
+            # gain[i] = gas[i] - cost[i]
+            total_gain += gas[i] - cost[i]
+            curr_gain += gas[i] - cost[i]
 
-add the next integer here and see if > 0
-total = [0, 0, 0, 0, 6]
-if you run out of the gas and then reset to 0 here,
+            # If we meet a "valley", start over from the next station
+            # with 0 initial gas.
+            if curr_gain < 0:
+                curr_gain = 0
+                answer = i + 1
 
-every time starting doesn't work restart the total here
- */
-fun main() {
-
-}
+        return answer if total_gain >= 0 else -1

@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 import java.lang.Integer.min
 

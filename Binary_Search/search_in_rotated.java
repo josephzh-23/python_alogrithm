@@ -1,3 +1,3 @@
-package Binary_search;
+package Search;
 
 

@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 
 // This will allow us to get the # of days until a billino users

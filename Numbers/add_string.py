@@ -2,7 +2,7 @@
 The trick here is to use an ord function to convert using the ord function here which is
 very useful here once you have the ord function it's a lot easier to do here ß
 
-
+And this is liek part 1 of this problem here 
 '''
 
 

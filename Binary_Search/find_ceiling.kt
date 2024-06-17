@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 
 //The number > than the target using binary search

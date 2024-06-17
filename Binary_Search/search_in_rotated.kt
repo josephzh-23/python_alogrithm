@@ -1,4 +1,4 @@
-package Binary_search
+package Search
 
 
 fun search(nums: IntArray?, target: Int): Int {

@@ -1,29 +1,35 @@
 
-class MovingAverage(object):
+'''
+This is the question where we find the max sum of a subbary of
+a given size here
+'''
 
-    def __init__(s, size):
-        """
-        :type size: int
-        """
-        s.size = size
-        s.arr = [0] * size
+def maxSum(arr, k):
+    # length of the array
+    n = len(arr)
 
-    def next(s, val):
-        """
-        :type val: int
-        :rtype: float
-        """
-        if len(s.arr) >= s.size:
-            del s.arr[0]
-            s.arr.append(val)
+    # n must be greater than k
+    if n <= k:
+        print("Invalid")
+        return -1
 
-c = MovingAverage(3)
-c.next(1)
-print(c.arr)
+    # Compute sum of first window of size k
+    window_sum = sum(arr[:k])
 
-c.next(2)
-print(c.arr)
+    # first sum available
+    max_sum = window_sum
 
-c.next(4)
-c.next(10)
-print(c.arr)
+    # Compute the sums of remaining windows by
+    # removing first element of previous
+    # window and adding last element of
+    # the current window.
+    for i in range(n - k):
+        window_sum = window_sum - arr[i] + arr[i + k]
+        max_sum = max(window_sum, max_sum)
+
+    return max_sum
+
+# Driver code
+arr = [1, 4, 2, 10, 2, 3, 1, 0, 20]
+k = 4
+print(maxSum(arr, k))

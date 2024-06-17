@@ -1,19 +1,16 @@
-package Backtracking
+package Parenthesis
 
 import java.util.*
 import kotlin.collections.HashSet
 
 
-'''
 
-Input: expression = "2-1-1"
-Output: [0,2]
-Explanation:
-((2-1)-1) = 0
-(2-(1-1)) = 2
-
-'''
-
+// https://leetcode.com/problems/different-ways-to-add-parentheses/description/
+fun main() {
+    var test = "2-1-1"
+    var s = Solution15()
+    s.diffWaysToCompute(test)
+}
 internal class Solution15 {
     private val MULTIPLICATION = '*'
     private val ADDITION = '+'
@@ -36,7 +33,14 @@ internal class Solution15 {
 
             // This is the case with the "+" and "-"
             // So we need to split here if anything
+            /*
+            "2-1-1"
+            Always add the parenthesis either to the left or the right here
+        ((2-1)-1) = 0       to the left
+        (2-(1-1)) = 2       to the right
+             */
             if (operatorSet.contains(expressionArr[i])) {
+                // Give the sum on the left and the right here
                 val leftList = dfs(start, i - 1)
                 val rightList = dfs(i + 1, end)
                 for (num1 in leftList) {
@@ -47,6 +51,9 @@ internal class Solution15 {
                 }
             }
         }
+        println(res)
+        // The case where we have "23" and then no operator, just
+        // add directly here
         if (res.size == 0) {
             res.add(expression!!.substring(start, end + 1).toInt())
         }

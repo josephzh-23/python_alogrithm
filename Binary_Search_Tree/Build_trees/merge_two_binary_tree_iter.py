@@ -11,6 +11,9 @@ At each step we remove one pair from the stack and update tree1 in keeping with 
 The same goes for the right pointer.
 '''
 import site
+from typing import Optional
+
+from Binary_Search_Tree.BSTNode import TreeNode
 
 
 # the 2 roots here
