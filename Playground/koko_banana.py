@@ -1,6 +1,15 @@
 import math
 
+'''
 
+ There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.
+Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses 
+some pile of bananas and eats k bananas from that pile
+
+k the minimum eating speed here 
+Return the minimum integer k 
+
+'''
 def minEatingSpeed(piles,h):
 
     l, r =1, 1
@@ -11,7 +20,6 @@ def minEatingSpeed(piles,h):
                 // hourSpent stands for the total hour Koko spends.
         '''
         mid = (l + r) //2
-
         hourspent = 0
 
         # Iterate over the piles and calculate hour_spent.

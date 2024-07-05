@@ -1,9 +1,12 @@
 
 '''
-Can either remove the left or the right as said
+You are given an integer array nums and an integer x.
+In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x. Note that this modifies the array for future operations.
 
-Can be done using a sliding window
-You are kind of like contracting the window as you go so
+Return the minimum number of operations to reduce x to exactly 0 if it is possible, otherwise, return -1.
+
+
+
 '''
 
 class Solution:

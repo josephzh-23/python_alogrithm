@@ -1,8 +1,9 @@
+# this is the fixed sliding window probelm here
+# very good
 
-'''
-This is the question where we find the max sum of a subbary of
-a given size here
-'''
+# O(n) solution for finding
+# maximum sum of a subarray of size k
+
 
 def maxSum(arr, k):
     # length of the array
@@ -29,7 +30,11 @@ def maxSum(arr, k):
 
     return max_sum
 
+
 # Driver code
 arr = [1, 4, 2, 10, 2, 3, 1, 0, 20]
 k = 4
 print(maxSum(arr, k))
+
+# This code is contributed by Kyle McClay
+

@@ -2,6 +2,9 @@
 '''
 O(n^2) TC
 Input: inorder[] = {5, 10, 40, 30, 28}
+
+The maximum element from the left here
+`
 Output: root of following tree
          40
        /   \
