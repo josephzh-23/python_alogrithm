@@ -11,16 +11,18 @@ the list.
 
 Qzhou here then we can have this situation
 
+Median for the x axis here
 Part 1:
-The median for the rows is simply the middle element of the rows list. This works because the grid rows are already
+The median for the rows is simply the middle element of the rows list.
+This works because the grid rows are already
 indexed in sorted order.
 
 and then using the code here we have a much better time to use this then the other one here
 
+Median for y axis
 Part 2: The median for the column:
     we need to sort the cols list before finding the middle element, which serves as the median.
-
-    trying to rush through this problem right here and then we have the following here which is not so good here
+    then we have the following here which is not so good here
 
 
 Part 3:
@@ -34,18 +36,20 @@ indices, representing the optimal meeting point.
 
 Calculates the sum here and then all the sum of the distances here the minimum distance here
 
+
 Part 4:
 
 1. Sum up abs(v-x ) for all values in arr: here and then we have the code
 
 2 lists: rows and columsn here:
-
-    We achieve this by iterating through every cell in the grid with nested loops. When we find a cell with a 1,
+    We achieve this by iterating through every cell in the grid with nested loops.
+    When we find a cell with a 1,
     we append the row index i to rows and the column index j to cols.
 
 And then
 
-3. Then sum up all the toal Manhattan distance from all friend's homesto the median point by callling
+3. Then sum up all the toal Manhattan distance from all friend's
+homesto the median point by callling
 
 f(rows, i) + f(cols, j) here
 Store the row and column here
@@ -74,22 +78,22 @@ Formula is abs(p2.x - p1.x) + abs(p2.y - p1.y)
 And then here we can have the code a little bit better then this 
 And then using the sorting here 
 '''
-def minDistanceToAll(grid: List[List[int]])-> int:
+
+
+def minDistanceToAll(grid: List[List[int]]) -> int:
     # and then we have the code
     m, n = len(grid), len(grid[0])
 
     # these 2 are the first ones here
 
-
     rows, cols, houses = [], [], []
 
-    #and now once you have the i and j here that's good here
+    # and now once you have the i and j here that's good here
     # and then here we have O (m * n) here then and then we have the code
     for i in range(m):
         for j in range(n):
             if grid[i][j] == 1:
                 houses.append([i, j])
-
 
     for j in range(n):
         for i in range(m):
@@ -97,8 +101,8 @@ def minDistanceToAll(grid: List[List[int]])-> int:
                 cols.append(j)
 
     # find the median first here and then we have the code
-    medianRow = rows[len(rows)//2]
-    medianCols = cols[len(cols)//2]
+    medianRow = rows[len(rows) // 2]
+    medianCols = cols[len(cols) // 2]
 
     # and now once you get these 2 would be a good starting point
     # and these r the first 2 starting ponits

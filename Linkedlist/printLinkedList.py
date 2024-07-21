@@ -7,3 +7,7 @@ def printLinkedlist(r):
         print(cur.data)
         cur = cur.next
 
+
+
+def fromBack(head, k):
+    

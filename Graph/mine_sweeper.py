@@ -1,83 +1,76 @@
 '''
 
-This the given problem here
-M : game over here
-M : revealed    E: unrevealed
-click = [click, click ]
 
-Case 1 here:
-IF an empty sque E -> we check its adjacent neighbor(u, d, l and r)
-if neighbors area all Es then turn the cur cell into B
+It should have been good over here and then lets keep it going?
+So what happens next is there we have the code
 
 
-If an empty q -> but if its neighbor is M, then it becomes 1, once it becomes 1 recursion stops
-  1  1  1
-  1  M  1
-  1  1  1
+Case 1:
+- Revealing Blank Spaces: If the clicked cell has no adjacent mines,
+ you trigger a recursive process similar to flood fill.
+ It reveals all connected empty cells and keeps expanding
+ until it hits the boundaries or cells with adjacent mines.
 
-else:
-    if board[x][y] has adjcent mines:
-        -change board[x][y] to # of mines adjacent
-    if board[x][y] has no adjacent mines:
-        -change board[x][y] to 'b'
+ Case 2:
+If an empty square 'E' with at least one adjacent mine is revealed,
+ then change it to a digit ('1' to '8') representing the number of adjacent mines.
 
-
-
-Using E, M and
 '''
 from collections import deque
 
 
-# and then here we have the code
-def solution(board, click):
-
-    def getAdjacentMines(board, x, y):
-        numMines = 0
-        # the reason x + 2 b/c it stops at x + 1,
-
-        '''
-        Here is what we need to check here 
-        [x-1, y-1]   [x-1, y ]   [x-1,y + 1]
-                        [x,y]      [x, y + 1]
-                     [x +1, y]    
-        
-        '''
-        for r in range(x-1, x+ 2):
-            for c in range(y -1, y + 2):
-                if 0 <= r < len(board) and 0 <= c < len(board[c]) and board[r][c] =='m':
-                    numMines +=1
-        return numMines
-
-    def updateBoard(board, click):
-        if not board:
-            return board
-        x, y = click
-        if board[x][y] == 'm':
-            board[x][y] = 'x'
-        else:
-            numMines = getAdjacentMines(board,x, y)
-            if numMines:
-                board[x][y] = str(numMines)
-            # no more mines in the adjacent here
-            else:
-                board[x][y] = 'b'
-
-                for r in range(x-1, x + 2):
-                    for c in range(y-1, y +2):
-                        # in the case of empty it will keep updating here
-                        if 0<= r< len(board) and 0<=c < len(board[r]) and board[r][c] !='b':
-                            updateBoard(board, [r, c])
-
+def updateBoard(self, board, click):
+    """
+    :type board: List[List[str]]
+    :type click: List[int]
+    :rtype: List[List[str]]
+    """
+    if board[click[0]][click[1]] == 'M':
+        board[click[0]][click[1]] = 'X'
         return board
+    m = len(board)
+    n = len(board[0])
+    q = deque()
+    q.append(click)
+    visited = set()
+    visited.add(tuple(click))
+    while q:
+        # print(q)
+        for _ in range(len(q)):
+            curr = q.popleft()
+            x, y = curr[0], curr[1]
+
+            count_mine = 0
+
+            # this is then traversing in all 8 directions here,
+            # very important,
+            for a, b in [(0, 1), (1, 0), (0, -1), (-1, 0), (-1, -1), (-1, 1), (1, 1), (1, -1)]:
+                nx, ny = x + a, y + b
+
+                # check if there is mine
+                if 0 <= nx < m and 0 <= ny < n:
+                    if board[nx][ny] == 'M':
+                        count_mine += 1
 
 
+            '''
+            
+            So if a mine does exist then we need to show it on the mine here 
+            
+            '''
+            if count_mine > 0:
+                board[x][y] = str(count_mine)
+            else:
 
+                '''
+                No mine? Start bfsing in all 8 directions
+                
+                '''
+                board[x][y] = 'B'
+                for a, b in [(0, 1), (1, 0), (0, -1), (-1, 0), (-1, -1), (-1, 1), (1, 1), (1, -1)]:
+                    nx, ny = x + a, y + b
 
-
-
-
-
-
-
-
-
+                    if 0 <= nx < m and 0 <= ny < n and (nx, ny) not in visited:
+                        q.append([nx, ny])
+                        visited.add((nx, ny))
+    return board

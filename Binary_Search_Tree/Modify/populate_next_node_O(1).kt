@@ -18,6 +18,8 @@ fun connect(r: Node?): Node? {
         var dummy = Node(0)
         var temp = dummy
         while (head != null) {
+
+
             head.left?.let {
                 temp.next = it
                 if(temp.next!=null){

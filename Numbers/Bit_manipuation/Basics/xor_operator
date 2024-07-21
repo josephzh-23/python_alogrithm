@@ -1,0 +1,19 @@
+Xor of 0 and a bit gets you
+0 xor x = x
+x xor x = 0
+
+# then using the sum of integers here we have next here
+
+
+'''
+
+
+ANd here you have
+x= 15 ; y = 2
+x ^ y
+
+0 1  1 1 1
+0 0  0 1 0
+0 1  1 0 1      without the carry you have
+
+

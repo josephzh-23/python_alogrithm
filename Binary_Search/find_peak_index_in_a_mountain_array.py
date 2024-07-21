@@ -9,7 +9,6 @@ def peakIndexInMountainArray(self, arr: List[int]) -> int:
     definitely greater than mid
 
     '''
-
     l = 0
     r = len(arr)
     while l < r:

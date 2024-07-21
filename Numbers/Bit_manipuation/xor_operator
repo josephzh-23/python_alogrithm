@@ -1,8 +1,0 @@
-If both bits are the same return 0
-otherwise return 1
-
-A   B       A & B
-0   0       0
-1   0       1
-0   1       1
-1   1       0

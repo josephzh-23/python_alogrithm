@@ -22,30 +22,31 @@ We follow these steps until we reach to the end of the array.
 https://leetcode.com/problems/minimum-size-subarray-sum/description/
 '''
 
-def minSubArraySize(arr, num):
+def minSubArraySize(fruits, num):
 
     # keep track of smallest subarray length
     sum, l, r, minLen = 0, 0, 0, float('inf')
+    count = dict()
 
-    while (l < len(arr)):
-        '''
-        if window's leading edge has NOT reached the end of the array
-        AND window's values do NOT add up to num, grow window to right
-        '''
-        if r < len(arr) and sum < num:
-            sum += arr[r]
-            r+=1
-        elif sum >= num:
-            '''
-            
-            '''
-            minLen = min(minLen, r - l)
+    # the above is the solution that we had before much better
+    # much better solution than before
 
-            # decrease the sum by value at the window trailing edge here
-            sum -= arr[l]
+    total = 0
+    while r < len(fruits):
+        '''
+        Increase the frutis anyways at this point and hten 
+        '''
+        count[fruits[r]] +=1
+
+        # increase the l
+        while len(count) > 2:
+            f = fruits[l]
+
+            count[f]-=1
+            total -=1
             l+=1
-        else:
-            break
+            if not count[f]:
+                count.pop(f)
 
     return 0 if minLen == float('inf') else minLen
 

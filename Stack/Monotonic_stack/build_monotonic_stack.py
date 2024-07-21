@@ -7,6 +7,7 @@ def monotonicIncreasing(nums):
 
     # Traverse the array
     for num in nums:
+
         # While stack is not empty AND top of stack is more than the current element
         while stack and stack[-1] > num:
             # Pop the top element from the stack

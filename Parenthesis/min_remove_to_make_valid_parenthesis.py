@@ -13,48 +13,45 @@ Iter thru everything once front and then once backwards here
 
 def minRemoveToMakeValidParenthesis(s)-> str:
 
-    lcount = rcount = 0
-    str =[]
+'''
+1. Use a stack here
 
-    for c in s:
+- track indexes of the unmatched "(",
+
+2. Use a set to
+keep track of the unmatched ")"
+
+3.
+'''
+
+
+def minRemoveToMakeValid(self, s: str) -> str:
+    indexes_to_remove = set()
+
+
+    '''
+    
+    If we put the indexes of the "(" on the stack,
+     then we'll know that all the indexes on the stack at the end are the indexes of the unmatched "("
+    '''
+    stack = []
+    for i, c in enumerate(s):
+        if c not in "()":
+            continue
         if c == "(":
-            lcount +=1
-            str.append(c)
+            stack.append(i)
 
 
-        elif c == ")":
-            if lcount > rcount:
-                rcount +=1
-                str.append(c)
+        # the stack not empty
+        elif not stack:
+            indexes_to_remove.add(i)
+
+        # we see a ) here pop the ( to match it
         else:
-            str.append(c)
-
-    # so this is step #1 here $ and then
-
-    if lcount == rcount:
-        return "".join(str)
-
-
-
-    #this is good so here we are going from the back to account for the the (
-    # and anything else like that
-    else:
-        res = []
-        for i in range(len(str) -1, -1, -1):
-            c = str[i]
-
-            if c == "(":
-                if lcount <= rcount:
-                    res.append(c)
-
-                else:
-                    lcount +=1
-            elif c == ")":
-                res.append(c)
-            else:
-                res.append(c)
-
-            # and then here we are done
-            return "".join(reversed(res))
-
-
+            stack.pop()
+    indexes_to_remove = indexes_to_remove.union(set(stack))
+    string_builder = []
+    for i, c in enumerate(s):
+        if i not in indexes_to_remove:
+            string_builder.append(c)
+    return "".join(string_builder)

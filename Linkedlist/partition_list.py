@@ -1,4 +1,9 @@
 
+
+class ListNode(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 '''
 Partiiton list pooblem here
 
@@ -22,6 +27,13 @@ def partition(head: ListNode, x):
     dummy2 = ListNode(-1)
 
 
+
+    '''
+    
+    If node.val < x:  the node should be part of the before list. So we move it to before list.
+    else: move it to after list 
+   
+    '''
     p1 = dummy1, p2 = dummy2
     p = head
 
@@ -29,10 +41,11 @@ def partition(head: ListNode, x):
         if p.data >= x:
             p2.next = p
             p2 = p2.next
+            p.next = p2
+        else:
+            p1.next = p
 
 
-
-    smallesr.next
 
 '''
 Hvae 2 lists here 

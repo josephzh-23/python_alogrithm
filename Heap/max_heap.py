@@ -19,6 +19,7 @@ class MinHeap(object):
   def push(self, x): heapq.heappush(self.h, x)
   def pop(self): return heapq.heappop(self.h)
   def peek(self): return self.h[0]
+  def isEmpty(self): return len(self.h) > 0
   def __getitem__(self, i): return self.h[i]
   def __len__(self): return len(self.h)
 

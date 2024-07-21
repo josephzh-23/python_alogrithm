@@ -7,6 +7,8 @@ Example:
 'w3*d'
  */
 
+
+# using the 2 pointer technique here
 fun match(words: Array<String>, abbr: String): List<String> {
     val res: MutableList<String> = ArrayList()
     for (word in words) {
@@ -24,6 +26,8 @@ fun isValid(word: String, abbr: String): Boolean {
     while (i < word.length && j < abbr.length) {
         if (Character.isDigit(abbr[j])) {
             var num = 0
+
+
             while (j < abbr.length && Character.isDigit(abbr[j])) {
                 num += num * 10 + (abbr[j].toInt() - '0'.toInt())
                 j++

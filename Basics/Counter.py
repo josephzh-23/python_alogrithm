@@ -9,3 +9,6 @@ x = Counter("geeksforgeeks")
 # you can then print it here
 for i in x.items():
     print(i, end=" ")
+
+# can also do the following turn into the map
+d = dict(Counter("323"))

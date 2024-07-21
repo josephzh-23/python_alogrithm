@@ -1,5 +1,3 @@
-
-
 # used to detect cycle in graph structure as expalined in the video
 from collections import defaultdict
 
@@ -11,6 +9,7 @@ video
 parent: just the immediate parent 
 
 '''
+
 
 class Graph:
 
@@ -37,7 +36,7 @@ class Graph:
 
     def isCyclic(s):
 
-        # everything will start with -1 first at the beginning as said
+        # everything will start with -1 first at the beginning as said for the parent
         parent = [-1] * (s.V)
 
         # Iterate through all edges of graph, find root of both
@@ -47,7 +46,7 @@ class Graph:
 
         for i in s.adjList:
             for j in s.adjList[i]:
-                x= s.findParent(parent, i)
+                x = s.findParent(parent, i)
                 y = s.findParent(parent, j)
 
                 if x == y:
@@ -65,10 +64,3 @@ if g.isCyclic():
     print("Graph contains cycle")
 else:
     print("Graph does not contain cycle ")
-
-
-
-
-
-
-

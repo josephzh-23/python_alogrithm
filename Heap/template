@@ -1,0 +1,14 @@
+'''
+Using the heap problem here
+
+
+'''
+
+
+once they are added
+One case:
+check while len(hp) > 0:
+    continue operation
+
+
+case 2:
