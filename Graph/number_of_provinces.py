@@ -4,7 +4,7 @@ The video link as above as shown before
 import collections
 
 from Graph.flood_fill import isValid
-from Graph.reusable.dfs_matrix import directions
+from Graph.basics.dfs_matrix import directions
 
 graph = {
     'A': ['B', 'C', 'D'],

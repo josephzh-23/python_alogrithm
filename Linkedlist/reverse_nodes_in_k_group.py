@@ -1,7 +1,8 @@
 '''
 Having a dummy node #1 here, and then
 
-The approach simplifies reversing linked list nodes by breaking the list into segments of K nodes and reversing each segment individually.
+The approach simplifies reversing linked list nodes by breaking the
+list into segments of K nodes and reversing each segment individually.
 So basically, Starting from the head here, can be broken down into 3 parts here
 
 1. reverseLinkedList() : same as reversing a linnkedlist here
@@ -13,7 +14,8 @@ So basically, Starting from the head here, can be broken down into 3 parts here
 Algorithm here
 1. Initi a temp to the head of the linkedlist using temp to traverse to the kth node here
 
-2.On reaching the Kth Node, preserve the Kth Node’s next node as `nextNode` and set the Kth Node’s next pointer to `null`.
+2.On reaching the Kth Node, preserve the Kth Node’s next node as `nextNode`
+and set the Kth Node’s next pointer to `null`.
 This effectively breaks the linked list in a smaller list of size K that can be reversed and attached back.
 
 3. Reverse the linkedlist of what u had before above

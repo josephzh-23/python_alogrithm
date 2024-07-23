@@ -10,6 +10,10 @@ last_occurrence = {c: i for i, c in enumerate(s)}
 print(last_occurrence)
 
 
+# part 2: this is the general cheatsheet where we have the code
+# here
+n = 5
+[i for i in range(1, n + 1)]
 
 
 # and then we have the next thing here
