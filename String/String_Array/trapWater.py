@@ -15,7 +15,7 @@ water(i) =  max( maxL, maxR) - height(i)
 
 But just follow the code below
 '''
-from String_Array.findMode import List
+from String.String_Array.findMode import List
 
 
 '''

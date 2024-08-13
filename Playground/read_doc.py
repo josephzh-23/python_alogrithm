@@ -1,11 +1,16 @@
+from document import Document
 
+# my_text = Document("/Users/josephzh/Desktop/system_design/design_url_shortener.docx")
 import docx2txt
-from docx import Document
-my_text = Document("/Users/josephzh/Desktop/system_design/microservice_communication.docx")
 
 
 words = ["What", "how", "what", "where", "Where", "what's", "?-"]
-for p in my_text.paragraphs:
-    # print(p.text)
-    if [ele for ele in words if(ele in p.text)]:
-        print(p.text)
+
+my_text = docx2txt.process("/Users/qzhou/Desktop/system_design/Design_url_shortener.docx")
+results = my_text.split('\n')
+for p in results:
+    if [ele for ele in words if (p.startswith(ele))]:
+        print(p)
+# with open("/Users/qzhou/Desktop/system_design/Design_url_shortener.docx", 'r') as reader:
+#      for line in reader:
+#          print(line, end='')

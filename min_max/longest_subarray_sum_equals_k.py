@@ -22,7 +22,7 @@ hat means there is a subarray with sum k ending at the current i.
 
  5.
 '''
-from Prefix_Sum.prefix_sum import prefixSum
+from Prefix_Sum.template.prefix_sum import prefixSum
 
 
 def longestSubarraySumEqualsK(nums, k):

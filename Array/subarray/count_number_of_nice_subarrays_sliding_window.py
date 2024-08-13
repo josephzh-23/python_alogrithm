@@ -65,6 +65,8 @@ def numberOfSubarrays(arr, k):
         if r < len(arr) and numOfOdds < k:
             if arr[r] % 2 != 0:
                 numOfOdds+=1
+
+
             r += 1
         elif numOfOdds== k:
             total +=1

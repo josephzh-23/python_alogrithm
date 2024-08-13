@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-from String_Array.findMode import List
+from String.String_Array.findMode import List
 '''
     If given 
              3

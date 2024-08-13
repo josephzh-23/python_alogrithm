@@ -1,4 +1,4 @@
-from String_Array.findMode import List
+from String.String_Array.findMode import List
 
 
 # using this approach took O (n)
