@@ -1,6 +1,7 @@
 
 
 
+
 def monotonicIncreasing(nums):
     stack = []
     result = []

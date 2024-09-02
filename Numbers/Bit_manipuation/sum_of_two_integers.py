@@ -1,4 +1,9 @@
 '''
+
+
+Here the question return sum without using the additive oepration here
+
+
 Additive operation
 Using bitwise XOR and ANR operations to perform additive operation,
 

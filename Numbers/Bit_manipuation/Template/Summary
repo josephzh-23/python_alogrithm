@@ -1,0 +1,10 @@
+1. Getting rid of least significant bit
+
+# number of 1bits
+
+2. Do a carry
+
+shifted one bit to the left: carry=(x&y)<<1.
+
+
+3.

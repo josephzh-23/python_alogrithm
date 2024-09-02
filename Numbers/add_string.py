@@ -11,7 +11,6 @@ def addStrings(self, num1: str, num2: str) -> str:
 
     carry = 0
     p1 = len(num1) - 1
-
     # and then that's it for this side of things here a little bit better than before
     p2 = len(num2) - 1
     while p1 >= 0 or p2 >= 0:
@@ -25,5 +24,7 @@ def addStrings(self, num1: str, num2: str) -> str:
 
     if carry:
         res.append(carry)
-
+    print("res here looks like", res)
     return ''.join(str(x) for x in res[::-1])
+
+addStrings("11", "123")
