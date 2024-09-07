@@ -25,8 +25,8 @@ def isSubtree(self, t, s) -> bool:
 
     # IF the tree with root as current node doesn't match
     # then try left and right subtree one by one
-    return (self.isSubtree(t.left, s) or
-            self.isSubtree(t.right, s))
+    return (self.isSubtree(t.l, s) or
+            self.isSubtree(t.r, s))
 
 
 def sameTree(self, s, t):
@@ -35,8 +35,8 @@ def sameTree(self, s, t):
     if not s and not t:
         return True
     if s and t and s.val == t.val:
-        return (sameTree(s.left, t.left) and
-                sameTree(s.right, t.right))
+        return (sameTree(s.l, t.l) and
+                sameTree(s.r, t.r))
     return False
 
 

@@ -1,6 +1,6 @@
 import collections
 
-# this is the template for solving dijkstra's related algo
+# this is the template for solving Distance_dijkstra's related algo
 # in other words: weighted graph problem
 
 

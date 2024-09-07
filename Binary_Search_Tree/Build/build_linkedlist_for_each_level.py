@@ -40,8 +40,8 @@ def createLevelLinkedlistUtil(root, lists, level):
         list = lists[level]
 
     list.append(root)
-    createLevelLinkedlistUtil(root.left, lists, level +1)
-    createLevelLinkedlistUtil(root.right, lists, level +1)
+    createLevelLinkedlistUtil(root.l, lists, level + 1)
+    createLevelLinkedlistUtil(root.r, lists, level + 1)
 
 
 

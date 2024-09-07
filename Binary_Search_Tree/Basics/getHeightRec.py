@@ -31,8 +31,8 @@ def getHeightRec(root):
 # and therefore not always
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
 print ("Height of tree is", getHeightRec(root))

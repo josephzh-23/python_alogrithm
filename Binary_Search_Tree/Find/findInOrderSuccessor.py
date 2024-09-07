@@ -28,8 +28,8 @@ def findInOrderSuccessor(r, n):
 
     # Case 1:
     # The node has right tree -> return left most node of right children
-    if n.right is not None:
-        return findMin(n.right)
+    if n.r is not None:
+        return findMin(n.r)
 
     # Case 2
     # Root has no right children

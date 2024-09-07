@@ -46,7 +46,7 @@ def findDuplicateSubtrees(root: Optional[ListNode]) -> List[Optional[ListNode]]:
         if not node:
             return "null"
 
-        s = ",".join([str(node.val), dfs(node.left), dfs(node.right)])
+        s = ",".join([str(node.val), dfs(node.l), dfs(node.r)])
         print("s is " , s)
         # we need to test out this part later on here
 

@@ -40,8 +40,8 @@ def buildTreeFromArray(arr, left, right):
 
     node = TreeNode(arr[mid])
 
-    node.left = buildTreeFromArray(arr, left, mid-1)
-    node.right = buildTreeFromArray(arr, mid+1, right)
+    node.l = buildTreeFromArray(arr, left, mid - 1)
+    node.r = buildTreeFromArray(arr, mid + 1, right)
 
     return node
 

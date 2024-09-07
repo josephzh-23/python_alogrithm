@@ -29,9 +29,9 @@ def levelOrder(self, root) -> List[List[int]]:
         for i in range(len(q)):
             node = q.popleft()
             nodesPerLevel.append(node.val)
-            if node.left:
-                q.append(node.left)
-            if node.right:
-                q.append(node.right)
+            if node.l:
+                q.append(node.l)
+            if node.r:
+                q.append(node.r)
         res.append(nodesPerLevel)
     return res

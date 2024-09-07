@@ -38,11 +38,11 @@ def printCounterClockwise(r):
             if i == 0 or i == len(sizeOfCurLevel) -1:
 
                 res.append(node.val)
-                if node.left:
-                    q.append(node.left)
+                if node.l:
+                    q.append(node.l)
 
-                if node.right:
-                    q.append(node.right)
+                if node.r:
+                    q.append(node.r)
 
         # how to know when at last level of a tree?
 root = Node(1)

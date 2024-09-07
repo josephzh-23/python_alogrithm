@@ -14,8 +14,8 @@ def findLargestSubtreeSumUtil(r, ans):
     if not r:
         return 0
 
-    leftsum = findLargestSubtreeSumUtil(r.left, ans)
-    rightsum = findLargestSubtreeSumUtil(r.right, ans)
+    leftsum = findLargestSubtreeSumUtil(r.l, ans)
+    rightsum = findLargestSubtreeSumUtil(r.r, ans)
 
     cursum = r.data + leftsum + rightsum
     ans = max(ans, cursum)

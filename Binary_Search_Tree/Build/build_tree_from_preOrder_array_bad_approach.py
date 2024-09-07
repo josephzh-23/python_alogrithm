@@ -48,10 +48,10 @@ def buildBSTreeFromPreorder(array, start, end):
         i = i + 1
 
     # recursively construct the left subtree
-    node.left = buildBSTreeFromPreorder(array, start + 1, i - 1)
+    node.l = buildBSTreeFromPreorder(array, start + 1, i - 1)
 
     # recursively construct the right subtree
-    node.right = buildBSTreeFromPreorder(array, i, end)
+    node.r = buildBSTreeFromPreorder(array, i, end)
 
     # return current node
     return node

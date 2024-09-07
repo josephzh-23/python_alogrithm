@@ -28,8 +28,8 @@ def buildBSTreeFromPreorder(arr, start, end):
     for i in range(len(arr)):
         if arr[i] >arr[start]:
             r = TreeNode(arr[i])
-            r.left = buildBSTreeFromPreorder(arr[start:i], start+1, i)
-            r.right = buildBSTreeFromPreorder(arr[i: end], i+1, end)
+            r.l = buildBSTreeFromPreorder(arr[start:i], start + 1, i)
+            r.r = buildBSTreeFromPreorder(arr[i: end], i + 1, end)
 
     return r
 #driver for this

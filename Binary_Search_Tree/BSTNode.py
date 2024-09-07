@@ -13,8 +13,8 @@
 # this is how to implement a bstNode
 class TreeNode:
     def __init__(s, val= None, left = None, right = None):
-        s.left = None
-        s.right = None
+        s.l = None
+        s.r = None
         s.val = val
 
 
@@ -26,9 +26,9 @@ def insertRec(r, key):
         return TreeNode(key)
     else:
         if r.val < key:
-            r.right = insert(r.right, key)
+            r.r = insert(r.r, key)
         else:
-            r.left = insert(r.left, key)
+            r.l = insert(r.l, key)
     return r
 
 # iterative approach, need 2 pters:
@@ -54,9 +54,9 @@ def insert(root, val=None):
         parent = cur
 
         if val < cur.val:
-            cur = cur.left
+            cur = cur.l
         else:
-            cur = cur.right
+            cur = cur.r
 
     # construct a node and assign it to the appropriate parent pointer
     if val < parent.val:
@@ -120,8 +120,8 @@ def findMin(node):
     current = node
 
     # loop down to find the leftmost leaf
-    while (current.left is not None):
-        current = current.left
+    while (current.l is not None):
+        current = current.l
     return current
 
 """

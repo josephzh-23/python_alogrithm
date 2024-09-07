@@ -11,11 +11,11 @@ def flattenBSTIntoLinkedlist(root):
     while s:
         cur = s.pop()
 
-        if cur.right:
-            s.append(cur.right)
+        if cur.r:
+            s.append(cur.r)
 
-        elif cur.left:
-            s.append(cur.left)
+        elif cur.l:
+            s.append(cur.l)
 
 
 
@@ -25,13 +25,13 @@ def isTreeBalanced(r):
     if not r:
         return None
 
-    lHeight = height(r.left)
-    rHeight = height(r.right)
+    lHeight = height(r.l)
+    rHeight = height(r.r)
 
     if rHeight- lHeight >1:
         return False
 
-    return isTreeBalanced(r.left) and isTreeBalanced(r.right)
+    return isTreeBalanced(r.l) and isTreeBalanced(r.r)
 
 def height(root):
     if root is None:

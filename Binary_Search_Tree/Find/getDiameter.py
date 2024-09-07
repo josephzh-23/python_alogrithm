@@ -64,9 +64,9 @@ def findDiameter(root, ans):
     if (root == None):
         return 0
 
-    left_height = findDiameter(root.left, ans)
+    left_height = findDiameter(root.l, ans)
 
-    right_height = findDiameter(root.right, ans)
+    right_height = findDiameter(root.r, ans)
 
     # update the answer, because diameter
     # of a tree is nothing but maximum
@@ -99,10 +99,10 @@ def diameter(root):
 # Driver code
 if __name__ == '__main__':
     root = TreeNode(1)
-    root.left = TreeNode(2)
-    root.right = TreeNode(3)
-    root.left.left = TreeNode(4)
-    root.left.right = TreeNode(5)
+    root.l = TreeNode(2)
+    root.r = TreeNode(3)
+    root.l.l = TreeNode(4)
+    root.l.r = TreeNode(5)
 
     print("Diameter is", diameter(root))
 

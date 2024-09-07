@@ -63,9 +63,9 @@ def widthOfBinaryTree(r):
             q.pop()
             nodesPerLevel.append(node.val)
             if node.left:
-                q.append([node.left, 2 * hackSerial + 1])
+                q.append([node.l, 2 * hackSerial + 1])
             if node.right:
-                q.append([node.right, 2 * hackSerial + 1])
+                q.append([node.r, 2 * hackSerial + 1])
         res.append(nodesPerLevel)
 
         #return the max width here as said

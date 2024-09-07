@@ -10,16 +10,16 @@ from Binary_Search_Tree.BSTNode import TreeNode
 
 # the above works really well for bst
 def successor(root: TreeNode) -> TreeNode:
-    root = root.right
-    while root.left:
-        root = root.left
+    root = root.r
+    while root.l:
+        root = root.l
     return root
 
 # the max value in the left subtree here
 def predecessor(root: TreeNode) -> TreeNode:
-    root = root.left
-    while root.right:
-        root = root.right
+    root = root.l
+    while root.r:
+        root = root.r
     return root
 
 

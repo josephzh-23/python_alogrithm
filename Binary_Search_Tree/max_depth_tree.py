@@ -6,7 +6,7 @@
 
 def getMaxDepth(r):
 
-    return max(getHeightRec(r.left), getHeightRec(r.right))
+    return max(getHeightRec(r.l), getHeightRec(r.r))
 
 def getHeightRec(root):
 

@@ -21,11 +21,11 @@ def getHeightIter(root):
         while numOfNodesCurLevel > 0:
             front = queue.pop()
 
-            if front.left:
-                queue.append(front.left)
+            if front.l:
+                queue.append(front.l)
 
-            if front.right:
-                queue.append(front.right)
+            if front.r:
+                queue.append(front.r)
 
             numOfNodesCurLevel = numOfNodesCurLevel - 1
 

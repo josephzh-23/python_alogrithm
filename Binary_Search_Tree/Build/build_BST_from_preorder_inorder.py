@@ -32,11 +32,11 @@ class Solution:
 
         # For preorder: this is really from 1 to mid (not including mid + 1)
         # For inorder will be from beginning to mid, but not including mid
-        root.left = self.buildTree(preorder[1 : mid + 1], inorder[:mid])
+        root.l = self.buildTree(preorder[1: mid + 1], inorder[:mid])
 
         # For preorder:
         #
         # For inorder:
         #       from mid to the end
-        root.right = self.buildTree(preorder[mid + 1 :], inorder[mid + 1 :])
+        root.r = self.buildTree(preorder[mid + 1:], inorder[mid + 1:])
         return root

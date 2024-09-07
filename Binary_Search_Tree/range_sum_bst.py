@@ -27,11 +27,11 @@ def rangeSumBST(r, low, high):
 
             # do the traversal here
 
-            if node.lef < node.val < node.right:
+            if node.lef < node.val < node.r:
                 ans += node
-            if node.right:
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
+            if node.r:
+                stack.append(node.r)
+            if node.l:
+                stack.append(node.l)
 
     return ans

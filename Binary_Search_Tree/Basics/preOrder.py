@@ -7,8 +7,20 @@ from Binary_Search_Tree.BSTNode import TreeNode
 def preOrderRec(r):
     if r:
         print(r.val)
-        preOrderRec(r.left)
-        preOrderRec(r.right)
+        preOrderRec(r.l)
+        preOrderRec(r.r)
+
+
+# let's run the above here
+r = TreeNode(1)
+r.r = TreeNode(3)
+r.r.r = TreeNode(4)
+r.r.r.r = TreeNode(5)
+r.r.l = TreeNode(2)
+
+preOrderRec(r)
+
+
 
 
 
@@ -33,17 +45,17 @@ def PreorderIter(root):
         node = stack.pop()
 
         if node:
-            if node.right:
+            if node.r:
                 # print('right val', node.right.val, end=" ")
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
+                stack.append(node.r)
+            if node.l:
+                stack.append(node.l)
 
 
 # Driver program to test above function
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
 # PreorderIter(root)

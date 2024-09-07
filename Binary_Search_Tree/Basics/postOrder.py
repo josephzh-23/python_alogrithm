@@ -17,8 +17,8 @@ from Binary_Search_Tree.BSTNode import TreeNode
 
 def postOrderRec(root):
     if root:
-        postOrderRec(root.left)
-        postOrderRec(root.right)
+        postOrderRec(root.l)
+        postOrderRec(root.r)
 
         print(root.val),
 
@@ -46,10 +46,10 @@ def postOrderIterative(root):
 
         # Push left and right children of
         # removed item to s1
-        if node.left:
-            s1.append(node.left)
-        if node.right:
-            s1.append(node.right)
+        if node.l:
+            s1.append(node.l)
+        if node.r:
+            s1.append(node.r)
 
         # Print all elements of second stack
     while s2:
@@ -60,10 +60,10 @@ def postOrderIterative(root):
 # inOrderIter(root)
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.right.left = TreeNode(5)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.r.l = TreeNode(5)
 # root.right.right = Node(6)
 # root.right.left.left = Node(7)
 # root.right.left.right = Node(8)
@@ -74,10 +74,10 @@ root.right.left = TreeNode(5)
 
 # Driver program to test above function
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
-root.right.left = TreeNode(6)
-root.right.right = TreeNode(7)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
+root.r.l = TreeNode(6)
+root.r.r = TreeNode(7)
 postOrderIterative(root)

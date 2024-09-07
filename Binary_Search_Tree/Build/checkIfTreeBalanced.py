@@ -58,12 +58,12 @@ Constructed binary tree is
 # to store the height of tree during traversal
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
-root.right.left = TreeNode(6)
-root.left.left.left = TreeNode(7)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
+root.r.l = TreeNode(6)
+root.l.l.l = TreeNode(7)
 
 if isBalanced(root):
     print('Tree is balanced')

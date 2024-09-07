@@ -11,7 +11,7 @@ General summary:
 
 visualization:
 MinHeap
-Distance    Node
+Distance_dijkstra    Node
 0           1
 1           3
 4           2
@@ -19,7 +19,7 @@ Distance    Node
 Here n = # of nodes 
 # you are sending a signal from a given node k
 
-- same as the shortest path theory as dijkstra theory 
+- same as the shortest path theory as Distance_dijkstra theory 
 . Return the minimum time it takes for all the 
 n nodes to receive the signal.
 

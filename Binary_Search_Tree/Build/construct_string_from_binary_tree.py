@@ -79,19 +79,19 @@ def preorderIter(root):
 
             # only the right exists
             # 1 (2 () (4))  (3 (5) (6))
-            if t.left is None and t.right:
+            if t.l is None and t.r:
                 s += "()"
 
-            if t.right:
-                stack.append(t.right)
+            if t.r:
+                stack.append(t.r)
 
-            if t.left:
-                stack.append(t.left)
+            if t.l:
+                stack.append(t.l)
 
     print(s)
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
 preorderIter(root)

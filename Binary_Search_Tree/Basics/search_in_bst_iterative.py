@@ -4,9 +4,9 @@ from Binary_Search_Tree.BSTNode import TreeNode
 def searchBST(root: TreeNode, val: int) -> TreeNode:
     while root is not None and root.val != val:
         if val < root.val:
-            root = root.left
+            root = root.l
         else:
-            root = root.right
+            root = root.r
     return root
 
 

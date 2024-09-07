@@ -13,7 +13,7 @@ def inOrder(node, list):
     if not node:
         return
 
-    inOrder(node.left, list)
+    inOrder(node.l, list)
     if prev:
         if node.val == prev.val:
             count+=1
@@ -34,7 +34,7 @@ def inOrder(node, list):
     # 1st time, come here prev == null so assign above 
     prev = node
     print('the value of prev is ',prev.val)
-    inOrder(node.right, list)
+    inOrder(node.r, list)
 
 def findMode(root):
     list = []

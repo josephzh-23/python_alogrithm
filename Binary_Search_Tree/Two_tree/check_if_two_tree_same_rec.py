@@ -15,5 +15,5 @@ def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
     if not p or not q or p.val != q.val:
         return False
 
-    return self.isSameTree(p.left, q.left) and \
-    self.isSameTree(p.right, q.right)
+    return self.isSameTree(p.l, q.l) and \
+    self.isSameTree(p.r, q.r)

@@ -14,21 +14,21 @@ def pathSum(root, targetSum):
 
 
         # the above here is then true
-        if not node.right and not node.left and cursum == 0:
+        if not node.r and not node.l and cursum == 0:
 
             # and now this is done here
             return True
         if node:
-            if node.right:
+            if node.r:
                 # print('right val', node.right.val, end=" ")
-                stack.append((node.right, cursum - node.right.val))
-            if node.left:
-                stack.append((node.left, cursum - node.left.val))
+                stack.append((node.r, cursum - node.r.val))
+            if node.l:
+                stack.append((node.l, cursum - node.l.val))
 
     return False
             # if node right here
 
 r = TreeNode(1)
-r.left = TreeNode(2)
-r.right = TreeNode(3)
+r.l = TreeNode(2)
+r.r = TreeNode(3)
 print(pathSum(r, 3))

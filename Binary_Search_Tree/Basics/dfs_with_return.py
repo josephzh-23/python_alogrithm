@@ -20,6 +20,6 @@ class Solution:
             self.maxDepth = depth
             self.bottomLeftValue = current.val
 
-        self.dfs(current.left, depth + 1)
-        self.dfs(current.right, depth + 1)
+        self.dfs(current.l, depth + 1)
+        self.dfs(current.r, depth + 1)
         return

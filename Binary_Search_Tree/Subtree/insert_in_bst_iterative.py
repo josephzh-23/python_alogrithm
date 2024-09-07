@@ -10,17 +10,17 @@ def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
         # Remember use the code here can even use the psedo code here
         if val > node.val:
             # insert right now
-            if not node.right:
-                node.right = TreeNode(val)
+            if not node.r:
+                node.r = TreeNode(val)
                 return root
             else:
-                node = node.right
+                node = node.r
         # insert into the left subtree
         else:
             # insert right now
-            if not node.left:
-                node.left = TreeNode(val)
+            if not node.l:
+                node.l = TreeNode(val)
                 return root
             else:
-                node = node.left
+                node = node.l
     return TreeNode(val)

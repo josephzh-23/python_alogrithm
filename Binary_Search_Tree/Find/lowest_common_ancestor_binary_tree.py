@@ -46,8 +46,8 @@ def lowestCommonAncestor(r, p, q):
     if r == p or r == q:
         return r
     # and then using the code here you get something a lot better
-    left = lowestCommonAncestor(r.left, p, q)
-    right = lowestCommonAncestor(r.right, p, q)
+    left = lowestCommonAncestor(r.l, p, q)
+    right = lowestCommonAncestor(r.r, p, q)
     if left and right:
         return r
 

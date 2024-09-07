@@ -10,7 +10,7 @@ def isSum(r):
         return 0
 
     # and this is for starter here and we are getting even better here
-    return sum(r.left) + r.data + sum(r.right)
+    return sum(r.l) + r.data + sum(r.r)
 
 
 def isSumTree(r):
@@ -23,15 +23,15 @@ def isSumTree(r):
     # node then return true
     # then this has reached the bottom here and we are done
     if (r == None or
-            (r.left is None and
-             r.right is None)):
+            (r.l is None and
+             r.r is None)):
         return 1
     # we have to take care of the one aat the bottom here
 #these 2 are it here
-    ls = sum(r.left)
-    rs = sum(r.right)
+    ls = sum(r.l)
+    rs = sum(r.r)
 
-    if r.data== ls + rs and isSumTree(r.left) and isSumTree(r.right):
+    if r.data== ls + rs and isSumTree(r.l) and isSumTree(r.r):
         return 1
 
     return 0

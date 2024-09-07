@@ -22,17 +22,17 @@ def printLevelOrderIter(r):
         print(q[0].val)
         node = q.pop(0)
 
-        if node.left:
-            q.append(node.left)
+        if node.l:
+            q.append(node.l)
 
-        if node.right:
-            q.append(node.right)
+        if node.r:
+            q.append(node.r)
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
-root.left.left.left = TreeNode(7)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
+root.l.l.l = TreeNode(7)
 
 printLevelOrderIter(root)

@@ -43,11 +43,11 @@ def buildBST(preorder, pIndex=0, min=-sys.maxsize, max=sys.maxsize):
 
     # Since all elements in the left subtree of a BST must be less
     # than the root node's value, set range as `[min, val-1]` and recur
-    root.left, pIndex = buildBST(preorder, pIndex, min, val - 1)
+    root.l, pIndex = buildBST(preorder, pIndex, min, val - 1)
 
     # Since all elements in the right subtree of a BST must be greater
     # than the root node's value, set range as `[val+1…max]` and recur
-    root.right, pIndex = buildBST(preorder, pIndex, val + 1, max)
+    root.r, pIndex = buildBST(preorder, pIndex, val + 1, max)
 
     return root, pIndex
 

@@ -21,38 +21,59 @@ We follow these steps until we reach to the end of the array.
 
 https://leetcode.com/problems/minimum-size-subarray-sum/description/
 '''
-
-def minSubArraySize(fruits, num):
-
-    # keep track of smallest subarray length
-    sum, l, r, minLen = 0, 0, 0, float('inf')
-    count = dict()
-
-    # the above is the solution that we had before much better
-    # much better solution than before
-
-    total = 0
-    while r < len(fruits):
-        '''
-        Increase the frutis anyways at this point and hten 
-        '''
-        count[fruits[r]] +=1
-
-        # increase the l
-        while len(count) > 2:
-            f = fruits[l]
-
-            count[f]-=1
-            total -=1
-            l+=1
-            if not count[f]:
-                count.pop(f)
-
-    return 0 if minLen == float('inf') else minLen
+from typing import List
 
 
 
+'''
+So the way you handle this problem is basically 
 
+How to solve this problem here? So basically what happened was 
+
+
+'''
+
+
+def minSwaps(data: List[int]) -> int:
+    N = len(data)
+    all_ones_count = sum(data)          # all_ones_count never changes
+
+    left = 0
+    right = 0
+    print(all_ones_count)
+    ones_in_window = 0
+    max_ones = 0
+
+
+    '''
+    Imagine you have [1, 1, 0, 1, 1, 1, 1] to fix the above you would need 
+   What you are doing is basically 
+   1) at one pt, r = 6, one_in_window = 5, 
+   2) since r >= all_ones_count , we start contracting
+       ->  [1, 0, 1, 1,1, 1] and we exit 
+       
+       
+   3) Add data[right],      [ 1, 0, 1, 1, 1, 1], 
+   becomes [1, 0, 1, 1, 1, 1] and then [0, 1, 1, 1,1 ]
+    but the max_ones becomes 6 at some point in this process
+    '''
+    while right < N:
+        ones_in_window += data[right]
+        right += 1
+
+        if right >= all_ones_count:
+            max_ones = max(max_ones, ones_in_window)
+            ones_in_window -= data[left]
+            left += 1
+
+            # in this case becomes 6 - 5
+    return all_ones_count - max_ones
+# minSubArrayLen(data)
+# minSubArrayLen(data)
+data = [1, 1, 0, 1, 1, 1, 1]
+print(minSwaps(data))
+
+# answer 1
 
 
 

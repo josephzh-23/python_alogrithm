@@ -21,10 +21,10 @@ class Solution:
             # by going left till possible
             while root1:
                 stack1.append(root1)
-                root1 = root1.left
+                root1 = root1.l
             while root2:
                 stack2.append(root2)
-                root2 = root2.left
+                root2 = root2.l
 
             # Add the smallest value into output,
             # pop it from the stack,
@@ -32,10 +32,10 @@ class Solution:
             if not stack2 or stack1 and stack1[-1].val <= stack2[-1].val:
                 root1 = stack1.pop()
                 output.append(root1.val)
-                root1 = root1.right
+                root1 = root1.r
             else:
                 root2 = stack2.pop()
                 output.append(root2.val)
-                root2 = root2.right
+                root2 = root2.r
 
         return output

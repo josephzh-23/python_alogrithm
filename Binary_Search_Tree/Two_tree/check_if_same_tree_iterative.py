@@ -29,20 +29,20 @@ def checkIfTwoTreesSame(t1, t2):
 
         # pop right here
         q1.pop(0), q2.pop(0)
-        if n1.left and n2.left:
-            q1.append(n1.left)
-            q2.append(n2.left)
+        if n1.l and n2.l:
+            q1.append(n1.l)
+            q2.append(n2.l)
 
         # one left child is empty
-        elif n1.left or n2.left:
+        elif n1.l or n2.l:
             return False
 
-        if n1.right and n2.right:
-            q1.append(n1.right)
-            q2.append(n2.right)
+        if n1.r and n2.r:
+            q1.append(n1.r)
+            q2.append(n2.r)
 
         # 1 right child is empty here
-        elif n1.right or n2.right:
+        elif n1.r or n2.r:
             return False
 
     return True

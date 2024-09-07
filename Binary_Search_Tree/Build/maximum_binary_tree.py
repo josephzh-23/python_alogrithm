@@ -39,8 +39,8 @@ def build(nums: List[int], lo: int, hi: int) -> TreeNode:
     # 先构造出根节点
     root = TreeNode(maxVal)
     # 递归调用构造左右子树
-    root.left = build(nums, lo, index - 1)
-    root.right = build(nums, index + 1, hi)
+    root.l = build(nums, lo, index - 1)
+    root.r = build(nums, index + 1, hi)
 
     return root
 

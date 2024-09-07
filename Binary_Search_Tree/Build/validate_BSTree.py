@@ -25,8 +25,8 @@ def validate(node, left, right):
 
     # make sure left sub tree valid,
     # node.left always <  node.val
-    return validate(node.left, left, node.val) and \
-           validate(node.right, node.val, right)
+    return validate(node.l, left, node.val) and \
+           validate(node.r, node.val, right)
 
     # make sure right sub tree valid are both valid
     # node.right always > node.val,
@@ -61,7 +61,7 @@ def checkTreeIsBST(root: TreeNode) -> bool:
         while cur:
             Stack.append(root)
 
-            cur = cur.left
+            cur = cur.l
 
         cur = Stack.pop()
 
@@ -73,17 +73,17 @@ def checkTreeIsBST(root: TreeNode) -> bool:
 
         # Traverse right subtree
         # of the tree
-        cur = cur.right
+        cur = cur.r
 
     return True
 
 
 # This approach is good
 root = TreeNode(4)
-root.left = TreeNode(3)
-root.right = TreeNode(6)
-root.right.left = TreeNode(5)
-root.right.right = TreeNode(7)
+root.l = TreeNode(3)
+root.r = TreeNode(6)
+root.r.l = TreeNode(5)
+root.r.r = TreeNode(7)
 # print(isValidBSTIter(root))
 
 

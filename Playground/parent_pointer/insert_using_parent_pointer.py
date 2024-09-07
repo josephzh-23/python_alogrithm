@@ -13,13 +13,13 @@ class newNode:
 # traversal of BST
 def inorder(root):
     if root != None:
-        inorder(root.left)
+        inorder(root.l)
         print("Node :", root.key, ", ", end="")
         if root.parent == None:
             print("Parent : NULL")
         else:
             print("Parent : ", root.parent.key)
-        inorder(root.right)
+        inorder(root.r)
 
 
 # A utility function to insert a new
@@ -36,8 +36,8 @@ def insert(node, key):
         '''
         # Otherwise, recur down the tree
     if key < node.key:
-        lchild = insert(node.left, key)
-        node.left = lchild
+        lchild = insert(node.l, key)
+        node.l = lchild
 
         # Set parent of root of left subtree
         lchild.parent = node
@@ -45,8 +45,8 @@ def insert(node, key):
 
 
     elif key > node.key:
-        rchild = insert(node.right, key)
-        node.right = rchild
+        rchild = insert(node.r, key)
+        node.r = rchild
 
         # Set parent of root of right subtree
         rchild.parent = node

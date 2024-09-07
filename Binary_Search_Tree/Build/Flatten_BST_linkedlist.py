@@ -24,11 +24,11 @@ def flattenBSTIntoLinedlist(root):
     while s:
         cur = s.pop()
 
-        if cur.right:
-            s.append(cur.right)
+        if cur.r:
+            s.append(cur.r)
 
-        elif cur.left:
-            s.append(cur.left)
+        elif cur.l:
+            s.append(cur.l)
 
         # if the stack not empty
         '''
@@ -40,8 +40,8 @@ def flattenBSTIntoLinedlist(root):
                      4  
         '''
         if s:
-            cur.right = s[-1]
-        cur.left = None
+            cur.r = s[-1]
+        cur.l = None
 
 node = TreeNode(4)
 insert(node,5 )

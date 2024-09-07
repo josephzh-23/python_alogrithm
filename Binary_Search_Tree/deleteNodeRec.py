@@ -68,7 +68,7 @@ def minValueNode(n):
     cur = n
 
     # loop down to find the leftmost leaf
-    while cur.left is not None:
-        cur = cur.left
+    while cur.l is not None:
+        cur = cur.l
 
     return cur

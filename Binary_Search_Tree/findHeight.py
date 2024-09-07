@@ -13,9 +13,9 @@ def maxDepth(node):
         return 0
 
     else:
-        lDepth = maxDepth(node.left)
+        lDepth = maxDepth(node.l)
         print(lDepth)
-        rDepth = maxDepth(node.right)
+        rDepth = maxDepth(node.r)
 
         if lDepth > rDepth:
             return lDepth + 1
@@ -24,9 +24,9 @@ def maxDepth(node):
             return rDepth + 1
 
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
 
 print('height of the tree is %d' %maxDepth(root))

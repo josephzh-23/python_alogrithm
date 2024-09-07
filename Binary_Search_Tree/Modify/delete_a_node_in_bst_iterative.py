@@ -31,29 +31,29 @@ class Solution:
         n,par = root, None # n is our target for deletion (after iterating), par is its parent node
         while n and n.val!=key: # Traverse... while n is valid, and it doesn't match the key
             par = n
-            n   = n.left if key < n.val else n.right
+            n   = n.l if key < n.val else n.r
         if not n:
             return root # Key not Found
         #
         # Deletion: 4 Main Cases
-        if (not n.left) and (not n.right):
+        if (not n.l) and (not n.r):
             # A) Leaf Detected. Delete 100%
             new = None
-        elif not n.left:
+        elif not n.l:
             # B) Left Branch Empty. Keep Right Branch.
-            new = n.right
-        elif not n.right:
+            new = n.r
+        elif not n.r:
             # C) Right Branch Empty. Keep Left Branch.
-            new = n.left
+            new = n.l
         else:
             # D) Both branches exist. Make Right Branch Official, and place n.left and its left-most side.
-            new = n.right
+            new = n.r
             # Find left-most side of n.right
             n2 = new
-            while n2.left:
-                n2 = n2.left
+            while n2.l:
+                n2 = n2.l
             # Place n.left at the left of our "new" sub-tree
-            n2.left = n.left
+            n2.l = n.l
         #
         # Insertion: 3 Cases
         if not par:

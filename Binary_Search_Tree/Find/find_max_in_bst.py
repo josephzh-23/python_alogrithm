@@ -4,8 +4,8 @@ def maxValue(root):
     current = root
 
     # loop down to find the rightmost leaf
-    while (current.right):
-        current = current.right
+    while (current.r):
+        current = current.r
     return current.data
 
 

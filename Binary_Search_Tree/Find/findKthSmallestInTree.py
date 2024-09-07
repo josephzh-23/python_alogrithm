@@ -15,9 +15,9 @@ def findKthSmallestElement(root, k):
         if not node:
             return
 
-        inOrder(node.left)
+        inOrder(node.l)
         array.append(node.val)
-        inOrder(node.right)
+        inOrder(node.r)
     inOrder(root)
 
     return array[k -1 ] #as said previously here
@@ -25,9 +25,9 @@ def findKthSmallestElement(root, k):
     # and those are really good indicators here
 
 s = TreeNode(3)
-s.left = TreeNode(1)
-s.right = TreeNode(4)
-s.left.right = TreeNode(2)
+s.l = TreeNode(1)
+s.r = TreeNode(4)
+s.l.r = TreeNode(2)
 print(findKthSmallestElement(s, 1))
 
 

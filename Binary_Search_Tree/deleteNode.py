@@ -45,16 +45,16 @@ def deleteNode(root, key):
         # if the given key is less than the current node, go to the left subtree;
         # otherwise, go to the right subtree
         if key < curr.data:
-            curr = curr.left
+            curr = curr.l
         else:
-            curr = curr.right
+            curr = curr.r
 
     # return if the key is not found in the tree
     if curr is None:
         return root
 
     # Case 1: node to be deleted has no children, i.e., it is a leaf node
-    if not curr.left and not curr.right:
+    if not curr.l and not curr.r:
 
         # if the node to be deleted is not a root node, then check its
         # left or right child, and set it to none
@@ -69,10 +69,10 @@ def deleteNode(root, key):
             root = None
 
     # Case 2: node to be deleted has two children
-    elif curr.left and curr.right:
+    elif curr.l and curr.r:
 
         # find its inorder successor node
-        successor = findMin(curr.right)
+        successor = findMin(curr.r)
 
         # store successor value
         val = successor.data
@@ -88,10 +88,10 @@ def deleteNode(root, key):
     else:
 
         # choose a child node
-        if curr.left:
-            child = curr.left
+        if curr.l:
+            child = curr.l
         else:
-            child = curr.right
+            child = curr.r
 
         # if the node to be deleted is not a root node, set its parent
         # to its child

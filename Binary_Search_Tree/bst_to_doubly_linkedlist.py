@@ -24,17 +24,17 @@ def bstToDoublyLinkedList(node):
     if not node:
         return
 
-    bstToDoublyLinkedList(node.left)
+    bstToDoublyLinkedList(node.l)
 
     if not prev:
         head = node
         prev = node
     else:
-        node.left = prev
-        prev.right = node
+        node.l = prev
+        prev.r = node
 
         # update the node as well
         prev = node
 
-    bstToDoublyLinkedList(node.right)
+    bstToDoublyLinkedList(node.r)
 

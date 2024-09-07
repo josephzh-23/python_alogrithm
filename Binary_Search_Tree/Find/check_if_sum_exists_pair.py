@@ -47,9 +47,9 @@ def inOrder(node, list):
     if not node:
         return
 
-    inOrder(node.left, list)
+    inOrder(node.l, list)
     list.append(node.val)
-    inOrder(node.right, list)
+    inOrder(node.r, list)
 
 
 # 2, 4 , 5, 8, 10   in order is usually like that before

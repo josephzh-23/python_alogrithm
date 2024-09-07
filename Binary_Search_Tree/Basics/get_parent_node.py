@@ -13,11 +13,11 @@ def getParentNode(root, value):
     while cur:
         if cur.val< value:
             parent = cur
-            cur = cur.right
+            cur = cur.r
 
         elif cur.val > value:
             parent = cur
-            cur = cur.left
+            cur = cur.l
 
         # found
         elif cur.val == value:

@@ -30,16 +30,16 @@ def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Op
 
         node1.val += node2.val
 
-        if node1.left is None:
-            node1.left = node2.left
-            node2.left = None
+        if node1.l is None:
+            node1.l = node2.l
+            node2.l = None
 
-        if node1.right is None:
-            node1.right = node2.right
-            node2.right = None
+        if node1.r is None:
+            node1.r = node2.r
+            node2.r = None
 
-        queue.append((node1.left, node2.left))
-        queue.append((node1.right, node2.right))
+        queue.append((node1.l, node2.l))
+        queue.append((node1.r, node2.r))
 
     return root1
 

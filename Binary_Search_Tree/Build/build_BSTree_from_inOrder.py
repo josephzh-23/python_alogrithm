@@ -37,8 +37,8 @@ def buildTree(array, start, end):
     if start == end:
         return root
 
-    root.left = buildTree(array, start, maxIndex -1)
-    root.right = buildTree(array, maxIndex+1, end)
+    root.l = buildTree(array, start, maxIndex - 1)
+    root.r = buildTree(array, maxIndex + 1, end)
 
     return root
 

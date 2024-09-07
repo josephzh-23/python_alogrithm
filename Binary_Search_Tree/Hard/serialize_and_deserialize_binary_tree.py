@@ -17,8 +17,8 @@ class Codec:
                 str += 'None',
             else:
                 str+= str(r.value) + ','
-                str+= s.rserialize(r.left, str)
-                str+= s.rserialize(r.left, str)
+                str+= s.rserialize(r.l, str)
+                str+= s.rserialize(r.l, str)
 
             return str
 
@@ -38,8 +38,8 @@ class Codec:
 
             root = TreeNode(l[0])
             l.pop(0)
-            root.left = rdeserialize(l)
-            root.right = rdeserialize(l)
+            root.l = rdeserialize(l)
+            root.r = rdeserialize(l)
             return root
 
         data_list = data.split(',')

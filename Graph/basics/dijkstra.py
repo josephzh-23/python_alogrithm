@@ -53,10 +53,12 @@ def dijkstra(graph, startVertex):
                     '''
                     oldCost = cur value (shortest path) from start vertext to neighbor 
                     newCost = shortest path from start vertex to cur vertex 
-                     + distance between cur vertext to neighbor
+                        + distance between cur vertext to neighbor
                     '''
                     oldCost = D[neighbor]
                     newCost = D[current_vertex] + distance
+
+                    # can also use a min function here
                     if newCost < oldCost:
                         pq.put((newCost, neighbor))
                         D[neighbor] = newCost
@@ -85,4 +87,4 @@ D = dijkstra(g, 0)
 print(D)
 
 for vertex in range(len(D)):
-    print("Distance from vertex 0 to vertex", vertex, "is", D[vertex])
+    print("Distance_dijkstra from vertex 0 to vertex", vertex, "is", D[vertex])

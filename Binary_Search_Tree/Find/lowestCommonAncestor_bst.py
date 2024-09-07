@@ -27,11 +27,11 @@ def lowestCommonAncestor(r, p, q):
 
     # both of them are on the left side
     if p.val < r.val and q.val < r.val:
-        return lowestCommonAncestor(r.left, p, q)
+        return lowestCommonAncestor(r.l, p, q)
 
     # both of them are on the right side
     elif p.val > r.val and q.val > r.val:
-        return lowestCommonAncestor(r.right, p, q)
+        return lowestCommonAncestor(r.r, p, q)
 
     #       6
     #    2    8

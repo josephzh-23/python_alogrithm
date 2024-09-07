@@ -17,15 +17,15 @@ def invertTreeRec(r):
         return None
 
     swapChildren(r)
-    invertTreeRec(r.left)
-    invertTreeRec(r.right)
+    invertTreeRec(r.l)
+    invertTreeRec(r.r)
     return r
 
 
 def swapChildren(r):
-    tmp = r.left
-    r.left = r.right
-    r.right = tmp
+    tmp = r.l
+    r.l = r.r
+    r.r = tmp
 
 
 
@@ -34,12 +34,12 @@ def swapChildren(r):
 
 
 root = TreeNode(4)
-root.left = TreeNode(2)
-root.right = TreeNode(7)
-root.left.left = TreeNode(1)
-root.left.right = TreeNode(3)
-root.right.left = TreeNode(6)
-root.right.right = TreeNode(9)
+root.l = TreeNode(2)
+root.r = TreeNode(7)
+root.l.l = TreeNode(1)
+root.l.r = TreeNode(3)
+root.r.l = TreeNode(6)
+root.r.r = TreeNode(9)
 invertTreeRec(root)
 
 printLevelOrderIter(root)

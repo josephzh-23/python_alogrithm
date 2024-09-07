@@ -53,10 +53,10 @@ class Solution:
             # add the gain from the left subtree. Note that if the
             # gain is negative, we can ignore it, or count it as 0.
             # This is the reason we use `max` here.
-            gainFromLeft = max(gainFromSubtree(node.left), 0)
+            gainFromLeft = max(gainFromSubtree(node.l), 0)
 
             # add the gain / path sum from right subtree. 0 if negative
-            gainFromRight = max(gainFromSubtree(node.right), 0)
+            gainFromRight = max(gainFromSubtree(node.r), 0)
 
             # if left or right gain are negative, they are counted
             # as 0, so this statement takes care of all four scenarios

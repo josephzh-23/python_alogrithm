@@ -16,16 +16,16 @@ def CurrentLevel(root , level):
     if level == 1:
         print(root.data,end=" ")
     elif level > 1 :
-        CurrentLevel(root.left , level-1)
-        CurrentLevel(root.right , level-1)
+        CurrentLevel(root.l, level - 1)
+        CurrentLevel(root.r, level - 1)
 
 
 def height(node):
     if node is None:
         return 0
     else :
-        lheight = height(node.left)
-        rheight = height(node.right)
+        lheight = height(node.l)
+        rheight = height(node.r)
         if lheight > rheight :
             return lheight+1
         else:

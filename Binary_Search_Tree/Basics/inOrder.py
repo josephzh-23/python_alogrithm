@@ -10,9 +10,9 @@ def inOrderRec(root):
     if root:
 
         # First recur on left child
-        inOrderRec(root.left)
+        inOrderRec(root.l)
         print(root.val)
-        inOrderRec(root.right)
+        inOrderRec(root.r)
 
 '''
 In order means: left, root and right (from smallest to biggest) the 
@@ -30,22 +30,22 @@ def inOrderIter(root):
         while cur:
             stack.append(cur)
             print("the left is", cur.val)
-            cur = cur.left
+            cur = cur.l
 
         # then traverse the right
         cur = stack.pop()
 
         #if ther eis a res, then do res.append(cur.value)
         print(cur.val)
-        cur = cur.right
+        cur = cur.r
 
 
 # Driver program to test above function
 root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
+root.l = TreeNode(2)
+root.r = TreeNode(3)
+root.l.l = TreeNode(4)
+root.l.r = TreeNode(5)
 # PreorderIter(root)
 
 inOrderIter(root)

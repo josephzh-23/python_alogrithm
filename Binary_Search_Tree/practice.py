@@ -21,11 +21,11 @@ def printLeftSide(root):
         for i in range(sizeOfCurLevel):
             if i ==0:
                 print(n.val)
-            if n.left:
-                q.append(n.left)
+            if n.l:
+                q.append(n.l)
 
-            if n.right:
-                q.append(n.right)
+            if n.r:
+                q.append(n.r)
 
             i+=1
 

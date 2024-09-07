@@ -37,16 +37,16 @@ class Solution:
         current_string = chr(root.val + ord('a')) + current_string
 
         # If the current node is a leaf node
-        if not root.left and not root.right:
+        if not root.l and not root.r:
 
             # We have reached the end here
             if not self.smallest_string or self.smallest_string > current_string:
                 self.smallest_string = current_string
 
         # Recursively traverse the left subtree
-        if root.left:
-            self.dfs(root.left, current_string)
+        if root.l:
+            self.dfs(root.l, current_string)
 
         # Recursively traverse the right subtree
-        if root.right:
-            self.dfs(root.right, current_string)
+        if root.r:
+            self.dfs(root.r, current_string)

@@ -22,20 +22,20 @@ def preorderTraversal(root):
         node = stack.pop()
 
         if node:
-            if not node.right and not node.left:
+            if not node.r and not node.l:
                 print(minDepth)
             else:
                 minDepth +=1
-            if node.right:
+            if node.r:
                 # print('right val', node.right.val, end=" ")
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
+                stack.append(node.r)
+            if node.l:
+                stack.append(node.l)
 
 
 root = TreeNode(3)
-root.left = TreeNode(9)
-root.right = TreeNode(20)
-root.right.left = TreeNode(15)
-root.right.right = TreeNode(7)
+root.l = TreeNode(9)
+root.r = TreeNode(20)
+root.r.l = TreeNode(15)
+root.r.r = TreeNode(7)
 preorderTraversal(root)

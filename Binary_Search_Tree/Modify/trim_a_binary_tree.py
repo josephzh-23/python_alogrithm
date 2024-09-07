@@ -20,7 +20,7 @@ def trimBST(
 
         # outside the rnage
     while root and (root.val < low or root.val > high):
-        root = root.left if root.val > high else root.right
+        root = root.l if root.val > high else root.r
 
 
     if root is None:
@@ -28,20 +28,20 @@ def trimBST(
     node = root
 
 
-    while node.left:
+    while node.l:
 
         # left side smaller, go to right
-        if node.left.val < low:
-            node.left = node.left.right
+        if node.l.val < low:
+            node.l = node.l.r
         # left side bigger go right
         else:
-            node = node.left
+            node = node.l
     node = root
-    while node.right:
+    while node.r:
 
         
-        if node.right.val > high:
-            node.right = node.right.left
+        if node.r.val > high:
+            node.r = node.r.l
         else:
-            node = node.right
+            node = node.r
     return root
