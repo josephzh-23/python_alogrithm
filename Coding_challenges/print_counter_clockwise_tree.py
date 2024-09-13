@@ -1,4 +1,4 @@
-from Binary_Search_Tree.bfs_tree_rec import Node
+from Binary_tree.bfs_tree_rec import Node
 
 root = Node(1)
 root.left = Node(2)

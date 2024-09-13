@@ -9,7 +9,7 @@ Flood fill problem upfront here
 from collections import deque
 from typing import List
 
-from Graph.basics.dfs_matrix import directions
+from Graph.templates.dfs_matrix import directions
 
 
 # so how do we work on this?

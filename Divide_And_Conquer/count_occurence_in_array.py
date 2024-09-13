@@ -6,7 +6,6 @@ For example, if the input array A[1..9] = [2,5,8,3,6,9,1,6,5],
 
 your algorithm should return 6. [4 mark]
 '''
-from Binary_Search.BinarySearchIter import binarySearchIterative
 
 '''
 If using Divide conquer, use the following approach
