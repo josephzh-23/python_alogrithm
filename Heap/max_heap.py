@@ -27,5 +27,7 @@ class MaxHeap(MinHeap):
   def push(self, x): heapq.heappush(self.h, MaxHeapObj(x))
   def pop(self): return heapq.heappop(self.h).val
   def __getitem__(self, i): return self.h[i].val
-  def peek(self): return self.h[0]
+
+  # do not use this peek
+  # def peek(self): return self.h[0]
 

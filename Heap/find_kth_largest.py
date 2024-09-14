@@ -8,6 +8,12 @@ from Heap.max_heap import OwnMaxHeap
 # Find smallest -> use max heap
 # Find biggest -> use min heap
 
+
+'''
+This question is hard here and then need studying here 
+- That's why need studying here to make it better here 
+
+'''
 # this need to be done using minHeap
 h = heapq
 def findKthSmallest(nums, k):
