@@ -27,10 +27,10 @@ def monotonicIncreasing(nums):
     # Construct the result array from the stack
     while stack:
         result.insert(0, stack.pop())
-    print('the result here is ', result)f
+    print('the result here is ', result)
     return result
 
 
-nums = [1, 2, 10, 5, 7]
-monotonicIncreasing(nums)
+# nums = [1, 2, 10, 5, 7]
+# monotonicIncreasing(nums)
 

@@ -1,4 +1,4 @@
-package String
+package String.Hard
 
 import January_3rd.print
 import java.util.*
@@ -41,6 +41,7 @@ fun longestDiverseString(a: Int, b: Int, c: Int): String { // The character and 
             sb.append(c1.value)
 
             // A duplicate of what happened before
+            // we are seeing 2 more here
         } else if (curInfo[1] + 1 < 3){
             curInfo[1]++
             sb.append(c1.value)
