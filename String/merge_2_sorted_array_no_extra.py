@@ -1,42 +1,54 @@
-from _ast import List
-
-# No extra memory will be created here
-'''
-m - the size of nums1 and
-n - the size of nums2
 '''
 
+Have 2 pointers here left and right,
 
-# class Solution:
-def merge2SortedArray(nums1, m, nums2, n) -> None:
+We will declare two pointers i.e. left and right.
 
-    # last index nums1, last will keep getting decremented for sure
-    last = m + n - 1
+The left pointer will point to the last index of the arr1[](i.e. Basically the maximum element of the array).
+The right pointer will point to the first index of the arr2[](i.e. Basically the minimum element of the array).
 
-    # merge in reverse order
-    while m > 0 and n > 0:
-        if nums1[m - 1] > nums2[n - 1]:
-            nums1[last] = nums1[m-1]
-            m -= 1
+Left pt move towards index 0 and
+right pter moves towards index m-1
+
+
+'''
+
+def merge(arr1, arr2, n, m):
+    # Declare 2 pointers:
+    left = n - 1
+    right = 0
+
+    # Swap the elements until arr1[left] is smaller than arr2[right]:
+    while left >= 0 and right < m:
+        if arr1[left] > arr2[right]:
+            # if arr1[left] > arr2[right], we will swap the elements here
+
+            arr1[left], arr2[right] = arr2[right], arr1[left]
+            left -= 1
+            right += 1
         else:
-            nums1[last] = nums2[n-1]
-            n -= 1
-        last -= 1
+            break
 
-    # fill nums1 with leftover nums2 elements
-    while n > 0:
-        nums1[last] = nums2[n-1]
-        n -=1
-        last -=1
+    # Sort arr1[] and arr2[] individually:
+    arr1.sort()
+    arr2.sort()
 
-    # iterate over nums1 and then reprint everything here
-    for x in nums1:
-        print(x)
+    arr1.extend(arr2)
+    print(arr1)
 
 
-arr1 = [1, 2, 3, 4, 5, 6]
-arr2 = [1, 2, 3]
-m = len(arr1)
-n = len(arr2)
-# s = Solution()
-merge2SortedArray(arr1, m, arr2, n)
+if __name__ == '__main__':
+    arr1 = [1, 4, 8, 10]
+    arr2 = [2, 3, 9]
+    n = 4
+    m = 3
+    merge(arr1, arr2, n, m)
+
+    print("The merged arrays are:")
+    print("arr1[] = ", end="")
+    for i in range(n):
+        print(arr1[i], end=" ")
+    print("\narr2[] = ", end="")
+    for i in range(m):
+        print(arr2[i], end=" ")
+    print()

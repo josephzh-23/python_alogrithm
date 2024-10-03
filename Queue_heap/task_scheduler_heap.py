@@ -3,12 +3,20 @@ from typing import List
 from Heap.max_heap import MaxHeap
 
 '''
+You are given an array of CPU tasks, each labeled with a letter from A to Z, and a number n. Each CPU interval can be idle
+or allow the completion of one task. Tasks can be completed in any order, 
+but there's a constraint: there has to be a gap of at least n intervals between two tasks with the same label.
+
+Return the minimum number of CPU intervals required to complete all tasks.
+
+
 This is the 2nd versino of that problem that needs to be done right now 
 
 Step 1: 
 What's a cycle here?
 
-In each iteration, a cycle of length n + 1 is considered, signifying the time needed to execute tasks without 
+In each iteration, a cycle of length n + 1 is considered,
+ signifying the time needed to execute tasks without 
 violating the cooling period constraint.
  
  For instance, if there are 2 tasks (A) and n = 2, the iterations required 
