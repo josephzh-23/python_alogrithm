@@ -1,25 +1,24 @@
 '''
-And then using this we have the code
-smaller subsmililar problem here where we have the code
-
+The current problem can be broken down into pow(x, n-1)
 power (x, n) = x * power(x, n-1 )
 
+But we don't want to do x ^n one by one, the problem is that that is too slow as you can see here (O (n))
+1) We don't want sth too slow here
 
-if x = 0, then x^n = 1  base case here
+SO a better approach is when we have
 
-Basic idea :
-(x ^2) ^ n/2    if even
-x * (x ^2) (n-1)/2  if n is odd here
+If n is even
+x ^n =  x ^2 *(n/2)
 
-2 ^ 100 = (2 * 2 ) ^ 50
-4 ^ 50 = (4 * 4) ^ 25       # up here as said and a lot more powerful above
 
-# and then here the code should become
+If n is odd
+x * (x ^ 2) ^(n -1)/2
 
-For the positive n, recursively copmuter half_pow as x ^ (n//2)
-here as it's raised to the power of 1/2 here
+We reduce things by half here
 
-n == even        recursively compute half_pow as x raised to the power (n // 2).
+2) And then what happens is that we try to take it down here by 1/2 and it becomes
+
+
 
 '''
 

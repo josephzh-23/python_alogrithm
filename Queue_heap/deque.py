@@ -1,3 +1,11 @@
+'''
+
+
+Using dequeu it's basically O(1) structure here and much easier here
+At each step
+'''
+
+
 # Python code to demonstrate working of
 # insert(), index(), remove(), count()
 

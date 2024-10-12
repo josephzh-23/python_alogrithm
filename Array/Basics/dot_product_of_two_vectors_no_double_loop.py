@@ -5,10 +5,6 @@ nums1 = [1,0,0,2,3], nums2 = [0,3,0,4,0]
 A sparse vector has mostly 0 values here
 v1.dotProduct(v2) = 1*0 + 0*3 + 0*0 + 2*4 + 3*0 = 8
 
-Approach:
-Store non-zero values and their corresponding indices in a dictioanry
-
-{index, value}
 '''
 from collections import defaultdict
 from typing import List
@@ -27,11 +23,16 @@ class SparseVector:
         # Return the dotProduct of two sparse vectors instances here
         # and then here we have
         '''
+        
+        Approach:
+        Store non-zero values and their corresponding indices in a dictioanry
+
+        Any index not present here will then correspond to a value 0 in the input array here 
+        {index, value}
          [[1, 0, 0, 2, 3], [0, 3, 0, 4, 0]]
         # so first one we have is [1, 0, 0, 2, 3] 
         
-        {0: 1}  {3: 2} , {3, 3}
-        {1: 3}, {2: 4} 
+        {0: 1}  {3: 2} , {3, 3} {1: 3}, {2: 4} 
         '''
         for i, n in enumerate(nums):
             if n != 0:

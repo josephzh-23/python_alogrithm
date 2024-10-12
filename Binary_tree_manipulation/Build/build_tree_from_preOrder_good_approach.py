@@ -3,7 +3,7 @@
 # set the root node's range as [-INFINITY, INFINITY]
 import sys
 
-from Binary_tree.Build.build_tree_from_preOrder_array_bad_approach import inorder
+from Binary_tree_manipulation.Build.build_tree_from_preOrder_array_bad_approach import inorder
 
 
 '''

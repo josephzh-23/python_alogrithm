@@ -30,20 +30,7 @@ def sortedArrayToBST(arr):
 
 
 
-def buildTreeFromArray(arr, left, right):
 
-    if(left > right):
-        return None
-    # get the binary middle point each time and then do a division here or there
-
-    mid = left + (right -left) //2
-
-    node = TreeNode(arr[mid])
-
-    node.l = buildTreeFromArray(arr, left, mid - 1)
-    node.r = buildTreeFromArray(arr, mid + 1, right)
-
-    return node
 
 arr = [1, 2, 3, 5, 7]
 tree = sortedArrayToBST(arr)
