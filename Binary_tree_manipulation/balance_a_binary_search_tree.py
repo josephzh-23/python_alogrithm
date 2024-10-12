@@ -1,60 +1,38 @@
-'''
-This is quite important here
-
-'''
 from Binary_tree.BSTNode import TreeNode
 
 
-# return the max index
-def findMax(arr, start, end):
-    maxValue = arr[start]
-    maxIndex = start
+def balanceBST(root: TreeNode) -> TreeNode:
+    # Create a list to store the inorder traversal of the BST
+    inorder = []
+    inorder_traversal(root, inorder)
 
-    # need to iterate the whole thing here
-    for i in range(start+1, end+1):
-        if arr[i] > maxValue:
-            maxValue = arr[i]
-            maxIndex = i
+    # Construct and return the balanced BST
+    return create_balanced_bst(inorder, 0, len(inorder) - 1)
 
-    return maxIndex
 
-def buildTree(array, start, end):
+def inorder_traversal( root: TreeNode, inorder: list):
+    # Perform an inorder traversal to store the elements in sorted order
+    if not root:
+        return
+    inorder_traversal(root.l, inorder)
+    inorder.append(root.val)
+    inorder_traversal(root.r, inorder)
 
+
+def create_balanced_bst(
+        self, inorder: list, start: int, end: int
+) -> TreeNode:
+    # Base case: if the start index is greater than the end index, return None
     if start > end:
         return None
 
+    # Find the middle element of the current range
+    mid = start + (end - start) // 2
 
-    maxIndex = findMax(array, start, end)
+    # Recursively construct the left and right subtrees
+    left_subtree = self.create_balanced_bst(inorder, start, mid - 1)
+    right_subtree = self.create_balanced_bst(inorder, mid + 1, end)
 
-    root = TreeNode(maxIndex)
-
-    # If this is the only element in
-    # inorder[start..end], then return it
-    if start == end:
-        return root
-
-    root.l = buildTree(array, start, maxIndex - 1)
-    root.r = buildTree(array, maxIndex + 1, end)
-
-    return root
-
-
-# and then here
-
-root = TreeNode(1)
-root.l = TreeNode(2)
-root.r = TreeNode(3)
-root.l.l = TreeNode(4)
-root.l.r = TreeNode(5)
-root.l.l.l = TreeNode(7)
-
-
-
-
-
-
-
-
-
-
-
+    # Create a new node with the middle element and attach the subtrees
+    node = TreeNode(inorder[mid], left_subtree, right_subtree)
+    return node
