@@ -8,13 +8,18 @@ from Linkedlist.linkedlist import Node, LinkedList
 '''
 
 
+
+# this is the answer from before here and that seems to be the probelm here that you don't have any more data
+# at the time of shooitng adn that seems to be the problem that you are experiencing right here
+# and that seems to be someone else's fault rather than what you were saying here
+
 # -> is the return annotation
 def mergeTwoLists(l1, l2) -> Node:
     dummy = Node()
     tail = dummy
 
     while l1 and l2:
-
+        # and thsi seems to be the answer here for now and then you can move unto the next one
         if l1.data < l2.data:
             tail.next = l1
             l1 = l1.next
