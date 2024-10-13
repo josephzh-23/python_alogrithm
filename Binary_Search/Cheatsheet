@@ -1,0 +1,19 @@
+These are found in the template given
+
+
+Binary search in a unique sorted list.
+1. Binary search in a sorted list with duplicates, and find the first match.
+2. Binary search in a sorted list with duplicates, and find the last match.
+
+3. Binary search in a sorted list with no exact match,
+and find the largest one which is smaller than the target value.
+
+4. Binary search in a sorted list with no exact match, and
+ find the smallest one which is larger than the target value.
+
+5. Binary search in a sorted list with no exact match, and
+ find the one with minimum difference.
+
+You can find these in the code somewhere
+
+6. Find binary search

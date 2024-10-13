@@ -9,6 +9,12 @@ Input: firstList = [[0,2],[5,10],[13,23],[24,25]],
 secondList = [[1,5],[8,12],[15,24],[25,26]]
 Output: [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
 
+
+The logic for above is that when you have
+
+[1, 3] and [2, 4] then the code becomes
+[2, 3] above as said        it's the overlapped part
+
 '''
 from typing import List
 

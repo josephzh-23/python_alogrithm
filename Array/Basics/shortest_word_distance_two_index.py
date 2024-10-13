@@ -1,7 +1,8 @@
 '''
 How to prevent searching the entire array for sth here
 
-once we find an index of one word, no need to search the entire array for the other word
+once we find an index of one word,
+ no need to search the entire array for the other word
 
 class Solution {
     public int shortestDistance(String[] words, String word1, String word2) {

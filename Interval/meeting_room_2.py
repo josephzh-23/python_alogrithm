@@ -9,4 +9,34 @@ at all times in this case
 Keep all the meeting in a minheap where the 
 
 
+Keep track of the ending time of when sth is free and opens up here
+
+
 '''
+from Queue_heap.max_heap import MinHeap
+
+
+def solution(intervals):
+    # and that's #1 here
+    intervals.sort(key=lambda x: x[1])
+
+    # and then
+
+    minHeap = MinHeap()
+
+    # the first one here very important
+    minHeap.push(intervals[0])
+
+    for i in range(0, )
+
+
+
+
+
+
+
+
+
+
+
+
