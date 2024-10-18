@@ -49,5 +49,5 @@ def longestCommonPrefix(self, arr1, arr2):
 
 num1 = 1; num2 = 1000
 
-# and that's only second of the problem that we have dealt with so far here     
+# and that's only second of the problem that we have dealt with so far here
 print(longestCommonPrefix(str(1), str(1000)))
