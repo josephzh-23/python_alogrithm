@@ -1,6 +1,11 @@
 '''
 We will try to do this with binary search here
 
+
+two sum 1 and 2 difference 2 is now sorted here,
+ 1 <= index1 <= index2 <= numbers.length
+
+
 '''
 
 

@@ -4,7 +4,7 @@ def replaceSpaces(str):
     string = str.strip()
 
     # find # of spaces here?
-    spaceCount = str.count(' ')
+    spaceCount = str.countNumSubsequence(' ')
 
     # find new length
     newLength = n + spaceCount *2

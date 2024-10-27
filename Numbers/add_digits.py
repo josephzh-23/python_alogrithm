@@ -1,4 +1,7 @@
 '''
+Given an integer num, repeatedly add all its digit
+s until the result has only one digit, and return it.
+
 Input: num = 38
 Output: 2
 Explanation: The process is

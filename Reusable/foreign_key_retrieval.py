@@ -21,4 +21,4 @@ r = a.reporter
 
 #If you want to do a reverse lookup, use article_set
 r.article_set.all()
-r.article_set.count()       # Will tell u how many articles there are as well
+r.article_set.countNumSubsequence()       # Will tell u how many articles there are as well

@@ -1,4 +1,8 @@
+'''
 
+The code here is also the sweep line algorithm here
+
+'''
 class Interval(object):
     def __init__(s, start, end):
         s.start = start

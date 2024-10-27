@@ -1,8 +1,11 @@
 package Pairs
 
-import org.openxmlformats.schemas.drawingml.x2006.chart.STCrosses.INT_MAX
+https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/
+
 '''
-p. Find p pairs of indices of nums such that the maximum difference amongst all the pairs is minimized.
+Problem statement
+
+Find p pairs of indices of nums such that the maximum difference amongst all the pairs is minimized.
 Also, ensure no index appears more than once amongst the p pairs.
 
 Note that for a pair of elements at the index i and j,
@@ -13,6 +16,11 @@ Output: 1
 Explanation: The first pair is formed from the indices 1 and 4, and the second pair is formed from the indices 2 and 5.
 The maximum difference is max(|nums[1] - nums[4]|, |nums[2] - nums[5]|) = max(0, 1) = 1. Therefore, we return 1.
 
+
+
+The solution to solving this is using binary search here
+
+1. Sort the array first and then
 '''
 // Minimize maximum difference between pairs
 fun minimizeMax(nums: IntArray, p: Int): Int {

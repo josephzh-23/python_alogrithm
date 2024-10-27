@@ -1,68 +1,133 @@
+'''
+Case 1:
+Node to be deleted is a leaf node. Directly delete the node from the tree.
+
+Case 2:  Node to be deleted is an internal node with two children
+
+Copy the contents of the inorder successor of the node to be deleted and delete the inorder successor.
+The inorder successor is the minimum element in the right subtree of the node.
 
 
+Case 3:
+Node to be deleted is an internal node with one child.
+For this case, delete the node and move its child up to take its place.
 
+
+Using dfs for this is extremely important here, very good for deletion problems like below
+
+1.
+'''
 
 
 '''
 
-The solution below handles the problem of deleting a node in an easy way. The main idea of the code is the following:
-
-Search the BST looking for our target node for deletion. (And exit if it'not present). A while-loop is used for this process.
-
-After finding our target node, we notice that all nodes in the left-branch (node.left) are lower than anything at the right-side (node.right). This property can be used to:
-
-Place the right-side branch as the main sub-tree.
-Insert the former left-branch (node.left) at the left-most available position in our new sub-tree (node.right).
-Edge Cases for (2):
-
-
-If either node.left or node.right is missing for our target node, we use the existing branch as the new sub-tree.
-If both branches are missing (leaf target), we use replace our target node by a Null value.
-Now, to complete the deletion process, we insert/register our new-subtree in the parent of our "target node" (taking its place). If the deleted node was the root itself, we return None.
-
-I hope the explanation was helpful. Cheers,
-
-
+The above is the solution here, and then we will keep going here 
 
 '''
-class Solution:
-    def deleteNode(self, root, key):
-        # Search for our target node "n"
-        n,par = root, None # n is our target for deletion (after iterating), par is its parent node
-        while n and n.val!=key: # Traverse... while n is valid, and it doesn't match the key
-            par = n
-            n   = n.l if key < n.val else n.r
-        if not n:
-            return root # Key not Found
-        #
-        # Deletion: 4 Main Cases
-        if (not n.l) and (not n.r):
-            # A) Leaf Detected. Delete 100%
-            new = None
-        elif not n.l:
-            # B) Left Branch Empty. Keep Right Branch.
-            new = n.r
-        elif not n.r:
-            # C) Right Branch Empty. Keep Left Branch.
-            new = n.l
+class Node:
+    def __init__(self, key):
+        self.key = key
+        self.left = self.right = None
+
+# Iterative approach to
+# delete 'key' from the BST.
+def del_iterative(root, key):
+    curr = root
+    prev = None
+
+    # First check if the key is
+    # actually present in the BST.
+    # the variable prev points to the
+    # parent of the key to be deleted
+    while (curr != None and curr.key != key):
+        prev = curr
+        if curr.key < key:
+            curr = curr.right
         else:
-            # D) Both branches exist. Make Right Branch Official, and place n.left and its left-most side.
-            new = n.r
-            # Find left-most side of n.right
-            n2 = new
-            while n2.l:
-                n2 = n2.l
-            # Place n.left at the left of our "new" sub-tree
-            n2.l = n.l
-        #
-        # Insertion: 3 Cases
-        if not par:
-            # A) root node was deleted, return "new" sub-tree
-            return new
-        if par.left == n:
-            # B) Replace "par.left" with our "new" sub-tree.
-            par.left = new
-        else:
-            # C) Replace "par.right" with our "new" sub-tree.
-            par.right = new
+            curr = curr.left
+
+    if curr == None:
         return root
+
+    # Check if the node to be
+    # deleted has atmost one child
+    if curr.left == None or\
+            curr.right == None:
+
+        # newCurr will replace
+        # the node to be deleted.
+        newCurr = None
+
+        # if the left child does not exist.
+        if curr.left == None:
+            newCurr = curr.right
+        else:
+            newCurr = curr.left
+
+        # check if the node to
+        # be deleted is the root.
+        if prev == None:
+            return newCurr
+
+        # Check if the node to be
+        # deleted is prev's left or
+        # right child and then
+        # replace this with newCurr
+        if curr == prev.left:
+            prev.left = newCurr
+        else:
+            prev.right = newCurr
+
+        curr = None
+
+    # node to be deleted
+    # has two children.
+    else:
+        p = None
+        temp = None
+
+        # Compute the inorder
+        # successor of curr.
+        temp = curr.right
+        while(temp.left != None):
+            p = temp
+            temp = temp.left
+
+        # check if the parent of the
+        # inorder successor is the root or not.
+        # if it isn't, then make the left
+        # child of its parent equal to the
+        # inorder successor's right child.
+        if p != None:
+            p.left = temp.right
+
+        else:
+
+            # if the inorder successor was
+            # the root, then make the right child
+            # of the node to be deleted equal
+            # to the right child of the inorder
+            # successor.
+            curr.right = temp.right
+
+        curr.data = temp.key
+
+    return root
+
+def inorder(root):
+    if root is not None:
+        inorder(root.left)
+        print(root.key, end=" ")
+        inorder(root.right)
+
+# Driver code
+if __name__ == "__main__":
+    root = Node(10)
+    root.left = Node(5)
+    root.right = Node(15)
+    root.right.left = Node(12)
+    root.right.right = Node(18)
+    x = 15
+
+    root = del_iterative(root, x)
+    inorder(root)

@@ -1,4 +1,4 @@
-package min_max
+package Array.Min_max
 
 import Util.printList
 import java.util.*
