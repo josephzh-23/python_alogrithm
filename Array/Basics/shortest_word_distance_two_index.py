@@ -1,6 +1,7 @@
 '''
 How to prevent searching the entire array for sth here
 
+THis would be a lot easier with a 2 index approach
 once we find an index of one word,
  no need to search the entire array for the other word
 
