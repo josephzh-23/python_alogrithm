@@ -1,5 +1,17 @@
 import January_3rd.print
 
+
+'''
+The problem is basiccally here where if you rotate zebra-493 by 3 places here? and then what happens is that
+
+Zebra-493?" is rotated 3 places, the resulting string is "Cheud-726?"
+
+
+
+here everything is rotated 3 characters higher interseing problem here
+
+
+'''
 fun rotationalCipher(input: String, rotationFactor: Int): String? {
     val ordA = 'A'
     val orda = 'a'

@@ -1,4 +1,4 @@
-package Array_manipulation
+package Array.Basic
 
 /*
 
