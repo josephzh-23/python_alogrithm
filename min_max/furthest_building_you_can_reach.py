@@ -1,6 +1,11 @@
 '''
 Think about how to solve this question right here
+heights = [4,2,7,6,9,14,12], bricks = 5, ladders = 1
 
+if the buildingHeight[i] >= buildingHeight[i + 1]
+if the buildingHeight[i] < buildingHeight[i + 1]
+    can use either 1 ladder or h[i + 1] - h[i] bricks
+return the furthest you can reach
 
 '''
 from Heap.max_heap import MinHeap
@@ -25,7 +30,7 @@ def furthestBuilding(heights, bricks, ladders):
             # heappush(height_diffs_heap, height_diff)
             hp.push(height_diff)
 
-            # If we have used more ladders than available, we must replace one ladder with bricks.
+            # If we have used more ladders than available, we must replace one ladder with brickss
             if len(hp) > ladders:
                 bricks -= hp.pop()  # Replace the ladder for the smallest height diff.
 
