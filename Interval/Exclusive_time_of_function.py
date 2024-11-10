@@ -11,7 +11,8 @@ def exclusiveTime(n, logs):
 
         fxnId, startOrEnd, timestamp = parts
         if startOrEnd == 'start':
-            # if there is an ongping event, then update the start event here
+
+            # if there is an ongoing event, then update the start event here
             if callstack:
                 exclusiveTimes[callstack[-1]] += timestamp
 
@@ -20,10 +21,12 @@ def exclusiveTime(n, logs):
 
                 # udpate the current time
                 currentTime = timestamp
+
         # an end event
         else:
             fxnId = callstack.pop()
             exclusiveTimes[fxnId] = timestamp - currentTime +1
+
             # Update the current time to the end time + 1 since the next time unit
             # will indicate the start of the next event.
             currentTime = timestamp + 1
