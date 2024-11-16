@@ -4,6 +4,8 @@ from Heap import MaxHeap
 
 '''
 
+
+
 What's the question reorganize string here?
 
 Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.

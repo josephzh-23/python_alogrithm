@@ -1,57 +1,63 @@
 '''
-WIth left start, then do sth starting here,
-increment the right count here,
 
-if left == right, then done here,
-if not, then go to the part from l to r,
 
-if l > r,
-
-Iter thru everything once front and then once backwards here
-
+the task is to remove the min # of invalid parenthesis here
 '''
 
-def minRemoveToMakeValidParenthesis(s)-> str:
-
-'''
-1. Use a stack here
-
-- track indexes of the unmatched "(",
-
-2. Use a set to
-keep track of the unmatched ")"
-
-3.
-'''
-
-
-def minRemoveToMakeValid(self, s: str) -> str:
-    indexes_to_remove = set()
-
-
-    '''
-    
-    If we put the indexes of the "(" on the stack,
-     then we'll know that all the indexes on the stack at the end are the indexes of the unmatched "("
-    '''
+def minRemoveToMakeValid( s: str) -> str:
+    # Stack to keep track of characters that lead to a valid string
     stack = []
-    for i, c in enumerate(s):
-        if c not in "()":
+
+    # Counter to track the balance of parentheses
+    open_count = 0
+
+
+    # First pass to remove invalid closing parentheses
+    for char in s:
+
+        # If a closing parenthesis is encountered with no matching open, skip it
+        # skip the unbalanced ) here
+        if char == ')' and open_count == 0:
             continue
-        if c == "(":
-            stack.append(i)
+        # If an opening parenthesis is found, increment the open count
+        if char == '(':
+            open_count += 1
+
+        # If a closing parenthesis is found and there is a matching open, decrement the open count
+        elif char == ')':
+            open_count -= 1
+        # Add the character to the stack as it's part of valid substring so far
+        stack.append(char)
+
+    # Reset the open counter for the second pass
+    open_count = 0
+    # List to store the characters for the final answer
+    answer = []
 
 
-        # the stack not empty
-        elif not stack:
-            indexes_to_remove.add(i)
+    # lee(t(c)o)de
 
-        # we see a ) here pop the ( to match it
-        else:
-            stack.pop()
-    indexes_to_remove = indexes_to_remove.union(set(stack))
-    string_builder = []
-    for i, c in enumerate(s):
-        if i not in indexes_to_remove:
-            string_builder.append(c)
-    return "".join(string_builder)
+    print("here string is ", stack)
+    # Second pass to remove invalid opening parentheses; process characters in reverse
+    for char in reversed(stack):
+
+        # If an opening parenthesis is encountered with no matching close, skip it
+        if char == '(' and open_count == 0:
+            continue
+
+        # If a closing parenthesis is found, increment the open count
+        if char == ')':
+            open_count += 1
+        # If an opening parenthesis is found and there is a matching close, decrement the open count
+        elif char == '(':
+            open_count -= 1
+        # Add the character to the answer as it is part of a valid substring
+        answer.append(char)
+
+    print("answer is", answer)
+
+    # The characters in answer are in reverse order, reverse them back to the correct order
+    return ''.join(reversed(answer))
+
+s = "lee(t(c)o)de)"
+minRemoveToMakeValid(s)

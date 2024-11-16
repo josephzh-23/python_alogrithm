@@ -1,6 +1,4 @@
-package Array_manipulation
-
-import count
+import tricks.arr
 import java.lang.Integer.min
 
 fun removeDuplicatesII(nums: IntArray) {

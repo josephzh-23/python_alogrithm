@@ -1,51 +1,60 @@
 '''
 
+Given a random alpha-numeric string with no special characters,
+reformat the string without adding or removing any characters so that
+no alphabet characters are adjacent to any other alphabet characters
+
+
+    and no numeric characters are adjacent to any other numeric characters,
+if possible, and return the modified string.
+If it is not possible to reformat the string in that way,
+
+    then group all the alphabet characters at the beginning of the string and
+all numeric characters at the end of the string. In either case keep all alphabet
+characters in the same order relative to each other before and after the formatting
+and also keep all numeric characters in the same order releative to each other before and after the formatting.
+
+And the above is what you are looking for as said
 
 
 '''
-from Queue_heap.max_heap import MinHeap
 
+def stringManipulation(s):
+    print(s)
+    c = ""
+    n = ""
+    ans =""
 
-
-def answer(s):
-    letterHeap = MinHeap()
-    res = ""
-
-
-    res += s[0]
-    numHeap = MinHeap()
-    if s[0].isalpha():
-        letterHeap.push(s[0])
-    if s[0].isnumeric():
-        numHeap.push(s[0])
-    for i in range(0, len(s) - 1):
-        if s[i].isalpha() and s[i + 1].isalpha():
-            print('this is', s[i + 1])
-            letterHeap.push(s[i + 1])
-            # res += s[i]
-
-            if numHeap.__len__() > 0:
-                res += numHeap.pop()
-        elif s[i].isnumeric() and s[i + 1].isnumeric():
-            print('that is', s[i + 1])
-
-            numHeap.push(s[i + 1])
-            # res += s[i]
-
-            if letterHeap.__len__() > 0:
-                res+=letterHeap.pop()
-
-            " the case 'b1'  "
-
-        # elif s[i +1].isnumeric():
-        #     print('this is 3rd', s[i + 1])
-        #     res+=s[i + 1]
-        # elif s[i + 1].isalpha():
-        #     print('this is 4th', s[i + 1])
+    '''
+    Rem is the answer that we had before here 
+    
+    '''
+    rem = ""
+    for i in range(0,len(s)):
+        if s[i].isalpha():
+            c = c+ s[i]
         else:
-            print('come here', s[i + 1])
-            res+=s[i + 1]
-    print(res)
+            n = n+ s[i]
+    print("c and n are ", c,n)
+    if len(c)==len(n) or (len(c)==len(n)+1) or (len(n)==len(c)+1):
+        long = 0
 
-input = "aabb12cc345"
-answer(input)
+    if len(c)<len(n):
+        long = len(c)
+        rem = n[len(c):]
+
+    elif len(n)<len(c):
+        long = len(n)
+        rem = c[len(n):]
+    elif len(c)==len(n):
+        long = len(c)
+    for i in range(0,long):
+        ans = ans + c[i] + n[i]
+
+    # we have to add the remaining length here
+    if (len(c)>len(n)+1) or (len(n)>len(c)+1):
+        ans = ans + rem
+
+
+    print('answer is', ans)
+stringManipulation("aabb12cc345")
