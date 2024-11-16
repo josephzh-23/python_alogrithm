@@ -4,7 +4,6 @@ import java.util.*
 
 
 /*
-
 Bsically we just have to find the left boundary here
 
 k: is the range here    x== the target

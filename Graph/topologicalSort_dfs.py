@@ -61,7 +61,7 @@ class Graph:
         visited[v] = True
 
         for neighbor in self.graph[v]:
-            if visited[neighbor] == False:
+            if not visited[neighbor]:
                 self.topologicalSortUtil(neighbor, visited, stack)
 
         # Push current vertex to stack which stores result
