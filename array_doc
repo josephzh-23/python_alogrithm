@@ -3,4 +3,19 @@
 
 '''
 
-1. 
+1. Keeping the index of the position and subsracting the distance, check out
+the problem contiguous array
+
+maxLength = max(maxLength, i - mp[s])
+
+
+2. Make sum divisible by k here
+
+Initialization of a hash map last with a key-value pair {0: -1}
+which tracks the modulus of the prefix sum and its index.
+
+
+
+3.  Shortest subarray greater then number
+
+

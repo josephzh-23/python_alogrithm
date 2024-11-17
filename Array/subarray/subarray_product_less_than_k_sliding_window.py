@@ -28,6 +28,8 @@ def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
             start_index += 1
 
         # Calculate the new subarrays with the current element
+
+        # and then using the code here w # and that's why i was able to keep the code a
         # Here, (end_index - start_index + 1) gives the count of subarrays ending with nums[end_index]
         count_subarrays += end_index - start_index + 1
 

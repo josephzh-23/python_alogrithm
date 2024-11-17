@@ -1,0 +1,4 @@
+How to use 2 pointers and make sure no out of bound exception here
+
+while p1 < len(arr1) and p2 < len(arr2) important when
+using 2 pointer approach
