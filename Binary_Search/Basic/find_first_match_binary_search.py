@@ -15,5 +15,5 @@ def lower_bound(arr, val):
             lo = mid + 1
     return res
 arr = [1, 2, 2,3,4, 5]
-print(lower_bound(arr, 2))
-print(upper_bound(arr, 2))
+# print(lower_bound(arr, 2))
+# print(upper_bound(arr, 2))

@@ -27,7 +27,7 @@ def distanceTraversed(lot: List[List[str]]) -> int:
 
     q = deque()
 
-    # each of these represent the row, the column and the distance
+    # So we are starting with the first one here
     q.append([0, 0, 0])
     visited= set()
 
@@ -51,5 +51,6 @@ def distanceTraversed(lot: List[List[str]]) -> int:
                 visited.add((numRow, numCol))
 
     return -1
+
 lot = [[1, 0, 0, 0], [1, 0, 0, 0, 0, 0], [1, 0, 1], [1, 0, 1], [1, 0, 1]]
 distanceTraversed(lot)

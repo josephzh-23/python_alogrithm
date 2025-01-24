@@ -6,8 +6,11 @@ Here is where we dela with the code here
 from collections import deque
 
 
-'''
 
+
+'''
+adj is basically a list of lists here 
+- and then we will have the next thing here 
 If adj[1] = [2, 3, 4]
 indegree[2] = 1
 inDegree[3] = 1

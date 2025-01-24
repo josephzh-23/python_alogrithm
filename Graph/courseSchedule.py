@@ -1,6 +1,8 @@
 import collections
 from typing import List
 
+
+
 '''
 We will create a map here 
     0 : [1, 2]
