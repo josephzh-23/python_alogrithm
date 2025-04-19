@@ -11,7 +11,7 @@ Output: ["let1 art can",
 
 # basically there are 2 types the first
 
-# the time complexity here is O (nlog(n)) because of sorting
+# the time complexity here is O (nlog(n)) because of Sort
 '''
 from typing import List
 

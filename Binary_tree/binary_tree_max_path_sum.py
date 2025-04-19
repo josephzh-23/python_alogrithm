@@ -5,10 +5,12 @@ This is a hard problem
 https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 
 4 cases
+Case 1:
 Root on the left side here
 The path starts at the root and goes down through the root's left child.
 We don't know how long the path is, but it could extend to the bottom of the left subtree.
 
+Case 2:
 Root on the right side:
 The path starts at the root and goes down through the root's right child. Very similar to the
 previous case, but the direction is toward the right.
@@ -18,12 +20,13 @@ Both the l and r
 The path involves both the left and the right child.
 
 case 4 : no child
-The path doesn't involve any child. The root itself is the only element of the path with maximum sum.
+The path doesn't involve any child.
+The root itself is the only element of the path with maximum sum.
 
 Steps:
 Scenario 1:
 Max path sum passes through the node
-1. This means we must first find the path sum from the left and the right subtree.
+1. So This means we must first find the path sum from the left and the right subtree.
  Once we have both, we decide whether to include their contribution
 
  meaning: need to process children before node (so post-order here)

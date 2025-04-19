@@ -49,7 +49,7 @@ def mostVisitedPattern(username: List[str], timestamp: List[int], website: List[
 
     #then comes the part where we have to sort both the pattern key lexiographically
     # and the count lexiographically from min to the max here as well
-    # now whe sorting is done here and we are good to go and that's pretty good
+    # now whe Sort is done here and we are good to go and that's pretty good
 
     # already as it is
 

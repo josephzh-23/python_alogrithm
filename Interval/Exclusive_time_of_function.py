@@ -1,3 +1,6 @@
+
+
+
 def exclusiveTime(n, logs):
     # keep track of the function ids here
     callstack = []
@@ -12,7 +15,9 @@ def exclusiveTime(n, logs):
         fxnId, startOrEnd, timestamp = parts
         if startOrEnd == 'start':
 
-            # if there is an ongoing event, then update the start event here
+            '''
+            if there is an ongoing event, and then we add the timestamp to the previous fucntionId
+            '''
             if callstack:
                 exclusiveTimes[callstack[-1]] += timestamp
 

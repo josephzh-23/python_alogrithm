@@ -1,7 +1,7 @@
 '''
 
 
-This is using approach 3 here with suffix array with sorting here
+This is using approach 3 here with suffix array with Sort here
 1. And this is important here
 2. 2
 '''

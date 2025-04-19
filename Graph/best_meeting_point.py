@@ -76,7 +76,7 @@ from typing import List
 This is part 1 here: 
 Formula is abs(p2.x - p1.x) + abs(p2.y - p1.y)
 And then here we can have the code a little bit better then this 
-And then using the sorting here 
+And then using the Sort here 
 '''
 
 

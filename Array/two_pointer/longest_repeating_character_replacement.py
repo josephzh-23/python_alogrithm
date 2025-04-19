@@ -1,55 +1,55 @@
-
 '''
-AABABBA
- ^
-     ^
-k = 2
-{A: 2, B: 3}            numOfCharacterReplacement = (right- left + 1) - mostFreq
-maxLen = 5              condition: (right - left + 1) - mostFreq > k
-mostFreq =3
+Longest repeating character replacement here
+
+- "AABEAFACAAEAA" k = 1 here,
+
+Can do a 1 operation here,
+
+    Dynamic sliding window here
+
+    Let's take two pointers start and end. These pointers point to the start and end of the window. count (which is set as 0 initially) to record the number of As in the current window.
+
+     We call a window valid only if the difference between the size of the window and count is less than or equal to k.
+
+     end+1−start−count<=k
+
+That's the one above here
+
+    The variable count increases when the window grows, and the new character entering the window is A. On the opposite side, when the window shrinks and the outgoing character is A, we decrease count.
+
+Use maxLength to track the maximum length here
+
+-
 '''
 
-# k = # of times u can replace sth
-def characterReplacement(s, k):
-    l, r = 0, 0
-    n = len(s)
-    # use a hash map to keep track
-    dict = {}
-    maxlen = 0
-    mostFreq = 0
 
-    # find longest repeating char replacement
-    while (r < n):
-        #Expand the sliding window
+def characterReplacement(self, s: str, k: int) -> int:
+    all_letters = set(s)
+    max_length = 0
 
-        '''
-        Need to create the above dictionary values 
-        {A: 2, B: 3}
-        '''
-        dict[s[r]] = dict.get(s[r], 0) + 1
+    # iterate over each unique letter
+    for letter in all_letters:
+        start = 0
+        count = 0
 
-        # compare the mostFreq with the current char frequency
-        mostFreq = max(mostFreq, dict.get(s[r]))
+        # initialize a sliding window for each unique letter
+        for end in range(len(s)):
+            if s[end] == letter:
+                # if the letter matches, increase the count
+                count += 1
 
-        # condition: (right - left + 1) - mostFreq > k
-        '''
-        shrink the window if we need to replace more than k char
-        this means increase the left pointer
-        
-        also need to change {A: 3, B: 3} 
-        to {A: 2, B: 3}     since we are moving the left pter forward 
-        '''
-        if (r- l +1) -mostFreq > k:
+            # bring start forward until the window is valid again
+            while not self.__is_window_valid(start, end, count, k):
+                if s[start] == letter:
+                    # if the letter matches, decrease the count
+                    count -= 1
+                start += 1
 
-            dict[s[l]] = dict.get(s[l] - 1)
-            l +=1
-        maxlen = max(maxlen, r- l + 1)
+            # at this point the window is valid, update max_length
+            max_length = max(max_length, end + 1 - start)
+
+    return max_length
 
 
-        r+=1
-    return maxlen
-
-s = "ABABA"
-s2 = "HHHHHH"
-print("Maximum length =",
-             characterReplacement(s, 2))
+def __is_window_valid( start: int, end: int, count: int, k: int):
+    return end + 1 - start - count <= k

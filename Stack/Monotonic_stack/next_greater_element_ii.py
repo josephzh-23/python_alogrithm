@@ -1,50 +1,54 @@
 from typing import List
 
-"""
+'''
 
-The only difference between this and the first one is the first one is not cricular 
-but this one is 
-Let's take an example [1,5,7,9,6,8,3,2]
-as we know we have to find the nearest greater element so 
-#first approach we find the nearest greater to right
-but as we also know that it is a circular array 
+we can use a stack to keep track of the indices of elements for which we haven't found the next greater number yet.
 
 
-# so for that purpose we have to check for
- the elements in the starting of
- the array so we can first intially push all the elements in the stack 
- and we also know that stack is LIFO so we have to intially push all the elements in reverse order 
+nums[stk[-1]] < nums[i %n ] 
+
+    - found the next greter number for elem (index) at the top 
+    
+    Push the current index modulo the length of the array i % n onto the stack. This ensures we are in bounds of the array when the loop wraps around.
+    
+    
+    Remember we need to circulate over this twice as said in the example here. 
+
+'''
 
 
-Example :  [1,5,7,9,6,8,3,2]
-stack=     [2,3,8,6,9,7,5,1]
-answer =   [-1,-1,-1,-1,-1,-1,-1,-1]
-so for the value no.2 at index - 7
-so we got from the stack as 1<=2 -- True
-pop(1)
-then , 5<=2 -- False
-so add 5 into the answer array at the i index
-answer =   [-1,-1,-1,-1,-1,-1,-1,5]
-"""
+def nextGreaterElements(self, nums):
+    """
+    The above really makes sense here
+    Finds the next greater element for each element in a circular array.
 
-def nextGreaterElements(nums: List[int]) -> List[int]:
+    :param nums: List[int] - List of integers where we need to find the next greater element for each.
+    :return: List[int] - List containing the next greater elements.
+    """
+    # The number of elements in the input list.
     n = len(nums)
-    ret = [-1] * n
 
-    # reverse the elements here
-    stack = nums[::-1]
-    for i in range(n - 1, -1, -1):
+    # Initialize the result list with -1 for each element.
+    result = [-1] * n
 
-        # get the greatest element in there
-        while stack and stack[-1] <= nums[i]:
-            stack.pop()
+    # Stack to keep indexes of nums for which we haven't found the next greater element.
+    stack = []
 
-        # if stack not empty, ther are no greater elements than those in the one in the stack
-        if stack:
-            ret[i] = stack[-1]
-        stack.append(nums[i])
-    print(ret)
-    return ret
+    # Iterate over the list twice to simulate circular array behavior.
+    for i in range(2 * n):  # Shorthand for n << 1.
+        # Get the index in the original nums array.
+        index = i % n
 
+        # While stack is not empty and the current element is > element at
+        # the index of the last element in stack, update the result for the index at the
+        # top of the stack.
+        while stack and nums[stack[-1]] < nums[index]:
+            result[stack.pop()] = nums[index]
 
-nextGreaterElements([1,2,3,4,3])
+        # For the first pass, we need to fill the stack with index.
+        # Avoid pushing index onto the stack in the second pass to prevent duplicating work.
+        if i < n:
+            stack.append(index)
+
+    # Return the result list containing next greater elements.
+    return result

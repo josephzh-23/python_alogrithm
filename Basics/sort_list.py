@@ -5,7 +5,7 @@ list_of_lists= [[3, 'b'], [1, 'a'], [2, 'c']]
 sorted_list= sorted(list_of_lists, key=lambda x: x[0])
 
 
-# this is a more advanced sorting technique here
+# this is a more advanced Sort technique here
 
 # and then here we have
 

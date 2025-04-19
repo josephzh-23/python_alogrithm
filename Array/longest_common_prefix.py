@@ -10,19 +10,22 @@ Output: "fl"
 the above give you what you are looking for here 
 '''
 
-def longestCommonPrefix(strings: List[str]) -> str:
-    if len(strings) == 0:
+def longestCommonPrefix(strs: List[str]) -> str:
+    if len(strs) == 0:
         return ""
-    # the outer loop goes thru each char of the first string on the outside
-    for index in range(len(strings[0])):
-        for string in strings[1:]:
-            # check if we have reached the edn here
-            # or a character mismatch is found
-            if index >= len(string) or string[index] != strings[0][index]:
-                return strings[0][:index]
-    # If no early return happened, the first string itself is the common prefix
-    return strings[0]
-                # return the longest prefix we have found so far here
-    # and then when we keep going here and then the code will become
-
-
+    prefix = strs[0]
+    for i in range(1, len(strs)):
+        '''
+        Until we find it we will keep going at this 
+        '''
+        while strs[i].find(prefix) != 0:
+            '''
+            We basically keep cutting this down until we get to the prefix here fl 
+            '''
+            prefix = prefix[0: len(prefix) - 1]
+            print("prefix is", prefix)
+            if prefix == "":
+                return ""
+    return prefix
+strs = ["flower","flow","flight"]
+longestCommonPrefix(strs)

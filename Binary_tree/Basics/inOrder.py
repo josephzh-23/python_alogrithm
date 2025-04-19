@@ -32,7 +32,7 @@ def inOrderRec(root):
 
 '''
 In order means: left, root and right (from smallest to biggest) the 
-same as sorting 
+same as Sort 
 '''
 def inOrderIter(root):
 
@@ -45,7 +45,6 @@ def inOrderIter(root):
     while cur or stack:
         while cur:
             stack.append(cur)
-            print("the left is", cur.val)
             cur = cur.l
 
         # then traverse the right

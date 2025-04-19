@@ -5,25 +5,24 @@ Challenges assocaited with this here
 
 1) Why is the capacity important? When the hash map exceeds this capacity,
 
-we cannot arbitrarily remove a key - we
-need to remove the least recently used one. After we remove it, we need to know what the second least recently used
+    we cannot arbitrarily remove a key - we
+need to remove the least recently used one.
+After we remove it, we need to know what the second least recently used
 one was (as it will be the next one to be deleted).
-
 
 2) How to know which keys have been used?
 
 We need O(1) for both get and put:
 
-So need to use a hashmap here
+    So need to use a hashmap here
 
-Use a q for maintaining
+    Use a q for maintaining
 
 Key @ front of q: Least recently used key here
 Key @ back of q: Most recently used key
 
 WHen insert a key for first time
     Put it in back of q here
-
 
 
 

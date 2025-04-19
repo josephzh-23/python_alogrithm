@@ -15,7 +15,7 @@ TC: O(nlogn)
 
 Use a max heap-> b/c most frequent item here
 1. this would mean O (logn)
-2. can replace sorting for us
+2. can replace Sort for us
 
 3. To use maxheap in python, replace count with -count
 when pop min, actually poopping the max here

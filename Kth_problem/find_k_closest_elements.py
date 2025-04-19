@@ -19,7 +19,7 @@ This costs O(k⋅log(k)) time since sortedArr.length is only k.
 
 def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
 
-    # we can try sorting this first
+    # we can try Sort this first
     sorted_arr = sorted(arr, lambda num: abs(x - num))
     res = []
     for i in range(k):

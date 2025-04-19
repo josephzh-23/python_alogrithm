@@ -2,7 +2,6 @@ package Parenthesis
 
 // Min remove to make valid parenthesis
 fun main() {
-
 }
 
 

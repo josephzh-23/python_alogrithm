@@ -1,4 +1,4 @@
-# Python program to print topological sorting of a DAG
+# Python program to print topological Sort of a DAG
 from collections import defaultdict
 
 
@@ -9,7 +9,7 @@ A -> C -> J
 A -> D- > H
 B-> D -> H
 B -> F -> I 
-Using toppological sorting you would be able to know the order in which
+Using toppological Sort you would be able to know the order in which
  you should enroll such that you 
 don’t enroll in a class you don’t have credits for 
 
@@ -30,12 +30,12 @@ Topological Sort Algorithm
 3. On the recursive callback of DFS, add current node to toplogical ordering in reverse order 
 
 4. Notice that different from DFS,  We don’t print the vertex immediately, 
-we first recursively call topological sorting for all its adjacent vertices, then push it to a stack. Finally, print contents of the stack.
+we first recursively call topological Sort for all its adjacent vertices, then push it to a stack. Finally, print contents of the stack.
 Ex: 
 
 A - > B -> C -> D
 			 
-When you go from C to D, no more places to go. Backtrack, add D to sorting.
+When you go from C to D, no more places to go. Backtrack, add D to Sort.
 When back to C, check if anothe node you can visit, then visit it.
 
 

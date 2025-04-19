@@ -20,7 +20,7 @@ from Queue_heap.max_heap import MaxHeap, MinHeap
 
 '''
 
-The solution to this problem involves sorting projects by their capital requirements
+The solution to this problem involves Sort projects by their capital requirements
  and using a greedy approach to pick projects that 
  can be started with the current available capital and yield the highest profit.
 

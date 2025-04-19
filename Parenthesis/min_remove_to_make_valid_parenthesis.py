@@ -1,5 +1,17 @@
 '''
 
+In the first pass, we iterate over the string from left to right,
+
+ignoring any characters that are not parentheses.
+
+ We only add parentheses to the stack if they maintain the balance,
+ but we increment or decrement the counting variable x based on whether we encounter an opening '(' or a closing ')'.
+ This ensures we don't add any extra closing parentheses.
+
+
+However after 1st pass,
+
+
 
 the task is to remove the min # of invalid parenthesis here
 '''

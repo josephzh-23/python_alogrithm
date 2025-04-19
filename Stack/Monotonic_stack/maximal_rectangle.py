@@ -1,53 +1,29 @@
-from typing import List
+'''
+
+1. Goal
+
+need to find a left and rigth pointer
+Exactly the same as largest rectangele in historam problem here
+1. Can pratice again here to get a better feel for things
+2.
+
+While stack[-1] and h <= stack[-1]
+    stack.pop()
+    # have found a right boundary here
+
+2. For each index we pop from the stack, we use it
+ to set the corresponding right bound for that bar to the current index (i), since we now know this bar is taller than the current bar h.
 
 
-# Get the maximum area in a histogram given its heights
-def leetcode84(heights):
-    # this acts as a gauard rail
-    stack = [-1]
+3. f there are still elements left in the stack after popping,
 
-    maxarea = 0
-    for i in range(len(heights)):
+ it indicates that the current bar h > stack[-1]. Hence,
+ the left boundary for the current bar h is now known to be the index on top of the stack.
 
-        while stack[-1] != -1 and heights[stack[-1]] >= heights[i]:
-            popped = stack.pop()
-            maxarea = max(maxarea, heights[popped] * (i - stack[-1] - 1))
-        stack.append(i)
+ Let's go through an examle here
+ [2, 1, 5, 6, 2, 3]
 
-    while stack[-1] != -1:
-        maxarea = max(maxarea, heights[stack.pop()] * (len(heights) - stack[-1] - 1))
-    return maxarea
-
-
-'''We can compute the maximum width of a rectangle that ends at a given coordinate in constant time. We do this by 
-keeping track of the number of consecutive ones each square in each row. As we iterate over each row we update the 
-maximum possible width at that point. This is done using row[i] = row[i - 1] + 1 if row[i] == '1'. 
-
-like we said a maximal rectangle here: 
 
 '''
 
-
-
-def maximalRectangle(matrix: List[List[str]]) -> int:
-    if not matrix:
-        return 0
-
-    maxarea = 0
-    dp = [0] * len(matrix[0])
-    for i in range(len(matrix)):
-        for j in range(len(matrix[0])):
-            # update the state of this row's histogram using the last row's histogram
-            # by keeping track of the number of consecutive ones
-
-            dp[j] = dp[j] + 1 if matrix[i][j] == "1" else 0
-
-        # update maxarea with the maximum area from this row's histogram
-        maxarea = max(maxarea, leetcode84(dp))
-
-    print('max area is', maxarea)
-    return maxarea
-
-
-matrix = [["1", "0", "1", "0", "0"], ["1", "0", "1", "1", "1"], ["1", "1", "1", "1", "1"], ["1", "0", "0", "1", "0"]]
-maximalRectangle(matrix)
+def maxRectangle(matrix):

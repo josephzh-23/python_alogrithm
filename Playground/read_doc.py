@@ -11,7 +11,7 @@ Between = means reading between the data here
 words = ["What", "how", "what", "where", "Where", "what's", "?-", "How", "section", "Section", "vs", "Why", "?",
          "data schema", "scenario", "problem", "flow"]
 
-my_text = docx2txt.process("/Users/josephzhou/Desktop/system_design/Study cases/Questions and answers.docx")
+my_text = docx2txt.process("/Users/josephzhou/Desktop/system_design/Study cases/Websockets.docx")
 results = my_text.split('\n')
 for p in results:
     if [ele for ele in words if (p.lower().startswith(ele.lower()))]:

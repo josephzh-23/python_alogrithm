@@ -1,4 +1,6 @@
 '''
+https://leetcode.com/problems/next-greater-element-i/description/
+
 
 First elem that's greater to the right of x here
 1.

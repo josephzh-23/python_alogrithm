@@ -57,7 +57,7 @@ if __name__ == "__main__":
         adj[edge[0]].append(edge[1])
 
     # Performing topological sort
-    print("Topological sorting of the graph:", end=" ")
+    print("Topological Sort of the graph:", end=" ")
     result = topological_sort(adj, n)
 
     # Displaying result

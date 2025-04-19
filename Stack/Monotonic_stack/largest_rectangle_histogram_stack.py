@@ -1,22 +1,98 @@
 '''
-This is the one from the code here
 
-Use stack to store the indexes as sadi before
 
-1. Initialize an Empty Stack: This stack will store indices, not the actual heights.
-2. Iterate Over the Histogram: For each bar, do the following:
 
-3. While the stack is not empty and the
-current bar’s height <  height at the stack’s top index, pop the stack.
+[2,1 ,5, 6, 2, 3]
+Also keep track of the max area that's also very important here
+Keep a monotoinc stack increasing
 
-4.
-For each popped index, calculate the area. The height[popped_index]
- The width is the difference between the current index and the new stack’s top index minus one.
-Push the current index onto the stack.
+stack
+i = 0
+index  height
+0      2
 
-5. And then part 5 here also important
+i = 1
+1 < 2
+Then pop 2 after see 1
+index  height
+0      1
 
-Handle Remaining Bars: After processing all bars, there might still be some indices left in the stack. For each
-remaining index, the height is the height of the bar at that index,
- and the width is the difference between the
-length of the histogram and the stack’s top index minus one. '''
+Then we see 5 and 6 everythign is fine
+index  height
+0      1
+2      5
+3      6
+
+Then we see 2, start popping again
+0   1
+2   2
+
+Then see 5
+0   1
+2   2
+5   3
+'''
+from typing import List
+
+
+def largestRetangleArea(heights:List[int])-> int:
+    maxArea = 0
+    stack = []
+
+    for i, h in enumerate(heights):
+        start = i
+        '''
+        When we need to pop here 
+        '''
+        while stack and stack[-1][1] > h:
+            index, height = stack.pop()
+            print("index and height", index, height, i)
+            '''
+            when i = 4 
+            [2, 5] 
+            (4 - 2)  * 5 =  10 
+            
+            The above gives us here 10 
+            '''
+            maxArea = max(maxArea, height * (i - index))
+            start =index
+        stack.append((start, h))
+    print("stack here is with max area" , stack, maxArea)
+
+    '''
+    
+    This is to process what's left here in the states here 
+    and then return the max area here 
+    [(0, 1), (2, 2), (5, 3)]        and then here we have the code 
+    len(heights) = 6 
+    h = 3
+    This is what's left in the stack here 
+    and then we need to calculated the area fom these heights here 
+    '''
+    for i ,h in stack:
+        maxArea = max(maxArea, h * len(heights) -i)
+    return maxArea
+
+heights = [2,1,5,6,2,3]
+print(largestRetangleArea(heights))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

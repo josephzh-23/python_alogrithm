@@ -9,7 +9,7 @@ Consider we have spells = [15, 10], potions = [1, 5, 20, 8], and success = 120.
 We aim to determine for each spell, how many potions > success
 threshold when multiplied by the spell.
 
- Before: [1, 5, 20, 8] After sorting: [1, 5, 8, 20]
+ Before: [1, 5, 20, 8] After Sort: [1, 5, 8, 20]
 
 Using Binary Search: We then apply binary search to find the count of potions that can pair with a spell to achieve the success.
 

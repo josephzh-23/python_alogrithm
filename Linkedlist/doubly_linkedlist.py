@@ -56,7 +56,6 @@ def insert_after_node(node, data):
     if node is None:
         print("Error: The given node is None")
         return
-
     new_node = Node(data)
     new_node.prev = node
     new_node.next = node.next
@@ -65,4 +64,5 @@ def insert_after_node(node, data):
         node.next.prev = new_node
 
     node.next = new_node
+
 

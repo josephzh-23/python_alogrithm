@@ -13,8 +13,8 @@
 # this is how to implement a bstNode
 class TreeNode:
     def __init__(s, val= None, left = None, right = None):
-        s.l = None
-        s.r = None
+        s.l = left
+        s.r = right
         s.val = val
 
 

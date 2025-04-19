@@ -1,38 +1,35 @@
-from collections import deque
-
 from Binary_tree.BSTNode import TreeNode
-from Binary_tree.BSTree import BSTree
-
-"""
-height of tree = the level from the leaf node
-
-height = max (height of left, height of right) +1
-
-depth of tree = level from the root 
 
 
+class Node:
+    def __init__(self, val):
+        self.data = val
+        self.left = None
+        self.right = None
 
-"""
-
-
-
-# TC: O (n) the # of nodes in the tree
-def getHeightRec(root):
+def height(root):
     if root is None:
-        return 0
+        return -1
 
-    # This will keep calling until it gets to root is None and then start
-    # to pop off that stck
-    return 1 + max(getHeightRec(root.left), getHeightRec(root.right))
+    # compute the height of left and right subtrees
+    lHeight = height(root.left)
+    rHeight = height(root.right)
+    return max(lHeight, rHeight) + 1
 
 
-#And then using thedata here is actually a little bit better than using the
-# other approach here And therefore not always better asdf
-# and therefore not always
+if __name__ == "__main__":
+    # Representation of the input tree:
+    #     12
+    #    /  \
+    #   8   18
+    #  / \
+    # 5   11
+    root = Node(12)
+    root.left = Node(8)
+    root.right = Node(18)
+    root.left.left = Node(5)
+    root.left.right = Node(11)
 
-root = TreeNode(1)
-root.l = TreeNode(2)
-root.r = TreeNode(3)
-root.l.l = TreeNode(4)
-root.l.r = TreeNode(5)
-print ("Height of tree is", getHeightRec(root))
+    print(height(root))
+
+
